@@ -1,0 +1,32 @@
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container__overflow_initial {
+    overflow: visible;
+}
+
+@media (min-width: 1025px) { 
+    .container {
+        max-width: 1440px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+
+@media (max-width: 767px) { 
+    .container {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
