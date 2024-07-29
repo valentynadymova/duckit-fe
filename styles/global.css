@@ -1,0 +1,47 @@
+html {
+  font-family: var(--font-sora);
+  background-color: #121316;
+  color: #ffffff;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.page_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-fira-code);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
+}
