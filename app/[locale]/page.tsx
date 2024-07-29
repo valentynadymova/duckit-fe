@@ -1,11 +1,19 @@
 'use server';
 
-import Hero from "@/components/Hero";
+import ContactUs from '@/components/ContactUs';
+import Hero from '@/components/Hero';
+import OurFeatures from '@/components/OurFeatures';
+import OurServices from '@/components/OurServices';
+import Technologies from '@/components/Technologies';
 
 const Home = async () => {
   return (
     <>
-      <Hero />
+      <Hero />|
+      <OurServices />
+      <OurFeatures />
+      <Technologies />
+      <ContactUs />
     </>
   );
 };

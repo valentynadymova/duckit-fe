@@ -1,5 +1,5 @@
 'use client';
-import styles from './OurServices.module.css';
+import styles from './Technologies.module.css';
 
 const Technologies = () => {
   return (
