@@ -1,4 +1,4 @@
-"use server";
+'use server';
 // import Main from "../components/Main";
 // import AboutUs from "../components/AboutUs";
 // import OurMachines from "@/components/OurMachines";
@@ -23,7 +23,7 @@ const Home = async () => {
       {/* <Process /> */}
       {/* <Contact /> */}
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

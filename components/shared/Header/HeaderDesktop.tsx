@@ -3,16 +3,12 @@
 'use client';
 
 import Link from 'next/link';
-import { links } from "./getData"
-import styles from "./Header.module.css";
-
+import { links } from './getData';
+import styles from './Header.module.css';
 
 const HeaderDesktop = () => {
-    const onClick = () => false;
-    return (
-        <>
-        </>
-    )
-}
+  const onClick = () => false;
+  return <></>;
+};
 
-export default HeaderDesktop
+export default HeaderDesktop;

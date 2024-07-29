@@ -1,4 +1,3 @@
-
 // import defaultNewsBGImage from "../public/news-test.jpg";
 // import testNewAdditionalImagez from "../public/news-content-test.jpg";
 // import defaultAgentImage from "../public/people-test.png";
@@ -21,7 +20,6 @@
 //     return `${time} minutes`
 // }
 
-    
 // export const formatNewsData = (data: INewsData[]) => data.map(({ id, attributes }) => (
 //     {
 //         image: attributes.Photo.data ? attributes.Photo.data[0].attributes.formats.medium.url : defaultNewsBGImage.src,
@@ -64,7 +62,7 @@
 // }))
 
 // export const formatListData = (data: any[]) => data.map(({ id, attributes }) => ({
-//     adress: attributes.Address.description, 
+//     adress: attributes.Address.description,
 //     image: attributes.Photos.data[0].attributes.formats.small.url,
 //     header: attributes.Title,
 //     category: attributes.Category,

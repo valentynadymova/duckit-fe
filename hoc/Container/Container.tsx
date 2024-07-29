@@ -1,18 +1,14 @@
-import styles from "./Container.module.css";
+import styles from './Container.module.css';
 
 interface IContainer {
-    className?: string;
-    children: React.ReactNode | string | null;
+  className?: string;
+  children: React.ReactNode | string | null;
 }
 
-const Container: React.FC<IContainer> = ({ children, className = "" }) => {
-    return (
-        <div className={`${styles.container} ${className}`}>{children}</div>
-    )
-}
+const Container: React.FC<IContainer> = ({ children, className = '' }) => {
+  return <div className={`${styles.container} ${className}`}>{children}</div>;
+};
 
-export {
-    styles as containerStyles
-}
+export { styles as containerStyles };
 
-export default Container
+export default Container;

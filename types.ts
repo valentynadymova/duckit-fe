@@ -1,12 +1,12 @@
 interface IChildren {
-    children: React.ReactNode | string | null
+  children: React.ReactNode | string | null;
 }
 
 interface ISVG {
-    width?: string,
-    height?: string,
-    fill?: string,
-    viewBox?: string,
+  width?: string;
+  height?: string;
+  fill?: string;
+  viewBox?: string;
 }
 
-export type { IChildren, ISVG }
+export type { IChildren, ISVG };

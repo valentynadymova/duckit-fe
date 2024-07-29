@@ -1,20 +1,18 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 const useDeviceSize = () => {
+  const [width, setWidth] = useState(0);
 
-    const [width, setWidth] = useState(0)
+  const handleWindowResize = () => {
+    setWidth(window.innerWidth);
+  };
 
-    const handleWindowResize = () => {
-        setWidth(window.innerWidth);
-    }
+  useEffect(() => {
+    handleWindowResize();
+    window.addEventListener('resize', handleWindowResize);
+    return () => window.removeEventListener('resize', handleWindowResize);
+  }, []);
+  return width;
+};
 
-    useEffect(() => {
-        handleWindowResize();
-        window.addEventListener('resize', handleWindowResize);
-        return () => window.removeEventListener('resize', handleWindowResize);
-    }, []);
-    return width;
-
-}
-
-export default useDeviceSize
+export default useDeviceSize;
