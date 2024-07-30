@@ -11,7 +11,7 @@ import Header from '../../components/shared/Header';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { NextIntlClientProvider } from 'next-intl';
 //import { getMessages } from "next-intl/server";
-import { sora } from './fonts';
+import { sora, firaCode} from './fonts';
 // import ToastProvider from '@/context/ToastProvider'
 
 export const metadata: Metadata = {
@@ -28,9 +28,9 @@ const RootLayout = async ({
 }) => {
   // const messages = await getMessages();
   return (
-    <html lang={locale} className={sora.className}>
+    <html lang={locale} className={`${sora.variable} ${firaCode.variable}`}>
       <head>
-        <meta property="og:title" content="duck_it - websites from scratch" />
+        {/* <meta property="og:title" content="duck_it - websites from scratch" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://duckit-budget.vercel.app/" />
         <meta property="og:locale" content="pl_PL" />
@@ -53,9 +53,9 @@ const RootLayout = async ({
         <meta
           name="google-site-verification"
           content="LSTpPk54feBs9-DviIf1AabqugEq8ptPXpWD3d395mc"
-        />
+        /> */}
 
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        {/* <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link
           rel="apple-touch-icon"
           sizes="76x76"
@@ -94,7 +94,7 @@ const RootLayout = async ({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#faff00" />
         <meta name="msapplication-TileColor" content="#603cba" />
         <meta name="theme-color" content="#faff00" />
-        <GoogleAnalytics gaId="" />
+        <GoogleAnalytics gaId="" /> */}
       </head>
       <body className="body">
         <div className="page_container">
