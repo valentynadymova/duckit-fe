@@ -1,0 +1,29 @@
+.navbar_mobile{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    background-color:  #121316;;
+}
+
+.header{
+    padding: 15px 0px;
+     margin-top: 28px;
+     max-width: 360px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 360px;
+}
+
+.burger_icons{
+    margin-right: 20px;
+}

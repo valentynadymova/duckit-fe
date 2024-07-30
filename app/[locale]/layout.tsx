@@ -11,7 +11,7 @@ import Header from '../../components/shared/Header';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { NextIntlClientProvider } from 'next-intl';
 //import { getMessages } from "next-intl/server";
-import { sora, firaCode} from './fonts';
+import { sora, firaCode } from './fonts';
 // import ToastProvider from '@/context/ToastProvider'
 
 export const metadata: Metadata = {
@@ -100,9 +100,12 @@ const RootLayout = async ({
         <div className="page_container">
           {/* 
           <NextIntlClientProvider messages={messages}> */}
-          <Header />
-          {children}
-          <Footer />
+          <div id="portal" />
+          <AdaptiveProvider>
+            <Header />
+            {children}
+            <Footer />
+          </AdaptiveProvider>
           {/* </NextIntlClientProvider> */}
         </div>
       </body>

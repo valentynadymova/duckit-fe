@@ -1,12 +1,13 @@
 'use client';
+import Container from '@/hoc/Container';
 import styles from './OurFeatures.module.css';
 
 const OurFeatures = () => {
   return (
     <section className={styles.ourfeatures_section}>
-      <div className={`${styles.ourfeatures_container} ${styles.container}`}>
-        <p className={styles.ourfeatures_subtitle}>// features</p>
-      </div>
+      <Container className={styles.ourfeatures_container}>
+        <p className={styles.ourfeatures_subtitle}> &#47; &#47; features</p>
+      </Container>
     </section>
   );
 };

@@ -1,5 +1,3 @@
-@import 'variables.css';
-
 .burger {
   display: flex;
   flex-direction: column;
@@ -13,14 +11,14 @@
   width: 100%;
   height: 2px;
   border-radius: 2px;
-  background-color: var(--white-color);
+  background-color: #ffff;
   transition:
     transform 0.43s,
     opacity 0.43s;
 }
 
 .burger.active .burger_line {
-  width: 50px;
+  width: 20px;
 }
 
 .burger.active .burger_line:first-child {

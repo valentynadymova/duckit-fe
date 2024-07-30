@@ -2,7 +2,6 @@
 
 import { useContext } from 'react';
 import { AdaptiveContext } from '../../../context/AdaptiveContext';
-import { usePathname } from 'next/navigation';
 import Container from '../../../hoc/Container';
 import HeaderMobile from './HeaderMobile';
 import HeaderDesktop from './HeaderDesktop';
