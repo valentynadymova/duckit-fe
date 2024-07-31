@@ -8,34 +8,50 @@
 
 .hero_title {
   font-size: 36px;
-  font-weight: 600;
-  line-height: 47.23px;
-  text-align: left;
 }
 
-.hero_quotes {
-  color: #f2cb12;
-}
-
+.hero_quotes,
 .hero_stop {
   color: #f2cb12;
 }
-.hero_subtitle {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
+
+.hero_text {
+  /* font-size: 16px;
+  font-weight: 400; */
+  line-height: 1.5;
 }
 
 .hero_button {
-  font-family: var(--font-fira-code);
   font-size: 18px;
-  font-weight: 500;
-  line-height: 23.62px;
-  text-align: center;
-  color: #121316;
-  background-color: #f2cb12;
-  padding: 10px;
-  border-radius: 8px;
+  /* text-align: center; */
+  /* padding: 10px;
+  border-radius: 8px; */
   width: 100%;
+}
+
+.aboutus_subtitle {
+  font-size: 16px;
+  color: #313234;
+}
+
+.aboutus_title {
+  font-size: 26px;
+}
+
+.aboutus_list {
+}
+
+.aboutus_item {
+}
+
+.aboutus_span {
+  font-family: var(--font-fira-code);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.31;
+  color: #f2cb12;
+}
+
+.aboutus_item_title {
+  font-size: 18px;
 }
