@@ -2,6 +2,8 @@ html {
   font-family: var(--font-sora);
   background-color: #121316;
   color: #ffffff;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 main {
@@ -18,7 +20,11 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+button,
+link,
+input,
+.subtitle {
   font-family: var(--font-fira-code);
   line-height: 1.312;
 }
@@ -33,25 +39,23 @@ h5 {
   font-weight: 450;
 }
 
-h4 {
-  font-weight: 500;
-}
-
+h4,
 .subtitle {
-  font-family: var(--font-fira-code);
   font-weight: 500;
-  line-height: 1.312;
 }
 
 button {
-  font-family: var(--font-fira-code);
   font-weight: 500;
-  line-height: 1.312;
   color: #121316;
   background-color: #f2cb12;
   text-align: center;
   padding: 10px;
   border-radius: 8px;
+}
+
+link,
+input {
+  font-weight: 400;
 }
 
 img {

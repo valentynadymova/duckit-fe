@@ -9,7 +9,7 @@ import Technologies from '@/components/Technologies';
 const Home = async () => {
   return (
     <>
-      <Hero />|
+      <Hero />
       <OurServices />
       <OurFeatures />
       <Technologies />

@@ -8,10 +8,10 @@ const Hero = () => {
       <Container className={styles.hero_container}>
         <h1 className={styles.hero_title}>
           Web and Mobile
-          <span className={styles.hero_quotes}> &lt;</span>Solutions
-          <span className={styles.hero_quotes}>&gt; </span>
+          <span className={styles.hero_span}> &lt;</span>Solutions
+          <span className={styles.hero_span}>&gt; </span>
           for Your Success
-          <span className={styles.hero_stop}>.</span>
+          <span className={styles.hero_span}>.</span>
         </h1>
         <p className={styles.hero_text}>
           We specialize in creating unique websites and mobile applications
@@ -19,21 +19,23 @@ const Hero = () => {
         </p>
         <button className={styles.hero_button}>Get Started</button>
 
-        <p className={`${styles.aboutus_subtitle} subtitle`}>// about us</p>
+        <p className={`${styles.aboutus_subtitle} subtitle`}>
+          &#47;&#47;about us
+        </p>
 
         <h2 className={styles.aboutus_title}>Our Proven Track Record</h2>
 
         <ul className={styles.aboutus_list}>
           <li className={styles.aboutus_item}>
-            <p className={styles.aboutus_span}>10+</p>
+            <span className={styles.aboutus_span}>10+</span>
             <h5 className={styles.aboutus_item_title}>Years of Experience</h5>
           </li>
           <li className={styles.aboutus_item}>
-            <p className={styles.aboutus_span}>100+</p>
+            <span className={styles.aboutus_span}>100+</span>
             <h5 className={styles.aboutus_item_title}>Projects</h5>
           </li>
           <li className={styles.aboutus_item}>
-            <p className={styles.aboutus_span}>99%</p>
+            <span className={styles.aboutus_span}>99%</span>
             <h5 className={styles.aboutus_item_title}>Customer Satisfaction</h5>
           </li>
         </ul>
