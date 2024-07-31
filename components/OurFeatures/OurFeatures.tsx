@@ -75,7 +75,7 @@ const OurFeatures = () => {
             </h3>
             <p className={styles.ourfeatures_item_text}>
               We specialize in crafting customized websites that precisely meet
-              each client's unique needs and goals, ensuring satisfaction and
+              each client`s unique needs and goals, ensuring satisfaction and
               success.
             </p>
           </li>
