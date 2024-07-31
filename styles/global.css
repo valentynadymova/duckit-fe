@@ -20,6 +20,38 @@ h3,
 h4,
 h5 {
   font-family: var(--font-fira-code);
+  line-height: 1.312;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2,
+h3,
+h5 {
+  font-weight: 450;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.subtitle {
+  font-family: var(--font-fira-code);
+  font-weight: 500;
+  line-height: 1.312;
+}
+
+button {
+  font-family: var(--font-fira-code);
+  font-weight: 500;
+  line-height: 1.312;
+  color: #121316;
+  background-color: #f2cb12;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 img {
