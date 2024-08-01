@@ -3,7 +3,7 @@ import { Sora, Fira_Code } from 'next/font/google';
 export const sora = Sora({
   subsets: ['latin'],
   display: 'swap',
-  variable:'--font-sora'
+  variable: '--font-sora',
 });
 
 export const firaCode = Fira_Code({
