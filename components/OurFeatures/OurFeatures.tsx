@@ -7,7 +7,7 @@ const OurFeatures = () => {
     <section className={styles.ourfeatures_section}>
       <Container className={styles.ourfeatures_container}>
         <p className={`${styles.ourfeatures_subtitle} subtitle`}>
-          &#47; &#47; features
+          &#47;&#47;features
         </p>
         <h2 className={styles.ourfeatures_title}>Why Choose us </h2>
         <ul className={styles.ourfeatures_list}>
@@ -18,6 +18,52 @@ const OurFeatures = () => {
               Easily handle increased traffic and add new features without
               compromising performance.
             </p>
+            <picture>
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 360px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 360px)"
+              />
+              <img
+                src=""
+                alt=""
+                width=""
+                height=""
+                className={styles.ourfeatures_img}
+                loading="lazy"
+              />
+            </picture>
           </li>
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
@@ -68,6 +114,52 @@ const OurFeatures = () => {
               Our tech stack delivers top-notch websites with innovation,
               performance, security, and scalability.
             </p>
+            <picture>
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 360px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 360px)"
+              />
+              <img
+                src=""
+                alt=""
+                width=""
+                height=""
+                className={styles.ourfeatures_img}
+                loading="lazy"
+              />
+            </picture>
           </li>
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
@@ -78,6 +170,52 @@ const OurFeatures = () => {
               each client`s unique needs and goals, ensuring satisfaction and
               success.
             </p>
+            <picture>
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/webp"
+                media="(min-width: 360px)"
+              />
+              <source
+                srcSet=" 1x,
+                     2x"
+                type="image/png"
+                media="(min-width: 360px)"
+              />
+              <img
+                src=""
+                alt=""
+                width=""
+                height=""
+                className={styles.ourfeatures_img}
+                loading="lazy"
+              />
+            </picture>
           </li>
         </ul>
       </Container>

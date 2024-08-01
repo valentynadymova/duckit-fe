@@ -18,7 +18,6 @@ const Hero = () => {
           tailored to your business needs
         </p>
         <button className={styles.hero_button}>Get Started</button>
-
         <p className={`${styles.aboutus_subtitle} subtitle`}>
           &#47;&#47;about us
         </p>
@@ -30,7 +29,9 @@ const Hero = () => {
             <span className={styles.aboutus_span}>10+</span>
             <h5 className={styles.aboutus_item_title}>Years of Experience</h5>
           </li>
-          <li className={styles.aboutus_item}>
+          <li
+            className={`${styles.aboutus_item} ${styles.aboutus_item_second}`}
+          >
             <span className={styles.aboutus_span}>100+</span>
             <h5 className={styles.aboutus_item_title}>Projects</h5>
           </li>

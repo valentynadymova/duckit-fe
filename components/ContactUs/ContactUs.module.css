@@ -6,6 +6,34 @@
 .contactus_container {
 }
 
+.contactus_wrap_general {
+  background-color: #191a1d;
+  border: 1px solid #2b2c2f;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.contactus_wrap_title_address {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactus_wrap_title {
+}
+
 .contactus_title {
-  color: #ffff;
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.contactus_text {
+  font-size: 14px;
+  color: #848484;
+}
+
+.contactus_wrap_form {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #1c1e21;
 }
