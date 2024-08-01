@@ -9,7 +9,7 @@ const ContactUs = () => {
         <div className={styles.contactus_wrap_general}>
           <div className={styles.contactus_wrap_title_address}>
             <div className={styles.contactus_wrap_title}>
-              <h2 className={styles.contactus_title}>Let's Work Together</h2>
+              <h2 className={styles.contactus_title}>Let`s Work Together</h2>
               <p className={styles.contactus_text}>
                 Our team is always ready to assist you. For business inquiries
                 and consultations, please drop us a message or reach out to us
