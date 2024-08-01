@@ -77,3 +77,8 @@
 
 .contactus_wrap_link {
 }
+.contactus_wrap_form {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #1c1e21;
+}
