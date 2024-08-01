@@ -10,23 +10,26 @@ const Technologies = () => {
           &#47;&#47;technologies
         </p>
         <h2 className={styles.technologies_title}>Stack Of Technologies</h2>
-        <ol className={styles.technologies_list_button}>
+        <ul className={styles.technologies_list_button}>
           <li className={styles.technologies_item_button}>
             <button className={styles.technologies_button}>
+              <span className={styles.technologies_item_span}>&bull;</span>
               Frontend_Development
             </button>
           </li>
           <li className={styles.technologies_item_button}>
             <button className={styles.technologies_button}>
+              <span className={styles.technologies_item_span}>&bull;</span>
               Backend_Development
             </button>
           </li>
           <li className={styles.technologies_item_button}>
             <button className={styles.technologies_button}>
+              <span className={styles.technologies_item_span}>&bull;</span>
               App_Development
             </button>
           </li>
-        </ol>
+        </ul>
 
         <ul className={styles.technologies_list}>
           <li className={styles.technologies_item}>

@@ -27,6 +27,8 @@
 }
 
 .ourservices_item {
+  padding: 0px 0px 12px 0px;
+  border-bottom: 1px solid #f2f1f1;
 }
 
 .ourservices_wrap_title {

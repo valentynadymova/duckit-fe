@@ -19,6 +19,8 @@
   margin-bottom: 20px;
 }
 
+/* --------- */
+
 .technologies_list_button {
   display: flex;
   flex-direction: column;
@@ -29,14 +31,24 @@
 .technologies_item_button {
 }
 
+.technologies_item_span {
+  border-radius: 50%;
+  background-color: currentColor;
+  line-height: 10px;
+}
+
 .technologies_button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
   font-size: 16px;
   color: #848484;
   background-color: #f6f6f7;
-
   padding: 10px 16px;
   border-radius: 33px;
 }
+
+/* ----------------- */
 
 .technologies_list {
 }
