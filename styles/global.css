@@ -24,7 +24,8 @@ h5,
 button,
 link,
 input,
-.subtitle {
+.subtitle,
+a {
   font-family: var(--font-fira-code);
   line-height: 1.312;
 }
@@ -51,9 +52,11 @@ button {
   text-align: center;
   padding: 10px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 link,
+a,
 input {
   font-weight: 400;
 }

@@ -11,6 +11,9 @@
   border: 1px solid #2b2c2f;
   padding: 15px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .contactus_wrap_title_address {
@@ -32,8 +35,45 @@
   color: #848484;
 }
 
-.contactus_wrap_form {
+.contactus_address {
+}
+
+.contactus_address_list {
+}
+
+.contactus_address_item {
+  margin-bottom: 16px;
+}
+
+.contactus_address_item_title {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.contactus_address_item_text {
+  font-size: 14px;
+  color: #848484;
+  margin-bottom: 6px;
+}
+
+.contactus_address_item_link {
+  font-size: 18px;
+  color: #f2cb12;
+  font-weight: 450;
+}
+
+.contactus_wrap_form_general {
   padding: 12px;
   border-radius: 10px;
   background-color: #1c1e21;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactus_form_title {
+  font-size: 26px;
+}
+
+.contactus_wrap_link {
 }
