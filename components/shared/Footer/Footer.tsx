@@ -10,14 +10,19 @@ const Footer = () => {
       <Container className={styles.footer_container}>
         <div className={styles.footer_wrap_general}>
           <div className={styles.footer_wrap_logo}>
-            <svg className={styles.footer_logo} width="106" height="62">
+            <svg className={styles.footer_logo_svg} width="106" height="62">
               <use href=""></use>
             </svg>
-            <p>Web and Mobile Solutions for Your Success</p>
-            <a>Privacy policy</a>
+            <p className={styles.footer_logo_text}>
+              Web and Mobile Solutions for Your Success
+            </p>
+            <Link className={styles.footer_link_privacy} href="/">
+              Privacy policy
+            </Link>
           </div>
-          <nav className={styles.footer_navigation}>
-            <p>Navigation</p>
+
+          <nav className={styles.footer_wrap_navigation}>
+            <h5 className={styles.footer_navigation_title}>Navigation</h5>
             <ul>
               <li></li>
               <li></li>
@@ -26,40 +31,90 @@ const Footer = () => {
               <li></li>
             </ul>
           </nav>
-          <address className={styles.footer_adrress}></address>
+
+          <div className={styles.footer_wrap_adrress}>
+            <h5 className={styles.footer_adrress_title}>Contacts</h5>
+            <address className={styles.footer_adrress}>
+              <p className={styles.contactus_address_label}>
+                Email:
+                <Link
+                  className={styles.contactus_address_link}
+                  href="mailto:duck_it@mail.com"
+                >
+                  duck_it@mail.com
+                </Link>
+              </p>
+            </address>
+            <address>
+              <p className={styles.contactus_address_label}>
+                Address:
+                <Link className={styles.contactus_address_link} href="">
+                  4517 Washington Ave. Manchester, Kentucky 39495
+                </Link>
+              </p>
+            </address>
+          </div>
+
           <div className={styles.footer_wrap_social}>
-            <p>Social media</p>
-            <ul>
-              <li>
-                <svg
-                  className={styles.footer_social_logo}
-                  width="32"
-                  height="32"
-                >
-                  <use href=""></use>
-                </svg>
+            <h5 className={styles.footer_social_title}>Social media</h5>
+            <ul className={styles.footer_social_list}>
+              <li className={styles.footer_social_item}>
+                <address className={styles.footer_social_wrap_address}>
+                  <Link
+                    className={styles.footer_social_link}
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      className={styles.footer_social_logo}
+                      width="32"
+                      height="32"
+                    >
+                      <use href=""></use>
+                    </svg>
+                  </Link>
+                </address>
               </li>
-              <li>
-                <svg
-                  className={styles.footer_social_logo}
-                  width="32"
-                  height="32"
-                >
-                  <use href=""></use>
-                </svg>
+              <li className={styles.footer_social_item}>
+                <address className={styles.footer_social_wrap_address}>
+                  <Link
+                    className={styles.footer_social_link}
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      className={styles.footer_social_logo_svg}
+                      width="32"
+                      height="32"
+                    >
+                      <use href=""></use>
+                    </svg>
+                  </Link>
+                </address>
               </li>
-              <li>
-                <svg
-                  className={styles.footer_social_logo}
-                  width="32"
-                  height="32"
-                >
-                  <use href=""></use>
-                </svg>
+              <li className={styles.footer_social_item}>
+                <address className={styles.footer_social_wrap_address}>
+                  <Link
+                    className={styles.footer_social_link}
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      className={styles.footer_social_logo}
+                      width="32"
+                      height="32"
+                    >
+                      <use href=""></use>
+                    </svg>
+                  </Link>
+                </address>
               </li>
             </ul>
           </div>
-          <p>
+          <p className={styles.footer_social_text_company}>
             <span>&#169;</span>2024 Duck_it. All rights reserved.
           </p>
         </div>
