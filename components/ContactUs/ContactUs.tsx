@@ -1,6 +1,7 @@
 'use client';
 import styles from './ContactUs.module.css';
 import Container from '@/hoc/Container';
+import Link from 'next/link';
 
 const ContactUs = () => {
   return (
@@ -25,12 +26,12 @@ const ContactUs = () => {
                   <p className={styles.contactus_address_item_text}>
                     Our friendly team is here to help
                   </p>
-                  <a
+                  <Link
                     className={styles.contactus_address_item_link}
                     href="mailto:duck_it@mail.com"
                   >
                     duck_it@mail.com
-                  </a>
+                  </Link>
                 </li>
                 <li className={styles.contactus_address_item}>
                   <h5 className={styles.contactus_address_item_title}>
@@ -39,24 +40,22 @@ const ContactUs = () => {
                   <p className={styles.contactus_address_item_text}>
                     Mon-Fri from 8am-5pm
                   </p>
-                  <a
+                  <Link
                     className={styles.contactus_address_item_link}
                     href="tel:+487045550127"
                   >
                     +48 704-555-0127
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </address>
           </div>
           <div className={styles.contactus_wrap_form_general}>
             <h2 className={styles.contactus_form_title}>How We Can Help?</h2>
-            <div className={styles.contactus_wrap_link}></div>
             <form className={styles.contactus_form}></form>
-            <address></address>
-          </div>
-          <div className={styles.contactus_wrap_form}>
-            <form></form>
+            <p className={styles.contactus_form_text}>
+              We will get back in touch with you within 24 hours
+            </p>
           </div>
         </div>
       </Container>

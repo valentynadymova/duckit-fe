@@ -16,3 +16,83 @@
   padding: 0px 0px 20px 0px;
   border-bottom: 1px solid #2b2c2f;
 }
+
+.footer_logo_svg {
+}
+
+.footer_logo_text {
+  font-size: 14px;
+}
+
+.footer_link_privacy {
+  font-size: 14px;
+  color: #848484;
+}
+
+/* --------navigation---------- */
+
+.footer_wrap_navigation {
+}
+
+.footer_navigation_title {
+  font-size: 14px;
+  color: #f2cb12;
+  font-weight: 400;
+}
+
+/* ------------address------------ */
+
+.footer_wrap_adrress {
+}
+
+.footer_adrress_title {
+  font-size: 14px;
+  color: #f2cb12;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.footer_adrress {
+  margin-bottom: 16px;
+}
+
+.contactus_address_label {
+  /* font-size: 14px;
+  color: #f2cb12;
+  margin-right: 5px; */
+}
+
+.contactus_address_link {
+  font-size: 14px;
+  /* color: #ffff; */
+}
+
+/* ---------social---------- */
+.footer_wrap_social {
+}
+
+.footer_social_title {
+  font-size: 14px;
+  color: #f2cb12;
+  font-weight: 400;
+}
+
+.footer_social_list {
+}
+
+.footer_social_item {
+}
+
+.footer_social_wrap_address {
+}
+
+.footer_social_link {
+}
+
+.footer_social_logo_svg {
+}
+
+.footer_social_text_company {
+  font-size: 14px;
+  color: #848484;
+}

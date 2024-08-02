@@ -48,42 +48,40 @@ const Technologies = () => {
               like two-way data binding and dependency injection.
             </p>
           </li>
-          <li>
-            <li className={styles.technologies_item}>
-              <div className={styles.technologies_item_wrap}>
-                <svg
-                  className={styles.technologies_item_svg}
-                  width="32"
-                  height="32"
-                >
-                  <use href=""></use>
-                </svg>
-                <h4 className={styles.technologies_item_title}>React</h4>
-              </div>
-              <p className={styles.technologies_item_text}>
-                For building reusable user interfaces, favored for its
-                component-based architecture and efficiency in single-page
-                applications.
-              </p>
-            </li>
+
+          <li className={styles.technologies_item}>
+            <div className={styles.technologies_item_wrap}>
+              <svg
+                className={styles.technologies_item_svg}
+                width="32"
+                height="32"
+              >
+                <use href=""></use>
+              </svg>
+              <h4 className={styles.technologies_item_title}>React</h4>
+            </div>
+            <p className={styles.technologies_item_text}>
+              For building reusable user interfaces, favored for its
+              component-based architecture and efficiency in single-page
+              applications.
+            </p>
           </li>
-          <li>
-            <li className={styles.technologies_item}>
-              <div className={styles.technologies_item_wrap}>
-                <svg
-                  className={styles.technologies_item_svg}
-                  width="32"
-                  height="32"
-                >
-                  <use href=""></use>
-                </svg>
-                <h4 className={styles.technologies_item_title}>Java Script</h4>
-              </div>
-              <p className={styles.technologies_item_text}>
-                Dynamic programming language used for web development to create
-                interactive elements and dynamic content on websites.
-              </p>
-            </li>
+
+          <li className={styles.technologies_item}>
+            <div className={styles.technologies_item_wrap}>
+              <svg
+                className={styles.technologies_item_svg}
+                width="32"
+                height="32"
+              >
+                <use href=""></use>
+              </svg>
+              <h4 className={styles.technologies_item_title}>Java Script</h4>
+            </div>
+            <p className={styles.technologies_item_text}>
+              Dynamic programming language used for web development to create
+              interactive elements and dynamic content on websites.
+            </p>
           </li>
         </ul>
       </Container>
