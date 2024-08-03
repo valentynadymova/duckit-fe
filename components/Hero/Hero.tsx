@@ -11,7 +11,7 @@ const Hero = () => {
           <span className={styles.hero_span}> &lt;</span>Solutions
           <span className={styles.hero_span}>&gt; </span>
           for Your Success
-          <span className={styles.hero_span}>.</span>
+          <span className={styles.hero_span}>&#46;</span>
         </h1>
         <p className={styles.hero_text}>
           We specialize in creating unique websites and mobile applications
@@ -26,17 +26,17 @@ const Hero = () => {
 
         <ul className={styles.aboutus_list}>
           <li className={styles.aboutus_item}>
-            <span className={styles.aboutus_span}>10+</span>
+            <span className={styles.aboutus_span}>10&#43;</span>
             <h5 className={styles.aboutus_item_title}>Years of Experience</h5>
           </li>
           <li
             className={`${styles.aboutus_item} ${styles.aboutus_item_second}`}
           >
-            <span className={styles.aboutus_span}>100+</span>
+            <span className={styles.aboutus_span}>100&#43;</span>
             <h5 className={styles.aboutus_item_title}>Projects</h5>
           </li>
           <li className={styles.aboutus_item}>
-            <span className={styles.aboutus_span}>99%</span>
+            <span className={styles.aboutus_span}>99&#37;</span>
             <h5 className={styles.aboutus_item_title}>Customer Satisfaction</h5>
           </li>
         </ul>

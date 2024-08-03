@@ -22,10 +22,13 @@ const HeaderMobile = () => {
   };
   return (
     <>
-      <Link className={styles.header_logo} href="/">
-        {/* <img className={styles.header_logo_img} /> */}
-        <p>LOGO</p>
-      </Link>
+      <div className={styles.header_wrap_logo}>
+        <Link className={styles.header_logo_link} href="/">
+          <svg className={styles.header_logo_svg} width="90" height="53">
+            <use href=""></use>
+          </svg>
+        </Link>
+      </div>
       <span className={styles.burger_icons} onClick={toggleOpen}>
         <Burger active={open} />
       </span>
@@ -33,13 +36,89 @@ const HeaderMobile = () => {
       {open && (
         <Portal>
           <nav className={styles.navbar_mobile}>
-            <ul>
+            <ul className={styles.header_mobile_navigation_list}>
+              <li className={styles.header_mobile_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.header_mobile_navigation_link}
+                  href="/#about-us"
+                >
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#91;
+                  </span>
+                  About
+                  <span className={styles.header_mobile_navigation_dash}>
+                    &#95;
+                  </span>
+                  us
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#93;
+                  </span>
+                </Link>
+              </li>
+              <li className={styles.header_mobile_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.header_mobile_navigation_link}
+                  href="/#services"
+                >
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#91;
+                  </span>
+                  Services
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#93;
+                  </span>
+                </Link>
+              </li>
+              <li className={styles.header_mobile_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.header_mobile_navigation_link}
+                  href="/#features"
+                >
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#91;
+                  </span>
+                  Features
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#93;
+                  </span>
+                </Link>
+              </li>
+              <li className={styles.header_mobile_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.header_mobile_navigation_link}
+                  href="/#technologies"
+                >
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#91;
+                  </span>
+                  Technologies
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#93;
+                  </span>
+                </Link>
+              </li>
+              <li className={styles.header_mobile_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.header_mobile_navigation_link}
+                  href="/#contact"
+                >
+                  <span className={styles.mobile_desk_navigation_quote}>
+                    &#91;
+                  </span>
+                  Contact
+                  <span className={styles.header_mobile_navigation_quote}>
+                    &#93;
+                  </span>
+                </Link>
+              </li>
+            </ul>
+            {/* <ul>
               {links.map((elem: any, i: any) => (
                 <li onClick={toggleOpen} key={`link-item-${i}`}>
                   <Link href={elem.href}>{elem.name}</Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </nav>
         </Portal>
       )}

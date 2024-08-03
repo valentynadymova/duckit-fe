@@ -17,7 +17,7 @@ const OurServices = () => {
                 Markentig
               </h3>
               <h3 className={styles.ourservices_item_title_price}>
-                from $1000
+                from &#36;1000
               </h3>
             </div>
             <ul className={styles.ourservices_list_subtitle}>
@@ -41,12 +41,12 @@ const OurServices = () => {
                 Landing Pages
               </h3>
               <h3 className={styles.ourservices_item_title_price}>
-                from $1500
+                from &#36;1500
               </h3>
             </div>
             <ul className={styles.ourservices_list_subtitle}>
               <li className={styles.ourservices_item_subtitle_technologies}>
-                <h5>UI/UX Design</h5>
+                <h5>UI&#47;UX Design</h5>
               </li>
               <li className={styles.ourservices_item_subtitle_technologies}>
                 <h5>Logo</h5>
@@ -68,12 +68,12 @@ const OurServices = () => {
                 Websites
               </h3>
               <h3 className={styles.ourservices_item_title_price}>
-                from $2000
+                from &#36;2000
               </h3>
             </div>
             <ul className={styles.ourservices_list_subtitle}>
               <li className={styles.ourservices_item_subtitle_technologies}>
-                <h5>UI/UX Design</h5>
+                <h5>UI&#47;UX Design</h5>
               </li>
               <li className={styles.ourservices_item_subtitle_technologies}>
                 <h5>Logo</h5>
@@ -98,12 +98,12 @@ const OurServices = () => {
                 Mobile Apps
               </h3>
               <h3 className={styles.ourservices_item_title_price}>
-                from $4000
+                from &#36;4000
               </h3>
             </div>
             <ul className={styles.ourservices_list_subtitle}>
               <li className={styles.ourservices_item_subtitle_technologies}>
-                <h5>UI/UX Design</h5>
+                <h5>UI&#47;UX Design</h5>
               </li>
               <li className={styles.ourservices_item_subtitle_technologies}>
                 <h5>Research</h5>
@@ -133,7 +133,7 @@ const OurServices = () => {
           <p className={styles.ourservices_text}>
             Our team is here to help you figure out the best solution for your
             business. Get in touch with us for personalized assistance and find
-            the perfect fit for your needs.
+            the perfect fit for your needs&#46;
           </p>
           <button className={styles.ourservices_button}>Contact us</button>
         </div>

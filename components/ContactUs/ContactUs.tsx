@@ -10,7 +10,9 @@ const ContactUs = () => {
         <div className={styles.contactus_wrap_general}>
           <div className={styles.contactus_wrap_title_address}>
             <div className={styles.contactus_wrap_title}>
-              <h2 className={styles.contactus_title}>Let`s Work Together</h2>
+              <h2 className={styles.contactus_title}>
+                Let&#8217;s Work Together
+              </h2>
               <p className={styles.contactus_text}>
                 Our team is always ready to assist you. For business inquiries
                 and consultations, please drop us a message or reach out to us
@@ -21,7 +23,7 @@ const ContactUs = () => {
               <ul className={styles.contactus_address_list}>
                 <li className={styles.contactus_address_item}>
                   <h5 className={styles.contactus_address_item_title}>
-                    Chat to us:
+                    Chat to us&#58;
                   </h5>
                   <p className={styles.contactus_address_item_text}>
                     Our friendly team is here to help
@@ -30,21 +32,21 @@ const ContactUs = () => {
                     className={styles.contactus_address_item_link}
                     href="mailto:duck_it@mail.com"
                   >
-                    duck_it@mail.com
+                    duck&#95;it@mail&#46;com
                   </Link>
                 </li>
                 <li className={styles.contactus_address_item}>
                   <h5 className={styles.contactus_address_item_title}>
-                    Call to us:
+                    Call to us&#58;
                   </h5>
                   <p className={styles.contactus_address_item_text}>
-                    Mon-Fri from 8am-5pm
+                    Mon&#8211;Fri from 8am&#8211;5pm
                   </p>
                   <Link
                     className={styles.contactus_address_item_link}
                     href="tel:+487045550127"
                   >
-                    +48 704-555-0127
+                    &#43;48 704&#45;555&#45;0127
                   </Link>
                 </li>
               </ul>

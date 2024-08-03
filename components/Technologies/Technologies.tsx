@@ -14,19 +14,19 @@ const Technologies = () => {
           <li className={styles.technologies_item_button}>
             <button className={styles.technologies_button}>
               <span className={styles.technologies_item_span}>&bull;</span>
-              Frontend_Development
+              Frontend&#95;Development
             </button>
           </li>
           <li className={styles.technologies_item_button}>
             <button className={styles.technologies_button}>
               <span className={styles.technologies_item_span}>&bull;</span>
-              Backend_Development
+              Backend&#95;Development
             </button>
           </li>
           <li className={styles.technologies_item_button}>
             <button className={styles.technologies_button}>
               <span className={styles.technologies_item_span}>&bull;</span>
-              App_Development
+              App&#95;Development
             </button>
           </li>
         </ul>
@@ -44,8 +44,9 @@ const Technologies = () => {
               <h4 className={styles.technologies_item_title}>Angular</h4>
             </div>
             <p className={styles.technologies_item_text}>
-              For building dynamic single-page applications, offering features
-              like two-way data binding and dependency injection.
+              For building dynamic single&ndash;page applications&#44; offering
+              features like two&ndash;way data binding and dependency
+              injection&#46;
             </p>
           </li>
 
@@ -62,8 +63,8 @@ const Technologies = () => {
             </div>
             <p className={styles.technologies_item_text}>
               For building reusable user interfaces, favored for its
-              component-based architecture and efficiency in single-page
-              applications.
+              component&ndash;based architecture and efficiency in
+              single&ndash;page applications&#46;
             </p>
           </li>
 
@@ -80,7 +81,7 @@ const Technologies = () => {
             </div>
             <p className={styles.technologies_item_text}>
               Dynamic programming language used for web development to create
-              interactive elements and dynamic content on websites.
+              interactive elements and dynamic content on websites&#46;
             </p>
           </li>
         </ul>
