@@ -1,5 +1,5 @@
 .navbar_mobile {
-  position: absolute;
+  /* position: absolute;
   top: 80px;
   left: 0;
   right: 0;
@@ -8,13 +8,13 @@
   padding: 20px 0;
   display: flex;
   justify-content: center;
-  background-color: #121316;
+  background-color: #121316; */
 }
 
 .header {
   padding: 0px;
   /* margin-top: 28px; */
-  padding-top: 23px;
+  padding-top: 20px;
   max-width: 360px;
 }
 
@@ -28,6 +28,59 @@
 .burger_icons {
   margin-right: 20px;
 }
+
+/* -------------------------MOB-------------------- */
+.header_mobile_wrap_navigation {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 20px 0px;
+  display: flex;
+  /* justify-content: center; */
+  background-color: #191a1d;
+}
+
+.header_mobile_navigation_list {
+}
+
+.header_mobile_navigation_item {
+  padding: 0px 0px 16px 0px;
+  border-bottom: 1px solid #2b2c2f;
+}
+
+.header_mobile_navigation_link {
+  font-size: 16px;
+}
+
+.header_mobile_navigation_quote {
+  display: none;
+}
+
+.header_mobile_navigation_link:hover .header_mobile_navigation_quote {
+  display: inline-block;
+  color: #f2cb12;
+}
+
+.header_mobile_navigation_link:hover .header_mobile_navigation_dash {
+  color: #f2cb12;
+}
+
+.header_mobile_wrap_contact_us {
+}
+
+.header_mobile_contact_us_link {
+  color: #f2cb12;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header_mobile_contact_us_link:hover {
+  color: #ffd923;
+}
+
 /* ---------------DESK-------------------- */
 .header_desk_wrap_navigation {
   display: flex;

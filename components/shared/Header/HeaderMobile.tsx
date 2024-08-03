@@ -35,7 +35,7 @@ const HeaderMobile = () => {
 
       {open && (
         <Portal>
-          <nav className={styles.navbar_mobile}>
+          <nav className={styles.header_mobile_wrap_navigation}>
             <ul className={styles.header_mobile_navigation_list}>
               <li className={styles.header_mobile_navigation_item} tabIndex={0}>
                 <Link
@@ -102,7 +102,7 @@ const HeaderMobile = () => {
                   className={styles.header_mobile_navigation_link}
                   href="/#contact"
                 >
-                  <span className={styles.mobile_desk_navigation_quote}>
+                  <span className={styles.header_mobile_navigation_quote}>
                     &#91;
                   </span>
                   Contact
@@ -112,6 +112,15 @@ const HeaderMobile = () => {
                 </Link>
               </li>
             </ul>
+
+            <div className={styles.header_mobile_wrap_contact_us}>
+              <Link
+                className={styles.header_mobile_contact_us_link}
+                href="/#contact_us"
+              >
+                &#47;Contact_us&#47;
+              </Link>
+            </div>
             {/* <ul>
               {links.map((elem: any, i: any) => (
                 <li onClick={toggleOpen} key={`link-item-${i}`}>
