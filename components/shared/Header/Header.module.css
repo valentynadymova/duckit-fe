@@ -27,7 +27,7 @@
   /* bottom: 350px; */
   width: 100vw;
   /* добавить media для height от 768 28-30vh */
-  height: 45vh;
+  height: 350px;
   z-index: 10;
   padding: 20px 15px 0 15px;
   display: flex;
@@ -50,13 +50,13 @@
 }
 
 .header_mobile_navigation_item:first-child {
-  padding-top: 0; /* Убираем верхний padding у первого элемента */
+  padding-top: 0;
 }
 
 .header_mobile_navigation_item:last-child {
-  padding-bottom: 0; /* Убираем нижний padding у последнего элемента */
+  padding-bottom: 0;
   padding-top: 16px;
-  border-bottom: none; /* Убираем нижнюю границу у последнего элемента */
+  border-bottom: none;
 }
 
 .header_mobile_navigation_link {
