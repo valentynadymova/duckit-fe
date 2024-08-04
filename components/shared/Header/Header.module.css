@@ -15,14 +15,13 @@
   padding: 0px;
   /* margin-top: 28px; */
   padding-top: 20px;
-  max-width: 360px;
+  max-width: 100%;
 }
 
 .header_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* max-width: 360px; */
 }
 
 .burger_icons {
@@ -32,14 +31,22 @@
 /* -------------------------MOB-------------------- */
 .header_mobile_wrap_navigation {
   position: absolute;
-  top: 80px;
+  top: 75px;
   left: 0;
   right: 0;
-  bottom: 0;
+  /* bottom: 350px; */
+  width: 100vw;
+  /* добавить media для height от 768 28-30vh */
+  height: 45vh;
   z-index: 10;
   padding: 20px 0px;
   display: flex;
   /* justify-content: center; */
+  background-color: #191a1d;
+}
+
+.header_background_open,
+.header_mobile_wrap_navigation {
   background-color: #191a1d;
 }
 

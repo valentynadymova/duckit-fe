@@ -1,6 +1,6 @@
 'use client';
 
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { AdaptiveContext } from '../../../context/AdaptiveContext';
 import Container from '../../../hoc/Container';
 import HeaderMobile from './HeaderMobile';
@@ -13,12 +13,21 @@ import '@/styles/global.css';
 
 const Header = () => {
   const adaptive = useContext(AdaptiveContext);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen((prev) => !prev);
+  };
 
   return (
     <Suspense>
-      <header className={styles.header}>
+      <header
+        className={`${styles.header} ${isOpen ? styles.header_background_open : ''}`}
+      >
         <Container className={styles.header_container}>
-          {(adaptive === 'mobile' || adaptive === 'tablet') && <HeaderMobile />}
+          {(adaptive === 'mobile' || adaptive === 'tablet') && (
+            <HeaderMobile isOpen={isOpen} onToggle={handleToggle} />
+          )}
           {(adaptive === 'desktop' || adaptive === 'desktop-large') && (
             <HeaderDesktop />
           )}
