@@ -1,14 +1,4 @@
 .navbar_mobile {
-  /* position: absolute;
-  top: 80px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 10;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-  background-color: #121316; */
 }
 
 .header {
@@ -39,9 +29,10 @@
   /* добавить media для height от 768 28-30vh */
   height: 45vh;
   z-index: 10;
-  padding: 20px 0px;
+  padding: 20px 15px 0 15px;
   display: flex;
-  /* justify-content: center; */
+  gap: 20px;
+  flex-direction: column;
   background-color: #191a1d;
 }
 
@@ -53,9 +44,19 @@
 .header_mobile_navigation_list {
 }
 
-.header_mobile_navigation_item {
-  padding: 0px 0px 16px 0px;
+.header_mobile_navigation_item:not(:last-child) {
   border-bottom: 1px solid #2b2c2f;
+  padding: 16px 0px 16px 0px;
+}
+
+.header_mobile_navigation_item:first-child {
+  padding-top: 0; /* Убираем верхний padding у первого элемента */
+}
+
+.header_mobile_navigation_item:last-child {
+  padding-bottom: 0; /* Убираем нижний padding у последнего элемента */
+  padding-top: 16px;
+  border-bottom: none; /* Убираем нижнюю границу у последнего элемента */
 }
 
 .header_mobile_navigation_link {
