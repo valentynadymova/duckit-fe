@@ -8,32 +8,23 @@ import { links } from './getData';
 import Portal from '../../../hoc/Portal';
 import styles from './Header.module.css';
 
-// interface IHeader {
-//     isActive: (href: string) => boolean;
-// }
-
-const HeaderMobile = () => {
-  const [open, setOpen] = useState<boolean>(false);
-  const toggleOpen = () => {
-    setOpen((prev) => !prev);
-  };
-  const logoOpen = () => {
-    setOpen((prev) => false);
-  };
+interface IHeaderMobile {
+  isOpen: boolean;
+  onToggle: () => void;
+}
+const HeaderMobile: React.FC<IHeaderMobile> = ({ isOpen, onToggle }) => {
   return (
     <>
-      <div className={styles.header_wrap_logo}>
-        <Link className={styles.header_logo_link} href="/">
-          <svg className={styles.header_logo_svg} width="90" height="53">
-            <use href=""></use>
-          </svg>
-        </Link>
-      </div>
-      <span className={styles.burger_icons} onClick={toggleOpen}>
-        <Burger active={open} />
+      <Link className={styles.header_logo_link} href="/">
+        <svg className={styles.header_logo_svg} width="90" height="53">
+          <use href=""></use>
+        </svg>
+      </Link>
+      <span className={styles.burger_icons} onClick={onToggle}>
+        <Burger active={isOpen} />
       </span>
 
-      {open && (
+      {isOpen && (
         <Portal>
           <nav className={styles.header_mobile_wrap_navigation}>
             <ul className={styles.header_mobile_navigation_list}>
@@ -121,13 +112,6 @@ const HeaderMobile = () => {
                 &#47;Contact_us&#47;
               </Link>
             </div>
-            {/* <ul>
-              {links.map((elem: any, i: any) => (
-                <li onClick={toggleOpen} key={`link-item-${i}`}>
-                  <Link href={elem.href}>{elem.name}</Link>
-                </li>
-              ))}
-            </ul> */}
           </nav>
         </Portal>
       )}
