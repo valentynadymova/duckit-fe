@@ -14,9 +14,9 @@ const OurFeatures = () => {
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>Scalability</h3>
             <p className={styles.ourfeatures_item_text}>
-              Our scalable web development solutions grow with your business.
-              Easily handle increased traffic and add new features without
-              compromising performance.
+              Our scalable web development solutions grow with your
+              business&#46; Easily handle increased traffic and add new features
+              without compromising performance&#46;
             </p>
             <picture>
               <source
@@ -67,11 +67,12 @@ const OurFeatures = () => {
           </li>
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
-              Future-proof architecture
+              Future&#45;proof architecture
             </h3>
             <p className={styles.ourfeatures_item_text}>
-              Our web development ensures your site is built on a future-proof
-              architecture, adapting to new technologies and evolving needs.
+              Our web development ensures your site is built on a
+              future&ndash;proof architecture&#44; adapting to new technologies
+              and evolving needs&#46;
             </p>
             <ul className={styles.ourfeatures_list_subtitle}>
               <li className={styles.ourfeatures_item_subtitle_first}>
@@ -82,7 +83,7 @@ const OurFeatures = () => {
                 >
                   <use href=""></use>
                 </svg>
-                <p>Our_development</p>
+                <p>Our&#95;development</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_second}>
                 <svg
@@ -92,7 +93,7 @@ const OurFeatures = () => {
                 >
                   <use href=""></use>
                 </svg>
-                <p>New_technologies</p>
+                <p>New&#95;technologies</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_three}>
                 <svg
@@ -102,7 +103,7 @@ const OurFeatures = () => {
                 >
                   <use href=""></use>
                 </svg>
-                <p>Adapt_to_your_needs</p>
+                <p>Adapt&#95;to&#95;your&#95;eeds</p>
               </li>
             </ul>
           </li>
@@ -111,8 +112,9 @@ const OurFeatures = () => {
               Comprehensive tech stack
             </h3>
             <p className={styles.ourfeatures_item_text}>
-              Our tech stack delivers top-notch websites with innovation,
-              performance, security, and scalability.
+              Our tech stack delivers top&ndash;notch websites with
+              innovation&#44; performance&#44; security&#44; and
+              scalability&#46;
             </p>
             <picture>
               <source
@@ -167,8 +169,8 @@ const OurFeatures = () => {
             </h3>
             <p className={styles.ourfeatures_item_text}>
               We specialize in crafting customized websites that precisely meet
-              each client`s unique needs and goals, ensuring satisfaction and
-              success.
+              each client&#8217;s unique needs and goals&#44; ensuring
+              satisfaction and success&#46;
             </p>
             <picture>
               <source

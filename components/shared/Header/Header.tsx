@@ -18,10 +18,10 @@ const Header = () => {
     <Suspense>
       <header className={styles.header}>
         <Container className={styles.header_container}>
-          {adaptive === 'mobile' && <HeaderMobile />}
-          {(adaptive === 'tablet' ||
-            adaptive === 'desktop' ||
-            adaptive === 'desktop-large') && <HeaderDesktop />}
+          {(adaptive === 'mobile' || adaptive === 'tablet') && <HeaderMobile />}
+          {(adaptive === 'desktop' || adaptive === 'desktop-large') && (
+            <HeaderDesktop />
+          )}
         </Container>
       </header>
     </Suspense>

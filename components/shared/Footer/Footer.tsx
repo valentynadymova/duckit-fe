@@ -10,9 +10,11 @@ const Footer = () => {
       <Container className={styles.footer_container}>
         <div className={styles.footer_wrap_general}>
           <div className={styles.footer_wrap_logo}>
-            <svg className={styles.footer_logo_svg} width="106" height="62">
-              <use href=""></use>
-            </svg>
+            <Link className={styles.footer_logo_link} href="/">
+              <svg className={styles.footer_logo_svg} width="106" height="62">
+                <use href=""></use>
+              </svg>
+            </Link>
             <p className={styles.footer_logo_text}>
               Web and Mobile Solutions for Your Success
             </p>
@@ -23,35 +25,79 @@ const Footer = () => {
 
           <nav className={styles.footer_wrap_navigation}>
             <h5 className={styles.footer_navigation_title}>Navigation</h5>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+
+            <ul className={styles.footer_navigation_list}>
+              <li className={styles.footer_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.footer_navigation_link}
+                  href="/#about-us"
+                >
+                  <span className={styles.footer_navigation_quote}>&#91;</span>
+                  About
+                  <span className={styles.footer_navigation_dash}>&#95;</span>
+                  us
+                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                </Link>
+              </li>
+              <li className={styles.footer_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.footer_navigation_link}
+                  href="/#services"
+                >
+                  <span className={styles.footer_navigation_quote}>&#91;</span>
+                  Services
+                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                </Link>
+              </li>
+              <li className={styles.footer_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.footer_navigation_link}
+                  href="/#features"
+                >
+                  <span className={styles.footer_navigation_quote}>&#91;</span>
+                  Features
+                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                </Link>
+              </li>
+              <li className={styles.footer_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.footer_navigation_link}
+                  href="/#technologies"
+                >
+                  <span className={styles.footer_navigation_quote}>&#91;</span>
+                  Technologies
+                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                </Link>
+              </li>
+              <li className={styles.footer_navigation_item} tabIndex={0}>
+                <Link
+                  className={styles.footer_navigation_link}
+                  href="/#contact"
+                >
+                  <span className={styles.footer_navigation_quote}>&#91;</span>
+                  Contact
+                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                </Link>
+              </li>
             </ul>
           </nav>
 
           <div className={styles.footer_wrap_adrress}>
             <h5 className={styles.footer_adrress_title}>Contacts</h5>
             <address className={styles.footer_adrress}>
-              <p className={styles.contactus_address_label}>
-                Email:
-                <Link
-                  className={styles.contactus_address_link}
-                  href="mailto:duck_it@mail.com"
-                >
-                  duck_it@mail.com
-                </Link>
-              </p>
+              <span className={styles.contactus_address_span}>Email:</span>
+              <Link
+                className={styles.contactus_address_link}
+                href="mailto:duck_it@mail.com"
+              >
+                duck&#95;it@mail&#46;com
+              </Link>
             </address>
             <address>
-              <p className={styles.contactus_address_label}>
-                Address:
-                <Link className={styles.contactus_address_link} href="">
-                  4517 Washington Ave. Manchester, Kentucky 39495
-                </Link>
-              </p>
+              <span className={styles.contactus_address_span}>Address:</span>
+              <Link className={styles.contactus_address_link} href="">
+                4517 Washington Ave&#46; Manchester&#44; Kentucky 39495
+              </Link>
             </address>
           </div>
 
@@ -115,7 +161,7 @@ const Footer = () => {
             </ul>
           </div>
           <p className={styles.footer_social_text_company}>
-            <span>&#169;</span>2024 Duck_it. All rights reserved.
+            <span>&#169;</span>2024 Duck&#95;it&#46; All rights reserved&#46;
           </p>
         </div>
       </Container>
