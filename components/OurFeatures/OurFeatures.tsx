@@ -81,7 +81,7 @@ const OurFeatures = () => {
                   width="32"
                   height="32"
                 >
-                  <use href=""></use>
+                  <use href="/icons.svg#document-code"></use>
                 </svg>
                 <p>Our&#95;development</p>
               </li>
@@ -91,7 +91,7 @@ const OurFeatures = () => {
                   width="32"
                   height="32"
                 >
-                  <use href=""></use>
+                  <use href="/icons.svg#additem"></use>
                 </svg>
                 <p>New&#95;technologies</p>
               </li>
@@ -101,7 +101,7 @@ const OurFeatures = () => {
                   width="32"
                   height="32"
                 >
-                  <use href=""></use>
+                  <use href="/icons.svg#setting-2"></use>
                 </svg>
                 <p>Adapt&#95;to&#95;your&#95;eeds</p>
               </li>

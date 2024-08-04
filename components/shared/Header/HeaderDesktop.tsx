@@ -16,7 +16,7 @@ const HeaderDesktop = () => {
               width="106"
               height="62"
             >
-              <use href=""></use>
+              <use href="/icons.svg#logo-dack"></use>
             </svg>
           </Link>
         </div>
