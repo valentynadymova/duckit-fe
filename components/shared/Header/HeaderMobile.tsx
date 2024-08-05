@@ -17,7 +17,7 @@ const HeaderMobile: React.FC<IHeaderMobile> = ({ isOpen, onToggle }) => {
     <>
       <Link className={styles.header_logo_link} href="/">
         <svg className={styles.header_logo_svg} width="90" height="53">
-          <use href=""></use>
+          <use href="/icons.svg#logo-dack"></use>
         </svg>
       </Link>
       <span className={styles.burger_icons} onClick={onToggle}>

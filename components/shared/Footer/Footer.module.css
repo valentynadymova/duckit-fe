@@ -86,7 +86,7 @@
 .contactus_address_span {
   font-size: 14px;
   color: #f2cb12;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .contactus_address_link {
@@ -101,9 +101,12 @@
   font-size: 14px;
   color: #f2cb12;
   font-weight: 400;
+  margin-bottom: 16px;
 }
 
 .footer_social_list {
+  display: flex;
+  gap: 24px;
 }
 
 .footer_social_item {
