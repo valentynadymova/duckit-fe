@@ -4,6 +4,7 @@
 
 import Link from 'next/link';
 import styles from './Header.module.css';
+import Image from 'next/image';
 
 const HeaderDesktop = () => {
   return (
@@ -11,13 +12,13 @@ const HeaderDesktop = () => {
       <nav className={styles.header_desk_wrap_navigation}>
         <div className={styles.header_desk_wrap_logo}>
           <Link className={styles.header_desk_logo_link} href="/">
-            <svg
-              className={styles.header_desk_logo_svg}
-              width="106"
-              height="62"
-            >
-              <use href="/icons.svg#logo-dack"></use>
-            </svg>
+            <Image
+          className={styles.header_desk_logo_svg}
+          alt="logo-duck"
+          width={106}
+          height={62}
+          src="images/logo-duck.svg"
+        />
           </Link>
         </div>
         <ul className={styles.header_desk_navigation_list}>

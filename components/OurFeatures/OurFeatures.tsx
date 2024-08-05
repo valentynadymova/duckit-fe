@@ -45,15 +45,15 @@ const OurFeatures = () => {
                 type="image/png"
                 media="(min-width: 768px)"
               />
-              <source
-                srcSet=" 1x,
-                     2x"
+                <source
+                srcSet="/images/img-320px/scalability-320px-1x.webp 1x,
+                    /images/img-320px/scalability-320px-2x.webp 2x"
                 type="image/webp"
                 media="(min-width: 360px)"
               />
               <source
-                srcSet=" 1x,
-                     2x"
+                srcSet="/images/img-320px/scalability-320px-1x.png 1x,
+                    /images/img-320px/scalability-320px-2x.png 2x"
                 type="image/png"
                 media="(min-width: 360px)"
               />
@@ -96,23 +96,12 @@ const OurFeatures = () => {
                 <p>New&#95;technologies</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_three}>
-                {/* <Image
+                <Image
                   alt="setting"
                   width={32}
                   height={32}
                   src="images/setting-2.svg"
-                /> */}
-
-                <Link href="/" className={styles.header_desk_logo_svg}>
-                  <svg
-                    className={styles.header_desk_logo_svg}
-                    width="32"
-                    height="32"
-                  >
-                    <use href="images/setting-2.svg"></use>
-                  </svg>
-                </Link>
-
+                />
                 <p>Adapt&#95;to&#95;your&#95;eeds</p>
               </li>
             </ul>
@@ -151,15 +140,15 @@ const OurFeatures = () => {
                 type="image/png"
                 media="(min-width: 768px)"
               />
-              <source
-                srcSet=" 1x,
-                     2x"
+                <source
+                srcSet="/images/img-320px/comprehensive-320px-1x.webp 1x,
+                    /images/img-320px/comprehensive-320px-2x.webp 2x"
                 type="image/webp"
                 media="(min-width: 360px)"
               />
-              <source
-                srcSet=" 1x,
-                     2x"
+                <source
+                srcSet="/images/img-320px/comprehensive-320px-1x.png 1x,
+                    /images/img-320px/comprehensive-320px-2x.png 2x"
                 type="image/png"
                 media="(min-width: 360px)"
               />
@@ -208,14 +197,14 @@ const OurFeatures = () => {
                 media="(min-width: 768px)"
               />
               <source
-                srcSet=" 1x,
-                     2x"
+                srcSet="/images/img-320px/tailored-320px-1x.webp 1x,
+                    /images/img-320px/tailored-320px-2x.webp 2x"
                 type="image/webp"
                 media="(min-width: 360px)"
               />
-              <source
-                srcSet=" 1x,
-                     2x"
+                <source
+                srcSet="/images/img-320px/tailored-320px-1x.png 1x,
+                    /images/img-320px/tailored-320px-2x.png 2x"
                 type="image/png"
                 media="(min-width: 360px)"
               />
