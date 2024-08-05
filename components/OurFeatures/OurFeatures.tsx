@@ -8,7 +8,7 @@ const OurFeatures = () => {
   return (
     <section className={styles.ourfeatures_section}>
       <Container className={styles.ourfeatures_container}>
-        <p className={`${styles.ourfeatures_subtitle} subtitle`}>
+        <p className={`${styles.ourfeatures_subtitle} subtitle`} id='features'>
           &#47;&#47;features
         </p>
         <h2 className={styles.ourfeatures_title}>Why Choose us </h2>

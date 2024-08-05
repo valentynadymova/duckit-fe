@@ -53,7 +53,7 @@ const ContactUs = () => {
             </address>
           </div>
           <div className={styles.contactus_wrap_form_general}>
-            <h2 className={styles.contactus_form_title}>How We Can Help?</h2>
+            <h2 className={styles.contactus_form_title} id='contact_us'>How We Can Help?</h2>
             <form className={styles.contactus_form}></form>
             <p className={styles.contactus_form_text}>
               We will get back in touch with you within 24 hours

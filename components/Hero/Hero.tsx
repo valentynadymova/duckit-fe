@@ -18,11 +18,11 @@ const Hero = () => {
           tailored to your business needs
         </p>
         <button className={styles.hero_button}>Get Started</button>
-        <p className={`${styles.aboutus_subtitle} subtitle`}>
+        <p className={`${styles.aboutus_subtitle} subtitle`} id='about-us'>
           &#47;&#47;about us
         </p>
 
-        <h2 className={styles.aboutus_title}>Our Proven Track Record</h2>
+        <h2 className={styles.aboutus_title} >Our Proven Track Record</h2>
 
         <ul className={styles.aboutus_list}>
           <li className={styles.aboutus_item}>

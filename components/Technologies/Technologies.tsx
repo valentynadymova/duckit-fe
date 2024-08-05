@@ -7,7 +7,7 @@ const Technologies = () => {
   return (
     <section className={styles.technologies_section}>
       <Container className={styles.technologies_container}>
-        <p className={`${styles.technologies_subtitle} subtitle`}>
+        <p className={`${styles.technologies_subtitle} subtitle`} id='technologies'>
           &#47;&#47;technologies
         </p>
         <h2 className={styles.technologies_title}>Stack Of Technologies</h2>
