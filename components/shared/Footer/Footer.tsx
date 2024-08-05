@@ -88,7 +88,9 @@ const Footer = () => {
           </nav>
 
           <div className={styles.footer_wrap_adrress}>
-            <h5 className={styles.footer_adrress_title}>Contacts</h5>
+            <h5 className={styles.footer_adrress_title} id="contact">
+              Contacts
+            </h5>
             <address className={styles.footer_adrress}>
               <span className={styles.contactus_address_span}>Email &#58;</span>
               <Link
