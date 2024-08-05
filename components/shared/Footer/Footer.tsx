@@ -119,13 +119,13 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-          <Image
-          className={styles.footer_social_logo_svg}
-          alt="facebook"
-          width={32}
-          height={32}
-          src="images/facebook.svg"
-        /> 
+                    <Image
+                      className={styles.footer_social_logo_svg}
+                      alt="facebook"
+                      width={32}
+                      height={32}
+                      src="images/facebook.svg"
+                    />
                   </Link>
                 </address>
               </li>
@@ -137,13 +137,13 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                                      <Image
-          className={styles.footer_social_logo_svg}
-          alt="telegram"
-          width={32}
-          height={32}
-          src="images/telegram.svg"
-        /> 
+                    <Image
+                      className={styles.footer_social_logo_svg}
+                      alt="telegram"
+                      width={32}
+                      height={32}
+                      src="images/telegram.svg"
+                    />
                   </Link>
                 </address>
               </li>
@@ -155,13 +155,13 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                        <Image
-          className={styles.footer_social_logo_svg}
-          alt="instagram"
-          width={32}
-          height={32}
-          src="images/instagram.svg"
-        /> 
+                    <Image
+                      className={styles.footer_social_logo_svg}
+                      alt="instagram"
+                      width={32}
+                      height={32}
+                      src="images/instagram.svg"
+                    />
                   </Link>
                 </address>
               </li>

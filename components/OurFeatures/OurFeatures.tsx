@@ -45,7 +45,7 @@ const OurFeatures = () => {
                 type="image/png"
                 media="(min-width: 768px)"
               />
-                <source
+              <source
                 srcSet="/images/img-320px/scalability-320px-1x.webp 1x,
                     /images/img-320px/scalability-320px-2x.webp 2x"
                 type="image/webp"
@@ -140,13 +140,13 @@ const OurFeatures = () => {
                 type="image/png"
                 media="(min-width: 768px)"
               />
-                <source
+              <source
                 srcSet="/images/img-320px/comprehensive-320px-1x.webp 1x,
                     /images/img-320px/comprehensive-320px-2x.webp 2x"
                 type="image/webp"
                 media="(min-width: 360px)"
               />
-                <source
+              <source
                 srcSet="/images/img-320px/comprehensive-320px-1x.png 1x,
                     /images/img-320px/comprehensive-320px-2x.png 2x"
                 type="image/png"
@@ -202,7 +202,7 @@ const OurFeatures = () => {
                 type="image/webp"
                 media="(min-width: 360px)"
               />
-                <source
+              <source
                 srcSet="/images/img-320px/tailored-320px-1x.png 1x,
                     /images/img-320px/tailored-320px-2x.png 2x"
                 type="image/png"

@@ -13,12 +13,12 @@ const HeaderDesktop = () => {
         <div className={styles.header_desk_wrap_logo}>
           <Link className={styles.header_desk_logo_link} href="/">
             <Image
-          className={styles.header_desk_logo_svg}
-          alt="logo-duck"
-          width={106}
-          height={62}
-          src="images/logo-duck.svg"
-        />
+              className={styles.header_desk_logo_svg}
+              alt="logo-duck"
+              width={106}
+              height={62}
+              src="images/logo-duck.svg"
+            />
           </Link>
         </div>
         <ul className={styles.header_desk_navigation_list}>
