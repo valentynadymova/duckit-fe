@@ -6,7 +6,7 @@ const OurServices = () => {
   return (
     <section className={styles.ourservices_section}>
       <Container className={styles.ourservices_container}>
-        <p className={`${styles.ourservices_subtitle} subtitle`} id='services'>
+        <p className={`${styles.ourservices_subtitle} subtitle`} id="services">
           &#47;&#47;services
         </p>
         <h2 className={styles.ourservices_title}>What We Can Do For You</h2>
