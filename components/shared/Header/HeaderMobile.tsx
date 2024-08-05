@@ -7,6 +7,7 @@ import Burger from '../../icons/Burger';
 import { links } from './getData';
 import Portal from '../../../hoc/Portal';
 import styles from './Header.module.css';
+import Image from 'next/image';
 
 interface IHeaderMobile {
   isOpen: boolean;
@@ -16,9 +17,13 @@ const HeaderMobile: React.FC<IHeaderMobile> = ({ isOpen, onToggle }) => {
   return (
     <>
       <Link className={styles.header_logo_link} href="/">
-        <svg className={styles.header_logo_svg} width="90" height="53">
-          <use href="/icons.svg#logo-dack"></use>
-        </svg>
+        <Image
+          className={styles.header_logo_svg}
+          alt="logo-duck"
+          width={90}
+          height={53}
+          src="images/logo-duck.svg"
+        />
       </Link>
       <span className={styles.burger_icons} onClick={onToggle}>
         <Burger active={isOpen} />

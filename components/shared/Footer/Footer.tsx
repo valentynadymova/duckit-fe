@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Container from '@/hoc/Container';
 import styles from './Footer.module.css';
 import '@/styles/reset.css';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -11,9 +12,13 @@ const Footer = () => {
         <div className={styles.footer_wrap_general}>
           <div className={styles.footer_wrap_logo}>
             <Link className={styles.footer_logo_link} href="/">
-              <svg className={styles.footer_logo_svg} width="106" height="62">
-                <use href="/icons.svg#logo-duck"></use>
-              </svg>
+              <Image
+                className={styles.footer_logo_svg}
+                alt="logo-duck"
+                width={106}
+                height={62}
+                src="images/logo-duck.svg"
+              />
             </Link>
             <p className={styles.footer_logo_text}>
               Web and Mobile Solutions for Your Success
@@ -114,31 +119,13 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <svg
-                      className={styles.footer_social_logo}
-                      width="32"
-                      height="32"
-                    >
-                      <use href="/icons.svg#facebook"></use>
-                    </svg>
-                  </Link>
-                </address>
-              </li>
-              <li className={styles.footer_social_item}>
-                <address className={styles.footer_social_wrap_address}>
-                  <Link
-                    className={styles.footer_social_link}
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg
+                    <Image
                       className={styles.footer_social_logo_svg}
-                      width="32"
-                      height="32"
-                    >
-                      <use href="/icons.svg#telegram"></use>
-                    </svg>
+                      alt="facebook"
+                      width={32}
+                      height={32}
+                      src="images/facebook.svg"
+                    />
                   </Link>
                 </address>
               </li>
@@ -150,13 +137,31 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <svg
-                      className={styles.footer_social_logo}
-                      width="32"
-                      height="32"
-                    >
-                      <use href="/icons.svg#instagram"></use>
-                    </svg>
+                    <Image
+                      className={styles.footer_social_logo_svg}
+                      alt="telegram"
+                      width={32}
+                      height={32}
+                      src="images/telegram.svg"
+                    />
+                  </Link>
+                </address>
+              </li>
+              <li className={styles.footer_social_item}>
+                <address className={styles.footer_social_wrap_address}>
+                  <Link
+                    className={styles.footer_social_link}
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      className={styles.footer_social_logo_svg}
+                      alt="instagram"
+                      width={32}
+                      height={32}
+                      src="images/instagram.svg"
+                    />
                   </Link>
                 </address>
               </li>
