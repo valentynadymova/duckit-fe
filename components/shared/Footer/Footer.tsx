@@ -12,7 +12,7 @@ const Footer = () => {
           <div className={styles.footer_wrap_logo}>
             <Link className={styles.footer_logo_link} href="/">
               <svg className={styles.footer_logo_svg} width="106" height="62">
-                <use href="/icons.svg#logo-dack"></use>
+                <use href="/icons.svg#logo-duck"></use>
               </svg>
             </Link>
             <p className={styles.footer_logo_text}>

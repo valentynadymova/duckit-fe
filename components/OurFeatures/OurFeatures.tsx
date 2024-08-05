@@ -1,6 +1,8 @@
 'use client';
 import Container from '@/hoc/Container';
 import styles from './OurFeatures.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const OurFeatures = () => {
   return (
@@ -76,33 +78,41 @@ const OurFeatures = () => {
             </p>
             <ul className={styles.ourfeatures_list_subtitle}>
               <li className={styles.ourfeatures_item_subtitle_first}>
-                <svg
-                  className={styles.ourfeatures_item_subtitle_svg}
-                  width="32"
-                  height="32"
-                >
-                  <use href="/icons.svg#document-code"></use>
-                </svg>
+                <Image
+                  alt="document-code"
+                  width={32}
+                  height={32}
+                  src="images/document-code.svg"
+                />
                 <p>Our&#95;development</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_second}>
-                <svg
-                  className={styles.ourfeatures_item_subtitle_svg}
-                  width="32"
-                  height="32"
-                >
-                  <use href="/icons.svg#additem"></use>
-                </svg>
+                <Image
+                  alt="additem"
+                  width={32}
+                  height={32}
+                  src="images/additem.svg"
+                />
                 <p>New&#95;technologies</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_three}>
-                <svg
-                  className={styles.ourfeatures_item_subtitle_svg}
-                  width="32"
-                  height="32"
-                >
-                  <use href="/icons.svg#setting-2"></use>
-                </svg>
+                {/* <Image
+                  alt="setting"
+                  width={32}
+                  height={32}
+                  src="images/setting-2.svg"
+                /> */}
+
+                <Link href="/" className={styles.header_desk_logo_svg}>
+                  <svg
+                    className={styles.header_desk_logo_svg}
+                    width="32"
+                    height="32"
+                  >
+                    <use href="images/setting-2.svg"></use>
+                  </svg>
+                </Link>
+
                 <p>Adapt&#95;to&#95;your&#95;eeds</p>
               </li>
             </ul>
