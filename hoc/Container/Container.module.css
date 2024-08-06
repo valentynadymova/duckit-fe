@@ -8,25 +8,26 @@
 }
 
 /* Mobile view - up to 768px */
-@media (max-width: 768px) {
+@media screen and (min-width: 360px) {
     .container {
         max-width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+        max-width: 360px;
     }
 }
 
 /* Tablet view - 768px to 1440px */
-@media (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 768px)  {
     .container {
-        max-width: 1440px;
+        max-width: 768px;
         padding-left: 30px;
         padding-right: 30px;
     }
 }
 
 /* Desktop view - 1440px and above */
-@media (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
     .container {
         max-width: 1440px;
         padding-left: 140px;

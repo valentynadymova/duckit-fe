@@ -19,78 +19,26 @@
 
 /* ------------ */
 
-.header_mobile_contact_us_link, 
-.header_desk_contact_us_link, 
-.header_tablet_contact_us_link {
+.header_contact_us_link {
   color: #f2cb12;
   font-size: 18px;
   font-weight: 500;
 }
 
-.header_tablet_contact_us_link:hover,
-.header_tablet_contact_us_link:focus,
-.header_tablet_contact_us_link:active,
-.header_mobile_contact_us_link:hover,
-.header_mobile_contact_us_link:focus,
-.header_mobile_contact_us_link:active,
-.header_desk_contact_us_link:hover,
-.header_desk_contact_us_link:focus,
-.header_desk_contact_us_link:active {
+.header_contact_us_link:hover,
+.header_contact_us_link:focus,
+.header_contact_us_link:active {
   color: #ffd923;
 }
 
-
-/* ------ */
-
- .header_mobile_navigation_quote,
-.header_tablet_navigation_quote {
-  display: none;
-} 
-
-
-
- .header_mobile_navigation_link:hover .header_mobile_navigation_quote,
-.header_mobile_navigation_link:focus .header_mobile_navigation_quote,
-.header_mobile_navigation_link:active .header_mobile_navigation_quote,
-.header_tablet_navigation_link:hover .header_tablet_navigation_quote,
-.header_tablet_navigation_link:focus .header_tablet_navigation_quote,
-.header_tablet_navigation_link:active .header_tablet_navigation_quote {
-  display: inline-block;
-} 
-
-.header_mobile_navigation_link:hover .header_mobile_navigation_quote,
-.header_mobile_navigation_link:focus .header_mobile_navigation_quote,
-.header_mobile_navigation_link:active .header_mobile_navigation_quote,
-.header_mobile_navigation_link:hover .header_mobile_navigation_dash,
-.header_mobile_navigation_link:focus .header_mobile_navigation_dash,
-.header_mobile_navigation_link:active .header_mobile_navigation_dash,
-.header_desk_navigation_link:hover .header_desk_navigation_quote,
-.header_desk_navigation_link:focus .header_desk_navigation_quote,
-.header_desk_navigation_link:active .header_desk_navigation_quote,
-.header_desk_navigation_link:hover .header_desk_navigation_dash,
-.header_desk_navigation_link:focus .header_desk_navigation_dash,
-.header_desk_navigation_link:active .header_desk_navigation_dash,
-.header_tablet_navigation_link:hover .header_mobile_navigation_quote,
-.header_tablet_navigation_link:focus .header_mobile_navigation_quote,
-.header_tablet_navigation_link:active .header_mobile_navigation_quote,
-.header_tablet_navigation_link:hover .header_mobile_navigation_dash,
-.header_tablet_navigation_link:focus .header_mobile_navigation_dash,
-.header_tablet_navigation_link:active .header_mobile_navigation_dash {
-  color: #f2cb12;
-}
-
-
-/* ----------------- */
-
-.header_mobile_navigation_link,
-.header_desk_navigation_link,
-.header_tablet_navigation_link {
+.header_mob_tab_nav_item link,
+.header_desk_nav_item link {
   font-size: 16px;
 }
 
 /* -------------------------MOB-------------------- */
 
-.header_mobile_wrap_navigation {
+.header_mob_tab_wrap_nav {
   position: absolute;
   top: 75px;
   left: 0;
@@ -107,112 +55,109 @@
 }
 
 .header_background_open,
-.header_mobile_wrap_navigation {
+.header_mob_tab_wrap_nav  {
   background-color: #191a1d;
 }
 
-.header_mobile_navigation_list {
-}
-
-.header_mobile_navigation_item {
+.header_mob_tab_nav_item {
   border-bottom: 1px solid #2b2c2f;
   padding: 16px 0;
 }
 
-.header_mobile_navigation_item:first-child {
+.header_mob_tab_nav_item:first-child {
   padding-top: 0;
 }
 
-.header_mobile_navigation_item:last-child {
- padding: 16px 0 0;
+.header_mob_tab_nav_item:last-child {
+  padding: 16px 0 0;
   border-bottom: none;
 }
 
-
-/* .header_mobile_navigation_link {
-  font-size: 16px;
-} */
-
-
-/* .header_mobile_navigation_quote {
+/* 
+.header_mob_tab_nav_item span {
   display: none;
 }
 
-.header_mobile_navigation_link:hover .header_mobile_navigation_quote {
-  display: inline-block;
-  color: #f2cb12;
+.header_mob_tab_nav_item span.header_mob_nav_dash {
+  display: inline;
 }
 
-.header_mobile_navigation_link:hover .header_mobile_navigation_dash {
+.header_mob_tab_nav_item:hover span,
+.header_mob_tab_nav_item:focus span,
+.header_mob_tab_nav_item:active span {
+  display: inline;
   color: #f2cb12;
 } */
 
 
-.header_mobile_wrap_contact_us {
+
+/* .box {
+  opacity: 0;
+  transition: opacity 0.5s allow-discrete;
+  display: none;
 }
 
- /* .header_mobile_contact_us_link {
-  color: #f2cb12;
-  font-size: 18px;
-  font-weight: 500;
+input:checked + .box {
+  opacity: 1;
+  display: block;
+}
+
+@starting-style {
+input:checked + .box {
+ opacity: 0;
+}
 } */
 
-/* .header_mobile_contact_us_link:hover {
-  color: #ffd923; 
-}  */
+.header_mob_tab_nav_item span {
+  opacity: 0;
+  transition: opacity 3.5s allow-discrete;
+  display: none;
+}
+
+ .header_mob_tab_nav_item span {
+  opacity: 1;
+  color: #f2cb12;
+  display: inline;
+}
+
+@starting-style {
+  .header_mob_tab_nav_item span {
+    opacity: 0;
+  }
+}
 
 
 
 /* ---------------DESK-------------------- */
-.header_desk_wrap_navigation {
+
+.header_desk_wrap_nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-.header_desk_wrap_logo {
+  justify-content:space-between;
 }
 
-.header_desk_logo_link {
-}
-
-.header_desk_logo_svg {
-}
-
-.header_desk_navigation_list {
+.header_desk_nav_list {
   display: flex;
+  gap: 40px;
 }
 
-.header_desk_navigation_item {
-}
-
-/* .header_desk_navigation_link {
-  font-size: 16px;
-} */
-
-.header_desk_navigation_quote {
+.header_desk_nav_item span {
   color: transparent;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
-/* .header_desk_navigation_link:hover .header_desk_navigation_quote,
-.header_desk_navigation_link:hover .header_desk_navigation_dash {
-  color: #f2cb12;
-} */
-
-.header_desk_wrap_contact_us {
+.header_desk_nav_item span.header_desk_nav_dash {
+  color: inherit; 
+  opacity: 1;
 }
 
-/* .header_desk_contact_us_link {
-  color: #f2cb12;
-  font-size: 18px;
-  font-weight: 500;
+.header_desk_nav_item span:hover {
+color: #f2cb12;
+opacity: 1;
 }
 
-.header_desk_contact_us_link:hover {
-  color: #ffd923;
-} */
-
-
-/* --------------------- */
+/* ----------------------------------------- */
 /* .header_mobile_navigation_quote,
 .header_tablet_navigation_quote {
   opacity: 0;
@@ -231,3 +176,17 @@
   opacity: 1;
   height: auto;
 }  */
+
+/* .header_desk_nav_item span {
+    opacity: 0;
+  height: 0;
+  display: inline-block;
+  overflow: hidden;
+  transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+
+.header_desk_nav_item span:hover {
+    opacity: 1;
+  height: auto;
+} */
