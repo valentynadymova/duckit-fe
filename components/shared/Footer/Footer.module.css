@@ -33,38 +33,47 @@
 
 /* --------navigation---------- */
 
-.footer_wrap_navigation {
+.footer_wrap_nav {
 }
 
-.footer_navigation_title {
+.footer_nav_title {
   font-size: 14px;
   color: #f2cb12;
   font-weight: 400;
   margin-bottom: 16px;
 }
 
-.footer_navigation_list {
-}
-
-.footer_navigation_item {
+.footer_nav_item {
   margin-bottom: 16px;
 }
 
-.footer_navigation_link {
+.footer_nav_item link {
   font-size: 14px;
 }
 
-.footer_navigation_quote {
+.footer_nav_item span,
+.footer_nav_item .footer_nav_dash {
+  opacity: 0;
+  transition: opacity 1.1s allow-discrete;
   display: none;
 }
 
-.footer_navigation_link:hover .footer_navigation_quote {
-  display: inline-block;
+.footer_nav_item .footer_nav_dash {
+  display: inline;
+  opacity: 1;
+}
+
+.footer_nav_item:hover span,
+.footer_nav_item:hover .footer_nav_dash {
+  display: inline;
+  opacity: 1;
   color: #f2cb12;
 }
 
-.footer_navigation_link:hover .footer_navigation_dash {
-  color: #f2cb12;
+@starting-style {
+  .footer_nav_item:hover span {
+    opacity: 0;
+  }
 }
 
 /* ------------address------------ */

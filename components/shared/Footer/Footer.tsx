@@ -27,61 +27,44 @@ const Footer = () => {
               Privacy policy
             </Link>
           </div>
-
-          <nav className={styles.footer_wrap_navigation}>
-            <h5 className={styles.footer_navigation_title}>Navigation</h5>
-
-            <ul className={styles.footer_navigation_list}>
-              <li className={styles.footer_navigation_item} tabIndex={0}>
-                <Link
-                  className={styles.footer_navigation_link}
-                  href="/#about-us"
-                >
-                  <span className={styles.footer_navigation_quote}>&#91;</span>
+          <nav className={styles.footer_wrap_nav}>
+            <h5 className={styles.footer_nav_title}>Navigation</h5>
+            <ul className={styles.footer_nav_list}>
+              <li className={styles.footer_nav_item} tabIndex={0}>
+                <Link href="/#about-us">
+                  <span>&#91;</span>
                   About
-                  <span className={styles.footer_navigation_dash}>&#95;</span>
+                  <span className={styles.footer_nav_dash}>&#95;</span>
                   us
-                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                  <span>&#93;</span>
                 </Link>
               </li>
-              <li className={styles.footer_navigation_item} tabIndex={0}>
-                <Link
-                  className={styles.footer_navigation_link}
-                  href="/#services"
-                >
-                  <span className={styles.footer_navigation_quote}>&#91;</span>
+              <li className={styles.footer_nav_item} tabIndex={0}>
+                <Link href="/#services">
+                  <span>&#91;</span>
                   Services
-                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                  <span>&#93;</span>
                 </Link>
               </li>
-              <li className={styles.footer_navigation_item} tabIndex={0}>
-                <Link
-                  className={styles.footer_navigation_link}
-                  href="/#features"
-                >
-                  <span className={styles.footer_navigation_quote}>&#91;</span>
+              <li className={styles.footer_nav_item} tabIndex={0}>
+                <Link href="/#features">
+                  <span>&#91;</span>
                   Features
-                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                  <span>&#93;</span>
                 </Link>
               </li>
-              <li className={styles.footer_navigation_item} tabIndex={0}>
-                <Link
-                  className={styles.footer_navigation_link}
-                  href="/#technologies"
-                >
-                  <span className={styles.footer_navigation_quote}>&#91;</span>
+              <li className={styles.footer_nav_item} tabIndex={0}>
+                <Link href="/#technologies">
+                  <span>&#91;</span>
                   Technologies
-                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                  <span>&#93;</span>
                 </Link>
               </li>
-              <li className={styles.footer_navigation_item} tabIndex={0}>
-                <Link
-                  className={styles.footer_navigation_link}
-                  href="/#contact"
-                >
-                  <span className={styles.footer_navigation_quote}>&#91;</span>
+              <li className={styles.footer_nav_item} tabIndex={0}>
+                <Link href="/#contact">
+                  <span>&#91;</span>
                   Contact
-                  <span className={styles.footer_navigation_quote}>&#93;</span>
+                  <span>&#93;</span>
                 </Link>
               </li>
             </ul>

@@ -1,36 +1,36 @@
 .container {
-    margin: 0 auto;
-    box-sizing: border-box;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .container__overflow_initial {
-    overflow: visible;
+  overflow: visible;
 }
 
 /* Mobile view - up to 768px */
 @media screen and (min-width: 360px) {
-    .container {
-        max-width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        max-width: 360px;
-    }
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 360px;
+  }
 }
 
 /* Tablet view - 768px to 1440px */
-@media screen and (min-width: 768px)  {
-    .container {
-        max-width: 768px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 /* Desktop view - 1440px and above */
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding-left: 140px;
-        padding-right: 140px;
-    }
+  .container {
+    max-width: 1440px;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
 }
