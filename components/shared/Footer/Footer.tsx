@@ -31,8 +31,7 @@ const Footer = () => {
             <h5 className={styles.footer_nav_title}>Navigation</h5>
             <ul className={styles.footer_nav_list}>
               <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#about-us"
-                >
+                <Link href="/#about-us">
                   <span>&#91;</span>
                   About
                   <span className={styles.footer_nav_dash}>&#95;</span>
@@ -41,32 +40,28 @@ const Footer = () => {
                 </Link>
               </li>
               <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#services"
-                >
+                <Link href="/#services">
                   <span>&#91;</span>
                   Services
                   <span>&#93;</span>
                 </Link>
               </li>
               <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#features"
-                >
+                <Link href="/#features">
                   <span>&#91;</span>
                   Features
                   <span>&#93;</span>
                 </Link>
               </li>
               <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#technologies"
-                >
+                <Link href="/#technologies">
                   <span>&#91;</span>
                   Technologies
                   <span>&#93;</span>
                 </Link>
               </li>
               <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#contact"
-                >
+                <Link href="/#contact">
                   <span>&#91;</span>
                   Contact
                   <span>&#93;</span>

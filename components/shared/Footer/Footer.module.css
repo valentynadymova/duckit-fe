@@ -59,16 +59,15 @@
 }
 
 .footer_nav_item .footer_nav_dash {
-  display: inline; 
+  display: inline;
   opacity: 1;
-
 }
 
 .footer_nav_item:hover span,
 .footer_nav_item:hover .footer_nav_dash {
-  display: inline; 
+  display: inline;
   opacity: 1;
-  color: #f2cb12; 
+  color: #f2cb12;
 }
 
 @starting-style {
@@ -76,10 +75,6 @@
     opacity: 0;
   }
 }
-
-
-
-
 
 /* ------------address------------ */
 
