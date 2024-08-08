@@ -218,60 +218,61 @@ const OurFeatures = () => {
               />
             </picture> */}
             <div className={styles.ourfeatures_wrap_img_tailored_general}>
-
               <div className={styles.ourfeatures_wrap_img_tailored}>
                 <ul className={styles.ourfeatures_img_tailored_list}>
-               <li className={styles.ourfeatures_people_item}>
-                <Image
-                  className={styles.ourfeatures_img_people}
-                  alt="people"
-                  width={32}
-                  height={32}
-                  src="/images/people.png"
-                />
-                <p className={styles.ourfeatures_text_people}>Duck_IT team</p>
+                  <li className={styles.ourfeatures_people_item}>
+                    <Image
+                      className={styles.ourfeatures_img_people}
+                      alt="people"
+                      width={32}
+                      height={32}
+                      src="/images/people.png"
+                    />
+                    <p className={styles.ourfeatures_text_people}>
+                      Duck_IT team
+                    </p>
                   </li>
-<li></li>
-                <Image
-                  className={styles.ourfeatures_img_arrow_left}
-                  alt="arrow-left"
-                  width={32}
-                  height={32}
-                  src="/images/arrow-left.png"
-                  />
                   <li></li>
-                <div className={styles.ourfeatures_wrap_lamp}>
-                <Image
-                  className={styles.ourfeatures_img_lamp}
-                  alt="lamp-on"
-                  width={72}
-                  height={72}
-                  src="/images/lamp-on.png"
-                />
-                <p className={styles.ourfeatures_text_lamp}>
-                  Customized_solutions
-              </p>
-                </div>
-              <li></li>
-                <Image
-                  className={styles.ourfeatures_img_arrow_right}
-                  alt="arrow-right"
-                  width={32}
-                  height={32}
-                  src="/images/arrow-right.png"
-                />
-<li></li>
-                <div className={styles.ourfeatures_wrap_profile}>
                   <Image
-                    className={styles.ourfeatures_img_profile}
-                    alt="profile"
+                    className={styles.ourfeatures_img_arrow_left}
+                    alt="arrow-left"
                     width={32}
                     height={32}
-                    src="/images/profile.png"
+                    src="/images/arrow-left.png"
                   />
-                  <p className={styles.ourfeatures_text_profile}>Customer</p>
-                </div>
-</ul>
+                  <li></li>
+                  <div className={styles.ourfeatures_wrap_lamp}>
+                    <Image
+                      className={styles.ourfeatures_img_lamp}
+                      alt="lamp-on"
+                      width={72}
+                      height={72}
+                      src="/images/lamp-on.png"
+                    />
+                    <p className={styles.ourfeatures_text_lamp}>
+                      Customized_solutions
+                    </p>
+                  </div>
+                  <li></li>
+                  <Image
+                    className={styles.ourfeatures_img_arrow_right}
+                    alt="arrow-right"
+                    width={32}
+                    height={32}
+                    src="/images/arrow-right.png"
+                  />
+                  <li></li>
+                  <div className={styles.ourfeatures_wrap_profile}>
+                    <Image
+                      className={styles.ourfeatures_img_profile}
+                      alt="profile"
+                      width={32}
+                      height={32}
+                      src="/images/profile.png"
+                    />
+                    <p className={styles.ourfeatures_text_profile}>Customer</p>
+                  </div>
+                </ul>
               </div>
             </div>
           </li>
