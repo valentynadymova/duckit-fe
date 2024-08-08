@@ -31,15 +31,13 @@
 .ourfeatures_item_title {
   font-size: 24px;
   margin-bottom: 12px;
+
 }
 
 .ourfeatures_item_text {
   font-size: 14px;
   color: #848484;
   margin-bottom: 16px;
-}
-
-.ourfeatures_img {
 }
 
 .ourfeatures_list_subtitle {
@@ -88,55 +86,15 @@ ul li .ourfeatures_item_subtitle_three {
 }
 /* -------------------------------------------------------- */
 
-/* .ourfeatures_wrap_img_tailored_general {
-  background-color: #191a1d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
 
-.ourfeatures_wrap_img_tailored {
-  position: relative;
-  width: 624px;
-  height: 299px;
-  
-}
 
-.ourfeatures_wrap_people,
-.ourfeatures_img_arrow_left,
-.ourfeatures_wrap_lamp,
-.ourfeatures_img_arrow_right,
-.ourfeatures_wrap_profile {
-  position: absolute;
-}
+/*
+
 
 .ourfeatures_wrap_people {
   top: 42.5%;
   left: 0; 
 }
-
-.ourfeatures_img_people {
-    width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: #2b2b2b;
-  box-shadow: 0 0 0 12px #2b2b2b;
-}
-
-.ourfeatures_text_people {
-font-family: var(--font-fira-code);
-font-size: 14px;
-font-weight: 450;
-line-height: 1.5;
-color: #FFCC01;
-background-color: #2B2B2B;
-border: 1px solid #5E5E5E;
-padding: 4px 10px 4px 10px;
-border-radius: 28px;
-}
-
 
 
 
@@ -154,26 +112,6 @@ border-radius: 28px;
   left: 50%;
 }
 
-.ourfeatures_img_lamp{
-    width: 72px;
-  height: 72px;
-  transform: translate(-50%, -50%);
-  animation: glowBulb 3s infinite;
-}
-
-.ourfeatures_text_lamp{
-    font-family: var(--font-fira-code);
-font-size: 16px;
-font-weight: 450;
-line-height: 1.5;
-color: #FFCC01;
-background-color: #2B2B2B;
-border: 1px solid #5E5E5E;
-padding: 8px 10px 8px 10px;
-border-radius: 11px;
-}
-
-
 
 .ourfeatures_img_arrow_right {
   top: 48%;
@@ -189,29 +127,13 @@ border-radius: 11px;
   left: 95%;
 }
 
-.ourfeatures_img_profile{
-   width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: #2b2b2b;
-  box-shadow: 0 0 0 12px #2b2b2b;
-}
-
-.ourfeatures_text_profile{
-  font-family: var(--font-fira-code);
-font-size: 14px;
-font-weight: 450;
-line-height: 1.5;
-color: #FFCC01;
-background-color: #2B2B2B;
-border: 1px solid #5E5E5E;
-padding: 4px 10px 4px 10px;
-border-radius: 28px;
-}
 
 
 
-.ourfeatures_text_profile{}
+
+
+
+
 
 @keyframes moveTeam {
   0% {
@@ -245,17 +167,262 @@ border-radius: 28px;
   100% {
     right: 100px;
   }
-} */
+}  */
 
 /* ------------------------------------------- */
 
+
 .ourfeatures_wrap_img_tailored_general {
-  width: 624px;
-  height: 299px;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center; 
+  margin: 0 auto;
+  max-width: 668px; 
+  height: 334px; 
+  box-sizing: border-box;
+}
+
+.ourfeatures_img_tailored_list {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%; 
 }
 
 .ourfeatures_wrap_img_tailored {
+  position: absolute; 
 }
+/* ------------------------------ */
+.ourfeatures_item_people{
+display: flex;
+flex-direction: column;
+gap: 19px;
+align-items: center;
+justify-content: center;
+  position: relative;
+}
+
+.ourfeatures_img_people {
+  border-radius: 50%;
+  background-color: #2b2b2b;
+  box-shadow: 0 0 0 12px #2b2b2b;
+}
+
+.ourfeatures_text_people {
+font-family: var(--font-fira-code);
+font-size: 14px;
+font-weight: 450;
+line-height: 1.5;
+color: #FFCC01;
+background-color: #2B2B2B;
+border: 1px solid #5E5E5E;
+padding: 4px 10px 4px 10px;
+border-radius: 28px;
+}
+
+
+/* -------------------- */
+
+.ourfeatures_item_arrow_left {
+ position: absolute; /* Позиционирование по абсолютным координатам */
+  left: 110px; /* Отступ слева, чтобы стрелка располагалась правильно */
+  top: 50%; /* Центрирование по вертикали */
+  width: 32px;
+  height: 32px;
+  transform: translateY(-50%);
+  animation: moveTeam 8s infinite alternate;
+}
+
+
+
+/* ------------------------ */
+
+.ourfeatures_text_lamp{
+    font-family: var(--font-fira-code);
+font-size: 16px;
+font-weight: 450;
+line-height: 1.5;
+color: #FFCC01;
+background-color: #2B2B2B;
+border: 1px solid #5E5E5E;
+padding: 8px 10px 8px 10px;
+border-radius: 11px;
+}
+
+.ourfeatures_item_lamp{
+display: flex;
+flex-direction: column;
+gap: 83px;
+align-items: center;
+justify-content: center;
+  position: relative;
+}
+
+
+.ourfeatures_img_lamp {
+  animation: blinkLamp 2s infinite;
+}
+
+/* ------------------ */
+
+.ourfeatures_item_arrow_right {
+  position: absolute; /* Позиционирование по абсолютным координатам */
+  right: 110px; /* Отступ справа, чтобы стрелка располагалась правильно */
+  top: 50%; /* Центрирование по вертикали */
+  width: 32px;
+  height: 32px;
+  transform: translateY(-50%);
+  animation: moveCustomer 8s infinite alternate;
+}
+
+
+
+
+/* ---------------------- */
+
+.ourfeatures_img_profile{
+  border-radius: 50%;
+  background-color: #2b2b2b;
+  box-shadow: 0 0 0 12px #2b2b2b;
+}
+
+.ourfeatures_text_profile {
+  font-family: var(--font-fira-code);
+font-size: 14px;
+font-weight: 450;
+line-height: 1.5;
+color: #FFCC01;
+background-color: #2B2B2B;
+border: 1px solid #5E5E5E;
+padding: 4px 10px 4px 10px;
+border-radius: 28px;
+}
+
+.ourfeatures_item_profile{
+display: flex;
+flex-direction: column;
+gap: 19px;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+
+
+/* ---------------------- */
+.ourfeatures_wrap_img_tailored {
+  position: absolute;
+}
+
+.ourfeatures_img_tailored_list li {
+  position: relative;
+}
+
+
+/* ----------------- */
+
+@keyframes moveTeam {
+  0% {
+    left: 100px;
+  }
+  50% {
+    left: 30%;
+  }
+  100% {
+    left: 100px;
+  }
+}
+
+
+@keyframes moveCustomer {
+  0% {
+    right: 100px; 
+  }
+  50% {
+    right: 30%;
+  }
+  100% {
+    right: 100px;
+  } 
+}
+
+
+@keyframes blinkLamp {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------Пульсация текста-------------------------- */
+
+/* @keyframes pulseText {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.ourfeatures_text_people,
+.ourfeatures_text_lamp,
+.ourfeatures_text_profile {
+  animation: pulseText 1s infinite;
+} */
+/* -------------------Движение элементов------------------------------ */
+
+/* @keyframes moveLamp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.ourfeatures_item_lamp {
+  animation: moveLamp 4s infinite ease-in-out;
+} */
+
+
+/* ------------ Вращение иконки--------------- */
+
+/* @keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ourfeatures_img_people {
+  animation: rotateIcon 5s infinite linear;
+} */
+
+/* --------------------------------------------------- */
