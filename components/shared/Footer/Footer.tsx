@@ -27,49 +27,50 @@ const Footer = () => {
               Privacy policy
             </Link>
           </div>
-          <nav className={styles.footer_wrap_nav}>
+          <div className={styles.footer_wrap_nav_title}>
             <h5 className={styles.footer_nav_title}>Navigation</h5>
-            <ul className={styles.footer_nav_list}>
-              <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#about-us">
-                  <span>&#91;</span>
-                  About
-                  <span className={styles.footer_nav_dash}>&#95;</span>
-                  us
-                  <span>&#93;</span>
-                </Link>
-              </li>
-              <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#services">
-                  <span>&#91;</span>
-                  Services
-                  <span>&#93;</span>
-                </Link>
-              </li>
-              <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#features">
-                  <span>&#91;</span>
-                  Features
-                  <span>&#93;</span>
-                </Link>
-              </li>
-              <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#technologies">
-                  <span>&#91;</span>
-                  Technologies
-                  <span>&#93;</span>
-                </Link>
-              </li>
-              <li className={styles.footer_nav_item} tabIndex={0}>
-                <Link href="/#contact">
-                  <span>&#91;</span>
-                  Contact
-                  <span>&#93;</span>
-                </Link>
-              </li>
-            </ul>
-          </nav>
-
+            <nav className={styles.footer_wrap_nav}>
+              <ul className={styles.footer_nav_list}>
+                <li className={styles.footer_nav_item} tabIndex={0}>
+                  <Link href="/#about-us">
+                    <span>&#91;</span>
+                    About
+                    <span className={styles.footer_nav_dash}>&#95;</span>
+                    us
+                    <span>&#93;</span>
+                  </Link>
+                </li>
+                <li className={styles.footer_nav_item} tabIndex={0}>
+                  <Link href="/#services">
+                    <span>&#91;</span>
+                    Services
+                    <span>&#93;</span>
+                  </Link>
+                </li>
+                <li className={styles.footer_nav_item} tabIndex={0}>
+                  <Link href="/#features">
+                    <span>&#91;</span>
+                    Features
+                    <span>&#93;</span>
+                  </Link>
+                </li>
+                <li className={styles.footer_nav_item} tabIndex={0}>
+                  <Link href="/#technologies">
+                    <span>&#91;</span>
+                    Technologies
+                    <span>&#93;</span>
+                  </Link>
+                </li>
+                <li className={styles.footer_nav_item} tabIndex={0}>
+                  <Link href="/#contact">
+                    <span>&#91;</span>
+                    Contact
+                    <span>&#93;</span>
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
           <div className={styles.footer_wrap_adrress}>
             <h5 className={styles.footer_adrress_title} id="contact">
               Contacts

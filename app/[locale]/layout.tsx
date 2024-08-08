@@ -25,6 +25,7 @@ const RootLayout = async ({
   params: { locale: string };
 }) => {
   // const messages = await getMessages();
+
   return (
     <html lang={locale} className={`${sora.variable} ${firaCode.variable}`}>
       <head>
