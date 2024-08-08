@@ -15,7 +15,11 @@
 .footer_wrap_logo {
   padding: 0px 0px 20px 0px;
   border-bottom: 1px solid #2b2c2f;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
+
 .footer_logo_link {
 }
 
@@ -32,8 +36,7 @@
 }
 
 /* --------navigation---------- */
-
-.footer_wrap_nav {
+.footer_wrap_nav_title {
 }
 
 .footer_nav_title {
@@ -41,6 +44,9 @@
   color: #f2cb12;
   font-weight: 400;
   margin-bottom: 16px;
+}
+
+.footer_wrap_nav {
 }
 
 .footer_nav_item {
@@ -54,7 +60,7 @@
 .footer_nav_item span,
 .footer_nav_item .footer_nav_dash {
   opacity: 0;
-  transition: opacity 1.1s allow-discrete;
+  transition: opacity 0.2s allow-discrete;
   display: none;
 }
 

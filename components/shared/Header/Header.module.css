@@ -40,12 +40,11 @@
 
 .header_mob_tab_wrap_nav {
   position: absolute;
-  top: 75px;
+  top: 73px;
   left: 0;
   right: 0;
   width: 100vw;
-  /* добавить media для height от 768 28-30vh */
-  height: 350px;
+  height: 337px;
   z-index: 10;
   padding: 20px 15px 0 15px;
   display: flex;
@@ -73,28 +72,46 @@
   border-bottom: none;
 }
 
-.header_mob_tab_nav_item span,
-.header_mob_tab_nav_item .header_mob_nav_dash {
-  opacity: 0;
-  transition: opacity 1.1s allow-discrete;
+.header_mob_tab_nav_item span {
+  color: #f2cb12;
   display: none;
 }
 
 .header_mob_tab_nav_item .header_mob_nav_dash {
   display: inline;
-  opacity: 1;
+  color: inherit;
 }
 
 .header_mob_tab_nav_item:hover span,
 .header_mob_tab_nav_item:hover .header_mob_nav_dash {
   display: inline;
-  opacity: 1;
   color: #f2cb12;
 }
 
-@starting-style {
-  .header_mob_tab_nav_item:hover span {
-    opacity: 0;
+/* -------------------tablet---------------------------- */
+
+@media screen and (min-width: 768px) {
+  .header_mob_tab_logo_link {
+    width: 106px;
+    height: 62px;
+  }
+
+  .header_mob_tab_wrap_nav {
+    top: 92px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 381px;
+    z-index: 10;
+    padding: 32px 30px 0px 30px;
+    gap: 32px;
+  }
+  .header_mob_tab_nav_item {
+    padding: 20px 0;
+  }
+
+  .header {
+    padding-top: 30px;
   }
 }
 
@@ -128,35 +145,3 @@
 }
 
 /* ----------------------------------------- */
-/* .header_mobile_navigation_quote,
-.header_tablet_navigation_quote {
-  opacity: 0;
-  height: 0;
-  display: inline-block;
-  overflow: hidden;
-  transition: opacity 0.5s ease, height 0.5s ease;
-}
-
-.header_mobile_navigation_link:hover .header_mobile_navigation_quote,
-.header_mobile_navigation_link:focus .header_mobile_navigation_quote,
-.header_mobile_navigation_link:active .header_mobile_navigation_quote,
-.header_tablet_navigation_link:hover .header_tablet_navigation_quote,
-.header_tablet_navigation_link:focus .header_tablet_navigation_quote,
-.header_tablet_navigation_link:active .header_tablet_navigation_quote {
-  opacity: 1;
-  height: auto;
-}  */
-
-/* .header_desk_nav_item span {
-    opacity: 0;
-  height: 0;
-  display: inline-block;
-  overflow: hidden;
-  transition: opacity 0.5s ease, height 0.5s ease;
-}
-
-
-.header_desk_nav_item span:hover {
-    opacity: 1;
-  height: auto;
-} */

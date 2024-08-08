@@ -171,7 +171,7 @@ const OurFeatures = () => {
               each client&#8217;s unique needs and goals&#44; ensuring
               satisfaction and success&#46;
             </p>
-            <picture>
+            {/* <picture>
               <source
                 srcSet=" 1x,
                      2x"
@@ -216,7 +216,64 @@ const OurFeatures = () => {
                 className={styles.ourfeatures_img}
                 loading="lazy"
               />
-            </picture>
+            </picture> */}
+            <div className={styles.ourfeatures_wrap_img_tailored_general}>
+
+              <div className={styles.ourfeatures_wrap_img_tailored}>
+                <ul className={styles.ourfeatures_img_tailored_list}>
+               <li className={styles.ourfeatures_people_item}>
+                <Image
+                  className={styles.ourfeatures_img_people}
+                  alt="people"
+                  width={32}
+                  height={32}
+                  src="/images/people.png"
+                />
+                <p className={styles.ourfeatures_text_people}>Duck_IT team</p>
+                  </li>
+<li></li>
+                <Image
+                  className={styles.ourfeatures_img_arrow_left}
+                  alt="arrow-left"
+                  width={32}
+                  height={32}
+                  src="/images/arrow-left.png"
+                  />
+                  <li></li>
+                <div className={styles.ourfeatures_wrap_lamp}>
+                <Image
+                  className={styles.ourfeatures_img_lamp}
+                  alt="lamp-on"
+                  width={72}
+                  height={72}
+                  src="/images/lamp-on.png"
+                />
+                <p className={styles.ourfeatures_text_lamp}>
+                  Customized_solutions
+              </p>
+                </div>
+              <li></li>
+                <Image
+                  className={styles.ourfeatures_img_arrow_right}
+                  alt="arrow-right"
+                  width={32}
+                  height={32}
+                  src="/images/arrow-right.png"
+                />
+<li></li>
+                <div className={styles.ourfeatures_wrap_profile}>
+                  <Image
+                    className={styles.ourfeatures_img_profile}
+                    alt="profile"
+                    width={32}
+                    height={32}
+                    src="/images/profile.png"
+                  />
+                  <p className={styles.ourfeatures_text_profile}>Customer</p>
+                </div>
+</ul>
+              </div>
+            </div>
           </li>
         </ul>
       </Container>

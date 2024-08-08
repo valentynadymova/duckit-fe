@@ -18,6 +18,7 @@ const HeaderMobile: React.FC<IHeaderMobile> = ({ isOpen, onToggle }) => {
     <>
       <Link href="/">
         <Image
+          className={styles.header_mob_tab_logo_link}
           alt="logo-duck"
           width={90}
           height={53}
