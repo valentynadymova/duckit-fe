@@ -39,8 +39,7 @@
 .footer_wrap_nav_title {
 }
 
-.footer_nav_title {
-.footer_nav_title {
+.footer_nav_title  {
   font-size: 14px;
   color: #f2cb12;
   font-weight: 400;
@@ -54,7 +53,6 @@
   margin-bottom: 16px;
 }
 
-.footer_nav_item link {
 .footer_nav_item link {
   font-size: 14px;
 }
@@ -75,9 +73,6 @@
 .footer_nav_item:hover .footer_nav_dash {
   display: inline;
   opacity: 1;
-.footer_nav_item .footer_nav_dash {
-  display: inline;
-  opacity: 1;
 }
 
 .footer_nav_item:hover span,
@@ -91,6 +86,7 @@
   .footer_nav_item:hover span {
     opacity: 0;
   }
+}
 @starting-style {
   .footer_nav_item:hover span {
     opacity: 0;
