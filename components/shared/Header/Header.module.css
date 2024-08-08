@@ -77,7 +77,6 @@
   display: none;
 }
 
-
 .header_mob_tab_nav_item .header_mob_nav_dash {
   display: inline;
   color: inherit;
@@ -85,7 +84,6 @@
 
 .header_mob_tab_nav_item:hover span,
 .header_mob_tab_nav_item:hover .header_mob_nav_dash {
- 
   display: inline;
   color: #f2cb12;
 }

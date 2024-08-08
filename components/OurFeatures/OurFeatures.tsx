@@ -84,7 +84,6 @@ const OurFeatures = () => {
             <div className={styles.ourfeatures_wrap_img_tailored_general}>
               <div className={styles.ourfeatures_wrap_img_tailored}>
                 <ul className={styles.ourfeatures_img_tailored_list}>
-
                   <li className={styles.ourfeatures_item_people}>
                     <Image
                       className={styles.ourfeatures_img_people}
@@ -99,16 +98,16 @@ const OurFeatures = () => {
                   </li>
 
                   <li className={styles.ourfeatures_item_arrow_left}>
-                  <Image
-                    className={styles.ourfeatures_img_arrow_left}
-                    alt="arrow-left"
-                    width={32}
-                    height={32}
-                    src="/images/arrow-left.png"
-                  />
+                    <Image
+                      className={styles.ourfeatures_img_arrow_left}
+                      alt="arrow-left"
+                      width={32}
+                      height={32}
+                      src="/images/arrow-left.png"
+                    />
                   </li>
 
-                  <li  className={styles.ourfeatures_item_lamp}>
+                  <li className={styles.ourfeatures_item_lamp}>
                     <Image
                       className={styles.ourfeatures_img_lamp}
                       alt="lamp-on"
@@ -120,17 +119,17 @@ const OurFeatures = () => {
                       Customized_solutions
                     </p>
                   </li>
-                  
+
                   <li className={styles.ourfeatures_item_arrow_right}>
-                  <Image
-                    className={styles.ourfeatures_img_arrow_right}
-                    alt="arrow-right"
-                    width={32}
-                    height={32}
-                    src="/images/arrow-right.png"
+                    <Image
+                      className={styles.ourfeatures_img_arrow_right}
+                      alt="arrow-right"
+                      width={32}
+                      height={32}
+                      src="/images/arrow-right.png"
                     />
                   </li>
-                  
+
                   <li className={styles.ourfeatures_item_profile}>
                     <Image
                       className={styles.ourfeatures_img_profile}
@@ -141,7 +140,6 @@ const OurFeatures = () => {
                     />
                     <p className={styles.ourfeatures_text_profile}>Customer</p>
                   </li>
-                  
                 </ul>
               </div>
             </div>
