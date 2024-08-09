@@ -97,14 +97,9 @@ ul li .ourfeatures_item_subtitle_three {
 
 .ourfeatures_img_tailored_list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  position: absolute;
 }
 
-/* .ourfeatures_wrap_img_tailored {
-  position: absolute; 
-} */
 /* ------------------------------ */
 
 .ourfeatures_item_people {
@@ -114,7 +109,22 @@ ul li .ourfeatures_item_subtitle_three {
   align-items: center;
   justify-content: center;
   position: relative;
-  right: 13.5%;
+  right: -1%;
+  top: 12px;
+}
+
+.decor_people {
+  position: relative;
+}
+
+.decor_people::before {
+  content: '';
+  position: absolute;
+  width: 462px;
+  top: 41%;
+  left: 72%;
+  border: 1px solid #6868683d;
+  opacity: 24%;
 }
 
 .ourfeatures_img_people {
@@ -139,14 +149,71 @@ ul li .ourfeatures_item_subtitle_three {
 
 .ourfeatures_item_arrow_left {
   position: relative;
-  left: 56px;
-  width: 32px;
-  height: 32px;
-  transform: translateY(-50%);
-  animation: moveTeam 8s infinite alternate;
+  left: -3.5%;
+  top: 115px;
+}
+
+.ourfeatures_img_wrap_arrow_left,
+.ourfeatures_item_wrap_arrow_right {
+  display: flex;
+}
+
+.ourfeatures_item_wrap_arrow_left,
+.ourfeatures_item_wrap_arrow_right {
+  display: flex;
+}
+
+.ourfeatures_item_arrow_right {
+  position: relative;
+  left: 1%;
+  top: 115px;
 }
 
 /* ------------------------ */
+
+.ourfeatures_item_lamp {
+  position: relative;
+  top: -8px;
+}
+
+.outer_circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #4c441f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #242526;
+}
+
+.circle_second {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background-color: #1e1f22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourfeatures_img_lamp {
+  animation: blinkLamp 2s infinite;
+  position: relative;
+  left: 0px;
+  top: 20px;
+}
+
 .ourfeatures_text_lamp {
   font-family: var(--font-fira-code);
   font-size: 16px;
@@ -157,39 +224,37 @@ ul li .ourfeatures_item_subtitle_three {
   border: 1px solid #5e5e5e;
   padding: 8px 10px 8px 10px;
   border-radius: 11px;
-}
-
-.ourfeatures_item_lamp {
-  display: flex;
-  flex-direction: column;
-  gap: 83px;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  top: 50px;
+  top: 100px;
+  left: 0px;
 }
 
-.ourfeatures_img_lamp {
-  animation: blinkLamp 2s infinite;
-}
-
-/* ------------------ */
-
-.ourfeatures_item_arrow_right {
-  position: relative;
-  left: 56px;
-  width: 32px;
-  height: 32px;
-  transform: translateY(-50%);
-  animation: moveCustomer 8s infinite alternate;
+@keyframes blinkLamp {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
 
 /* ---------------------- */
 
-.ourfeatures_img_profile {
-  border-radius: 50%;
-  background-color: #2b2b2b;
-  box-shadow: 0 0 0 12px #2b2b2b;
+.ourfeatures_item_profile {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -1%;
+  top: 12px;
+  z-index: 5;
+}
+
+.decor_profile {
+  position: relative;
 }
 
 .ourfeatures_text_profile {
@@ -204,52 +269,39 @@ ul li .ourfeatures_item_subtitle_three {
   border-radius: 28px;
 }
 
-.ourfeatures_item_profile {
-  display: flex;
-  flex-direction: column;
-  gap: 19px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  left: 13.5%;
+.ourfeatures_img_profile {
+  border-radius: 50%;
+  background-color: #2b2b2b;
+  box-shadow: 0 0 0 12px #2b2b2b;
 }
 
 /* ---------------------- */
-/* .ourfeatures_wrap_img_tailored {
-  position: absolute;
-} */
 
-/* .ourfeatures_img_tailored_list li {
-  position: relative;
-} */
-
-/* ----------------- */
-
-@keyframes moveTeam {
+/* @keyframes moveTeam {
   0% {
-    left: 100px;
+    left: 50px;
   }
   50% {
     left: 30%;
   }
   100% {
-    left: 100px;
+    left: 50px;
   }
 }
 
 @keyframes moveCustomer {
   0% {
-    right: 100px;
+    right: 70px;
   }
   50% {
     right: 30%;
   }
   100% {
-    right: 100px;
+    right: 70px;
   }
-}
+} */
 
-@keyframes blinkLamp {
+/* @keyframes blinkLamp {
   0%,
   100% {
     opacity: 1;
@@ -257,7 +309,7 @@ ul li .ourfeatures_item_subtitle_three {
   50% {
     opacity: 0.5;
   }
-}
+} */
 
 /* ----------------Пульсация текста-------------------------- */
 
