@@ -60,6 +60,7 @@ const OurFeatures = () => {
               </li>
             </ul>
           </li>
+
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
               Comprehensive tech stack
@@ -82,66 +83,114 @@ const OurFeatures = () => {
             </p>
 
             <div className={styles.ourfeatures_wrap_img_tailored_general}>
-              <div className={styles.ourfeatures_wrap_img_tailored}>
-                <ul className={styles.ourfeatures_img_tailored_list}>
-                  <li className={styles.ourfeatures_item_people}>
-                    <Image
-                      className={styles.ourfeatures_img_people}
-                      alt="people"
-                      width={32}
-                      height={32}
-                      src="/images/people.png"
-                    />
-                    <p className={styles.ourfeatures_text_people}>
-                      Duck_IT team
-                    </p>
-                  </li>
+              <ul className={styles.ourfeatures_img_tailored_list}>
+                <li
+                  className={`${styles.ourfeatures_item_people} ${styles.decor_people}`}
+                >
+                  <Image
+                    className={styles.ourfeatures_img_people}
+                    alt="people"
+                    width={32}
+                    height={32}
+                    src="/images/people.svg"
+                  />
+                  <p className={styles.ourfeatures_text_people}>Duck_IT team</p>
+                </li>
 
-                  <li className={styles.ourfeatures_item_arrow_left}>
-                    <Image
-                      className={styles.ourfeatures_img_arrow_left}
-                      alt="arrow-left"
-                      width={32}
-                      height={32}
-                      src="/images/arrow-left.png"
-                    />
-                  </li>
+                <li className={styles.ourfeatures_item_arrow_left}>
+                  <ul className={styles.ourfeatures_item_wrap_arrow_left}>
+                    <li>
+                      <Image
+                        className={styles.ourfeatures_img_arrow_left}
+                        alt="arrow-left"
+                        width={24}
+                        height={24}
+                        src="/images/arrow-left.svg"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className={styles.ourfeatures_img_arrow_left}
+                        alt="arrow-left"
+                        width={24}
+                        height={24}
+                        src="/images/arrow-left.svg"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className={styles.ourfeatures_img_arrow_left}
+                        alt="arrow-left"
+                        width={24}
+                        height={24}
+                        src="/images/arrow-left.svg"
+                      />
+                    </li>
+                  </ul>
+                </li>
 
-                  <li className={styles.ourfeatures_item_lamp}>
-                    <Image
-                      className={styles.ourfeatures_img_lamp}
-                      alt="lamp-on"
-                      width={72}
-                      height={72}
-                      src="/images/lamp-on.png"
-                    />
-                    <p className={styles.ourfeatures_text_lamp}>
-                      Customized_solutions
-                    </p>
-                  </li>
+                <li className={styles.ourfeatures_item_lamp}>
+                  <div className={styles.circle_second}>
+                    <div className={styles.circle_first}>
+                      <div className={styles.outer_circle}>
+                        <Image
+                          className={styles.ourfeatures_img_lamp}
+                          alt="lamp-on"
+                          width={72}
+                          height={72}
+                          src="/images/lamp-on.svg"
+                        />
+                        <p className={styles.ourfeatures_text_lamp}>
+                          Customized_solutions
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
 
-                  <li className={styles.ourfeatures_item_arrow_right}>
-                    <Image
-                      className={styles.ourfeatures_img_arrow_right}
-                      alt="arrow-right"
-                      width={32}
-                      height={32}
-                      src="/images/arrow-right.png"
-                    />
-                  </li>
+                <li className={styles.ourfeatures_item_arrow_right}>
+                  <ul className={styles.ourfeatures_item_wrap_arrow_right}>
+                    <li>
+                      <Image
+                        className={styles.ourfeatures_img_arrow_right}
+                        alt="arrow-right"
+                        width={24}
+                        height={24}
+                        src="/images/arrow-right.svg"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className={styles.ourfeatures_img_arrow_right}
+                        alt="arrow-right"
+                        width={24}
+                        height={24}
+                        src="/images/arrow-right.svg"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className={styles.ourfeatures_img_arrow_right}
+                        alt="arrow-right"
+                        width={24}
+                        height={24}
+                        src="/images/arrow-right.svg"
+                      />
+                    </li>
+                  </ul>
+                </li>
 
-                  <li className={styles.ourfeatures_item_profile}>
-                    <Image
-                      className={styles.ourfeatures_img_profile}
-                      alt="profile"
-                      width={32}
-                      height={32}
-                      src="/images/profile.png"
-                    />
-                    <p className={styles.ourfeatures_text_profile}>Customer</p>
-                  </li>
-                </ul>
-              </div>
+                <li className={styles.ourfeatures_item_profile}>
+                  <Image
+                    className={styles.ourfeatures_img_profile}
+                    alt="profile"
+                    width={32}
+                    height={32}
+                    src="/images/profile.svg"
+                  />
+                  <p className={styles.ourfeatures_text_profile}>Customer</p>
+                </li>
+              </ul>
             </div>
           </li>
         </ul>
