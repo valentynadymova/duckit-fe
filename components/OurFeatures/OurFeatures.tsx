@@ -97,36 +97,10 @@ const OurFeatures = () => {
                   <p className={styles.ourfeatures_text_people}>Duck_IT team</p>
                 </li>
 
-                <li className={styles.ourfeatures_item_arrow_left}>
-                  <ul className={styles.ourfeatures_item_wrap_arrow_left}>
-                    <li>
-                      <Image
-                        className={styles.ourfeatures_img_arrow_left}
-                        alt="arrow-left"
-                        width={24}
-                        height={24}
-                        src="/images/arrow-left.svg"
-                      />
-                    </li>
-                    <li>
-                      <Image
-                        className={styles.ourfeatures_img_arrow_left}
-                        alt="arrow-left"
-                        width={24}
-                        height={24}
-                        src="/images/arrow-left.svg"
-                      />
-                    </li>
-                    <li>
-                      <Image
-                        className={styles.ourfeatures_img_arrow_left}
-                        alt="arrow-left"
-                        width={24}
-                        height={24}
-                        src="/images/arrow-left.svg"
-                      />
-                    </li>
-                  </ul>
+                <li className={styles.ourfeatures_arrow_left}>
+                  <span></span>
+                  <span></span>
+                  <span></span>
                 </li>
 
                 <li className={styles.ourfeatures_item_lamp}>
@@ -140,7 +114,6 @@ const OurFeatures = () => {
                           height={72}
                           src="/images/lamp-on.svg"
                         />
-
                         <p className={styles.ourfeatures_text_lamp}>
                           Customized_solutions
                         </p>
@@ -149,39 +122,15 @@ const OurFeatures = () => {
                   </div>
                 </li>
 
-                <li className={styles.ourfeatures_item_arrow_right}>
-                  <ul className={styles.ourfeatures_item_wrap_arrow_right}>
-                    <li>
-                      <Image
-                        className={styles.ourfeatures_img_arrow_right}
-                        alt="arrow-right"
-                        width={24}
-                        height={24}
-                        src="/images/arrow-right.svg"
-                      />
-                    </li>
-                    <li>
-                      <Image
-                        className={styles.ourfeatures_img_arrow_right}
-                        alt="arrow-right"
-                        width={24}
-                        height={24}
-                        src="/images/arrow-right.svg"
-                      />
-                    </li>
-                    <li>
-                      <Image
-                        className={styles.ourfeatures_img_arrow_right}
-                        alt="arrow-right"
-                        width={24}
-                        height={24}
-                        src="/images/arrow-right.svg"
-                      />
-                    </li>
-                  </ul>
+                <li className={styles.ourfeatures_arrow_right}>
+                  <span></span>
+                  <span></span>
+                  <span></span>
                 </li>
 
-                <li className={styles.ourfeatures_item_profile}>
+                <li
+                  className={`${styles.ourfeatures_item_profile} ${styles.decor_profile}`}
+                >
                   <Image
                     className={styles.ourfeatures_img_profile}
                     alt="profile"
