@@ -153,11 +153,6 @@ ul li .ourfeatures_item_subtitle_three {
   top: 115px;
 }
 
-.ourfeatures_img_wrap_arrow_left,
-.ourfeatures_item_wrap_arrow_right {
-  display: flex;
-}
-
 .ourfeatures_item_wrap_arrow_left,
 .ourfeatures_item_wrap_arrow_right {
   display: flex;
@@ -169,6 +164,65 @@ ul li .ourfeatures_item_subtitle_three {
   top: 115px;
 }
 
+.ourfeatures_img_arrow_left {
+}
+
+@keyframes colorFlow {
+  0% {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+      contrast(100%);
+  }
+  50% {
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(50%)
+      contrast(100%);
+  }
+  100% {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+      contrast(100%);
+  }
+}
+
+/* @keyframes colorFlow {
+  0% {
+   fill: #686868;
+
+  }
+  50% {
+    fill: #2c2c2c;
+  }
+  100% {
+    fill: #686868;
+  }
+} */
+
+.ourfeatures_img_arrow_left:nth-child(1) {
+  animation: colorFlow 3s infinite;
+}
+
+.ourfeatures_img_arrow_left:nth-child(2) {
+  animation: colorFlow 3s infinite;
+  animation-delay: 1s;
+}
+
+.ourfeatures_img_arrow_left:nth-child(3) {
+  animation: colorFlow 3s infinite;
+  animation-delay: 2s;
+}
+
+.ourfeatures_item_wrap_arrow_right:nth-child(1) {
+  animation: colorFlow 3s infinite;
+}
+
+.ourfeatures_item_wrap_arrow_right:nth-child(2) {
+  animation: colorFlow 3s infinite;
+  animation-delay: 1s;
+}
+
+.ourfeatures_item_wrap_arrow_right:nth-child(3) {
+  animation: colorFlow 3s infinite;
+  animation-delay: 2s;
+}
+
 /* ------------------------ */
 
 .ourfeatures_item_lamp {
@@ -177,6 +231,7 @@ ul li .ourfeatures_item_subtitle_three {
 }
 
 .outer_circle {
+  animation: blinkLamp 4s infinite;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -188,6 +243,7 @@ ul li .ourfeatures_item_subtitle_three {
 }
 
 .circle_first {
+  animation: blinkLamp 6s infinite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,6 +254,7 @@ ul li .ourfeatures_item_subtitle_three {
 }
 
 .circle_second {
+  animation: blinkLamp 8s infinite;
   width: 280px;
   height: 280px;
   border-radius: 50%;
@@ -224,6 +281,7 @@ ul li .ourfeatures_item_subtitle_three {
   border: 1px solid #5e5e5e;
   padding: 8px 10px 8px 10px;
   border-radius: 11px;
+  opacity: 1;
   position: relative;
   top: 100px;
   left: 0px;
@@ -274,42 +332,6 @@ ul li .ourfeatures_item_subtitle_three {
   background-color: #2b2b2b;
   box-shadow: 0 0 0 12px #2b2b2b;
 }
-
-/* ---------------------- */
-
-/* @keyframes moveTeam {
-  0% {
-    left: 50px;
-  }
-  50% {
-    left: 30%;
-  }
-  100% {
-    left: 50px;
-  }
-}
-
-@keyframes moveCustomer {
-  0% {
-    right: 70px;
-  }
-  50% {
-    right: 30%;
-  }
-  100% {
-    right: 70px;
-  }
-} */
-
-/* @keyframes blinkLamp {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-} */
 
 /* ----------------Пульсация текста-------------------------- */
 

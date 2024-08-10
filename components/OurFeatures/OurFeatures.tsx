@@ -140,6 +140,7 @@ const OurFeatures = () => {
                           height={72}
                           src="/images/lamp-on.svg"
                         />
+
                         <p className={styles.ourfeatures_text_lamp}>
                           Customized_solutions
                         </p>
