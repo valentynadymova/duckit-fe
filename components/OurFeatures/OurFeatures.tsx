@@ -114,12 +114,14 @@ const OurFeatures = () => {
                           height={72}
                           src="/images/lamp-on.svg"
                         />
-                        <p className={styles.ourfeatures_text_lamp}>
-                          Customized_solutions
-                        </p>
                       </div>
                     </div>
                   </div>
+                </li>
+                <li>
+                  <p className={styles.ourfeatures_text_lamp}>
+                    Customized_solutions
+                  </p>
                 </li>
 
                 <li className={styles.ourfeatures_arrow_right}>
@@ -127,7 +129,6 @@ const OurFeatures = () => {
                   <span></span>
                   <span></span>
                 </li>
-
                 <li
                   className={`${styles.ourfeatures_item_profile} ${styles.decor_profile}`}
                 >
