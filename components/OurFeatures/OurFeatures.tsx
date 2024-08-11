@@ -96,13 +96,11 @@ const OurFeatures = () => {
                   />
                   <p className={styles.ourfeatures_text_people}>Duck_IT team</p>
                 </li>
-
                 <li className={styles.ourfeatures_arrow_left}>
                   <span></span>
                   <span></span>
                   <span></span>
                 </li>
-
                 <li className={styles.ourfeatures_item_lamp}>
                   <div className={styles.circle_second}>
                     <div className={styles.circle_first}>
@@ -120,10 +118,9 @@ const OurFeatures = () => {
                 </li>
                 <li>
                   <p className={styles.ourfeatures_text_lamp}>
-                    Customized_solutions
+                    Customized&#95;solutions
                   </p>
                 </li>
-
                 <li className={styles.ourfeatures_arrow_right}>
                   <span></span>
                   <span></span>
