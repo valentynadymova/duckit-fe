@@ -3,6 +3,7 @@ import Container from '@/hoc/Container';
 import styles from './OurFeatures.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import Lamp from '../icons/Features/Lamp';
 
 const OurFeatures = () => {
   return (
@@ -81,6 +82,13 @@ const OurFeatures = () => {
               each client&#8217;s unique needs and goals&#44; ensuring
               satisfaction and success&#46;
             </p>
+
+            <Lamp
+              width={72}
+              height={72}
+              fill={'#f2cb12'}
+              viewBox={'0 0 72 72'}
+            />
 
             <div className={styles.ourfeatures_wrap_img_tailored_general}>
               <ul className={styles.ourfeatures_img_tailored_list}>
