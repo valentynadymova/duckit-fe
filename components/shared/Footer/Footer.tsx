@@ -4,6 +4,7 @@ import Container from '@/hoc/Container';
 import styles from './Footer.module.css';
 import '@/styles/reset.css';
 import Image from 'next/image';
+import LogoDuck from '../../icons/Footer/LogoDuck';
 
 const Footer = () => {
   return (
@@ -12,13 +13,7 @@ const Footer = () => {
         <div className={styles.footer_wrap_general}>
           <div className={styles.footer_wrap_logo}>
             <Link className={styles.footer_logo_link} href="/">
-              <Image
-                className={styles.footer_logo_svg}
-                alt="logo-duck"
-                width={106}
-                height={62}
-                src="images/logo-duck.svg"
-              />
+              <LogoDuck />
             </Link>
             <p className={styles.footer_logo_text}>
               Web and Mobile Solutions for Your Success

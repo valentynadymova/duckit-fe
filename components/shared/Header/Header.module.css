@@ -91,11 +91,6 @@
 /* -------------------tablet---------------------------- */
 
 @media screen and (min-width: 768px) {
-  .header_mob_tab_logo_link {
-    width: 106px;
-    height: 62px;
-  }
-
   .header_mob_tab_wrap_nav {
     top: 92px;
     left: 0;
