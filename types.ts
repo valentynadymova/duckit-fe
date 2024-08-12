@@ -3,10 +3,11 @@ interface IChildren {
 }
 
 interface ISVG {
-  width?: string;
-  height?: string;
+  width?: number;
+  height?: number;
   fill?: string;
   viewBox?: string;
+  className?: string;
 }
 
 export type { IChildren, ISVG };
