@@ -3,7 +3,7 @@ import Container from '@/hoc/Container';
 import styles from './OurFeatures.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import Lamp from '../icons/Features/Lamp';
+import Lamp from '../icons/Features/Lamp/Lamp';
 
 const OurFeatures = () => {
   return (
@@ -61,7 +61,6 @@ const OurFeatures = () => {
               </li>
             </ul>
           </li>
-
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
               Comprehensive tech stack
@@ -72,7 +71,6 @@ const OurFeatures = () => {
               scalability&#46;
             </p>
           </li>
-
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
               Tailored solutions
@@ -83,12 +81,7 @@ const OurFeatures = () => {
               satisfaction and success&#46;
             </p>
 
-            <Lamp
-              width={72}
-              height={72}
-              fill={'#f2cb12'}
-              viewBox={'0 0 72 72'}
-            />
+            <Lamp />
 
             <div className={styles.ourfeatures_wrap_img_tailored_general}>
               <ul className={styles.ourfeatures_img_tailored_list}>

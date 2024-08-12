@@ -5,18 +5,14 @@
 import Link from 'next/link';
 import styles from './Header.module.css';
 import Image from 'next/image';
+import LogoDuck from '../../icons/Header/LogoDuck';
 
 const HeaderDesktop = () => {
   return (
     <>
       <div>
         <Link href="/">
-          <Image
-            alt="logo-duck"
-            width={106}
-            height={62}
-            src="images/logo-duck.svg"
-          />
+          <LogoDuck />
         </Link>
       </div>
       <nav className={styles.header_desk_wrap_nav}>

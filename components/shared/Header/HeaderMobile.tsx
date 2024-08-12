@@ -8,6 +8,7 @@ import { links } from './getData';
 import Portal from '../../../hoc/Portal';
 import styles from './Header.module.css';
 import Image from 'next/image';
+import LogoDuck from '../../icons/Header/LogoDuck';
 
 interface IHeaderMobile {
   isOpen: boolean;
@@ -17,13 +18,7 @@ const HeaderMobile: React.FC<IHeaderMobile> = ({ isOpen, onToggle }) => {
   return (
     <>
       <Link href="/">
-        <Image
-          className={styles.header_mob_tab_logo_link}
-          alt="logo-duck"
-          width={90}
-          height={53}
-          src="images/logo-duck.svg"
-        />
+        <LogoDuck />
       </Link>
       <span className={styles.burger_icons} onClick={onToggle}>
         <Burger active={isOpen} />
