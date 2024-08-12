@@ -60,7 +60,6 @@ const OurFeatures = () => {
               </li>
             </ul>
           </li>
-
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
               Comprehensive tech stack
@@ -71,7 +70,6 @@ const OurFeatures = () => {
               scalability&#46;
             </p>
           </li>
-
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
               Tailored solutions
