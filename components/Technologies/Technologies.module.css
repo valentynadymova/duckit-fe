@@ -4,9 +4,6 @@
   background-color: #fff;
 }
 
-.technologies_container {
-}
-
 .technologies_subtitle {
   font-size: 16px;
   color: #d1cfcf;
@@ -19,16 +16,11 @@
   margin-bottom: 20px;
 }
 
-/* --------- */
-
 .technologies_list_button {
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-bottom: 20px;
-}
-
-.technologies_item_button {
 }
 
 .technologies_item_span {
@@ -48,11 +40,6 @@
   border-radius: 33px;
 }
 
-/* ----------------- */
-
-.technologies_list {
-}
-
 .technologies_item {
   padding: 12px;
   border-radius: 10px;
@@ -67,9 +54,6 @@
   margin-bottom: 12px;
 }
 
-.technologies_item_svg {
-}
-
 .technologies_item_title {
   font-size: 24px;
   color: #121316;
@@ -78,4 +62,78 @@
 .technologies_item_text {
   font-size: 14px;
   color: #848484;
+}
+/* -------------------------768px---------------------------------- */
+@media screen and (min-width: 768px) {
+  .technologies_section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .technologies_subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .technologies_title {
+    font-size: 42px;
+    margin-bottom: 32px;
+  }
+
+  .technologies_list_button {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+
+  .technologies_button {
+    font-size: 20px;
+  }
+
+  .technologies_item {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .technologies_item_wrap {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+  }
+
+  .technologies_item_title {
+    font-size: 26px;
+  }
+
+  .technologies_item_text {
+    width: 523px;
+    font-size: 16px;
+  }
+}
+
+/* --------------------------------1440px----------------------------- */
+@media screen and (min-width: 1440px) {
+  .technologies_title {
+    margin-bottom: 64px;
+  }
+
+  .technologies_list_button {
+    flex-wrap: nowrap;
+    margin-bottom: 42px;
+  }
+
+  .technologies_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .technologies_item {
+    margin-bottom: 0px;
+  }
+
+  .technologies_item_text {
+    width: 525px;
+  }
 }

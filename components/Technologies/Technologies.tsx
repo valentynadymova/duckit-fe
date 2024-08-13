@@ -41,13 +41,6 @@ const Technologies = () => {
           <li className={styles.technologies_item}>
             <div className={styles.technologies_item_wrap}>
               <Angular />
-              {/* <Image
-                className={styles.technologies_item_svg}
-                alt=""
-                width={32.45}
-                height={34}
-                src="images/angular.svg"
-              /> */}
               <h4 className={styles.technologies_item_title}>Angular</h4>
             </div>
             <p className={styles.technologies_item_text}>
@@ -60,13 +53,6 @@ const Technologies = () => {
           <li className={styles.technologies_item}>
             <div className={styles.technologies_item_wrap}>
               <React />
-              {/* <Image
-                className={styles.technologies_item_svg}
-                alt=""
-                width={32}
-                height={32}
-                src="images/react.svg"
-              /> */}
               <h4 className={styles.technologies_item_title}>React</h4>
             </div>
             <p className={styles.technologies_item_text}>
@@ -79,13 +65,6 @@ const Technologies = () => {
           <li className={styles.technologies_item}>
             <div className={styles.technologies_item_wrap}>
               <JavaScript />
-              {/* <Image
-                className={styles.technologies_item_svg}
-                alt=""
-                width={32}
-                height={32}
-                src="images/javascript.svg"
-              /> */}
               <h4 className={styles.technologies_item_title}>Java Script</h4>
             </div>
             <p className={styles.technologies_item_text}>
