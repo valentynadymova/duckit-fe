@@ -3,9 +3,6 @@
   padding-bottom: 50px;
 }
 
-.hero_container {
-}
-
 .hero_title {
   font-size: 36px;
   margin-bottom: 16px;
@@ -37,12 +34,14 @@
 }
 
 .aboutus_list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .aboutus_item {
   display: flex;
   gap: 59px;
-  margin-bottom: 12px;
   align-items: center;
 }
 
@@ -60,4 +59,103 @@
 
 .aboutus_item_title {
   font-size: 18px;
+}
+
+/* -------------------------768px------------------------ */
+@media screen and (min-width: 768px) {
+  .hero_section {
+    padding-top: 67px;
+    padding-bottom: 64px;
+  }
+
+  .hero_title {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+
+  .hero_text {
+    margin-bottom: 32px;
+  }
+
+  .hero_button {
+    padding: 10px 40.6px 10px 40.6px;
+    margin-bottom: 60px;
+    width: auto;
+  }
+
+  .aboutus_subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .aboutus_title {
+    font-size: 42px;
+    margin-bottom: 32px;
+  }
+
+  .aboutus_list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 85px;
+  }
+
+  .aboutus_item {
+    gap: 20px;
+    width: 310px;
+  }
+
+  .aboutus_span {
+    font-size: 80px;
+  }
+
+  .aboutus_item_title {
+    font-size: 20px;
+  }
+}
+
+/* -----------------------1440px-------------------------- */
+@media screen and (min-width: 1440px) {
+  .hero_section {
+    padding-top: 114px;
+    padding-bottom: 100px;
+  }
+
+  .hero_title {
+    width: 880px;
+  }
+
+  .hero_text {
+    width: 560px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hero_button {
+    font-size: 20px;
+    margin-bottom: 120px;
+    padding: 10px 34px 10px 34px;
+  }
+
+  .aboutus_subtitle {
+    margin-bottom: 32px;
+  }
+
+  .aboutus_title {
+    margin-bottom: 64px;
+  }
+
+  .aboutus_list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: unset;
+  }
+
+  .aboutus_item {
+    width: 335px;
+  }
+
+  .aboutus_span {
+    font-size: 90px;
+  }
 }
