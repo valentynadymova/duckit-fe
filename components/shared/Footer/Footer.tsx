@@ -3,8 +3,10 @@ import Link from 'next/link';
 import Container from '@/hoc/Container';
 import styles from './Footer.module.css';
 import '@/styles/reset.css';
-import Image from 'next/image';
 import LogoDuck from '../../icons/Footer/LogoDuck';
+import Facebook from '../../icons/Footer/Facebook';
+import Instagram from '../../icons/Footer/Instagram';
+import Telegram from '../../icons/Footer/Telegram';
 
 const Footer = () => {
   return (
@@ -100,13 +102,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image
-                      className={styles.footer_social_logo_svg}
-                      alt="facebook"
-                      width={32}
-                      height={32}
-                      src="images/facebook.svg"
-                    />
+                    <Facebook />
                   </Link>
                 </address>
               </li>
@@ -118,13 +114,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image
-                      className={styles.footer_social_logo_svg}
-                      alt="telegram"
-                      width={32}
-                      height={32}
-                      src="images/telegram.svg"
-                    />
+                    <Telegram />
                   </Link>
                 </address>
               </li>
@@ -136,13 +126,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image
-                      className={styles.footer_social_logo_svg}
-                      alt="instagram"
-                      width={32}
-                      height={32}
-                      src="images/instagram.svg"
-                    />
+                    <Instagram />
                   </Link>
                 </address>
               </li>

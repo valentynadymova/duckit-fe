@@ -4,7 +4,6 @@
 
 import Link from 'next/link';
 import styles from './Header.module.css';
-import Image from 'next/image';
 import LogoDuck from '../../icons/Header/LogoDuck';
 
 const HeaderDesktop = () => {

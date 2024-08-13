@@ -1,9 +1,13 @@
 'use client';
 import Container from '@/hoc/Container';
 import styles from './OurFeatures.module.css';
-import Image from 'next/image';
 import Link from 'next/link';
-import Lamp from '../icons/Features/Lamp/Lamp';
+import Lamp from '../icons/Ourfeatures/Lamp/Lamp';
+import Additem from '../icons/Ourfeatures/Additem/Additem';
+import DocumentCode from '../icons/Ourfeatures/DocumentCode/DocumentCode';
+import People from '../icons/Ourfeatures/People/People';
+import Profile from '../icons/Ourfeatures/Profile/Profile';
+import Setting2 from '../icons/Ourfeatures/Setting2/Setting2';
 
 const OurFeatures = () => {
   return (
@@ -33,30 +37,34 @@ const OurFeatures = () => {
             </p>
             <ul className={styles.ourfeatures_list_subtitle}>
               <li className={styles.ourfeatures_item_subtitle_first}>
-                <Image
+                <DocumentCode />
+                {/* <Image
                   alt="document-code"
                   width={32}
                   height={32}
                   src="images/document-code.svg"
-                />
+                /> */}
                 <p>Our&#95;development</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_second}>
-                <Image
+                <Additem />
+                {/* <Image
                   alt="additem"
                   width={32}
                   height={32}
                   src="images/additem.svg"
-                />
+                /> */}
                 <p>New&#95;technologies</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_three}>
-                <Image
+                <Setting2 />
+
+                {/* <Image
                   alt="setting"
                   width={32}
                   height={32}
                   src="images/setting-2.svg"
-                />
+                /> */}
                 <p>Adapt&#95;to&#95;your&#95;eeds</p>
               </li>
             </ul>
@@ -80,21 +88,20 @@ const OurFeatures = () => {
               each client&#8217;s unique needs and goals&#44; ensuring
               satisfaction and success&#46;
             </p>
-
-            <Lamp />
-
             <div className={styles.ourfeatures_wrap_img_tailored_general}>
               <ul className={styles.ourfeatures_img_tailored_list}>
                 <li
                   className={`${styles.ourfeatures_item_people} ${styles.decor_people}`}
                 >
+                  <People />
+                  {/* 
                   <Image
-                    className={styles.ourfeatures_img_people}
+                    className={styles.ourfeatures_people}
                     alt="people"
                     width={32}
                     height={32}
                     src="/images/people.svg"
-                  />
+                  /> */}
                   <p className={styles.ourfeatures_text_people}>Duck_IT team</p>
                 </li>
                 <li className={styles.ourfeatures_arrow_left}>
@@ -106,13 +113,7 @@ const OurFeatures = () => {
                   <div className={styles.circle_second}>
                     <div className={styles.circle_first}>
                       <div className={styles.outer_circle}>
-                        <Image
-                          className={styles.ourfeatures_img_lamp}
-                          alt="lamp-on"
-                          width={72}
-                          height={72}
-                          src="/images/lamp-on.svg"
-                        />
+                        <Lamp />
                       </div>
                     </div>
                   </div>
@@ -130,13 +131,15 @@ const OurFeatures = () => {
                 <li
                   className={`${styles.ourfeatures_item_profile} ${styles.decor_profile}`}
                 >
-                  <Image
-                    className={styles.ourfeatures_img_profile}
+                  <Profile />
+
+                  {/* <Image
+                    className={styles.ourfeatures_profile}
                     alt="profile"
                     width={32}
                     height={32}
                     src="/images/profile.svg"
-                  />
+                  /> */}
                   <p className={styles.ourfeatures_text_profile}>Customer</p>
                 </li>
               </ul>
