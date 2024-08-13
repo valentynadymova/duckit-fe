@@ -1,7 +1,6 @@
 'use client';
 import styles from './Technologies.module.css';
 import Container from '@/hoc/Container';
-import Image from 'next/image';
 import Angular from '../icons/Technologies/Angular';
 import React from '../icons/Technologies/React';
 import JavaScript from '../icons/Technologies/JavaScript';

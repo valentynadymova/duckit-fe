@@ -126,7 +126,7 @@ ul li .ourfeatures_item_subtitle_three {
   animation: moveGradient 6s ease-in-out infinite;
 }
 
-.ourfeatures_img_people {
+.ourfeatures_people {
   border-radius: 50%;
   background-color: #2b2b2b;
   box-shadow: 0 0 0 12px #2b2b2b;
@@ -167,14 +167,12 @@ ul li .ourfeatures_item_subtitle_three {
     margin-bottom: 20px;
   }
 
-  .ourfeatures_img_people {
+  .ourfeatures_people {
     border-radius: 50%;
     background-color: #2b2b2b;
     box-shadow: 0 0 0 12px #2b2b2b;
   }
-  .test_lamp {
-    fill: red;
-  }
+
   .ourfeatures_item_title {
     font-size: 26px;
     margin-bottom: 16px;
@@ -220,7 +218,7 @@ ul li .ourfeatures_item_subtitle_three {
     /* animation: moveGradient 6s ease-in-out infinite; */
   }
 
-  .ourfeatures_img_people {
+  .ourfeatures_people {
     box-shadow: 0 0 0 12px #2b2b2b;
   }
 
@@ -285,7 +283,7 @@ ul li .ourfeatures_item_subtitle_three {
     border: 1px solid #292a2d;
   }
 
-  .ourfeatures_img_lamp {
+  .ourfeatures_lamp {
     animation: blinkLamp 3s infinite;
     position: relative;
     left: 0%;
@@ -428,7 +426,7 @@ ul li .ourfeatures_item_subtitle_three {
     border-radius: 28px;
   }
 
-  .ourfeatures_img_profile {
+  .ourfeatures_profile {
     border-radius: 50%;
     background-color: #2b2b2b;
     box-shadow: 0 0 0 12px #2b2b2b;

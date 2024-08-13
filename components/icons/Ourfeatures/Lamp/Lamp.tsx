@@ -13,7 +13,7 @@ const Lamp: React.FC<ISVG> = ({
       height={height}
       viewBox={viewBox}
       fill={fill}
-      className={styles.test_lamp}
+      className={styles.ourfeatures_lamp}
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

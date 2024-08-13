@@ -7,7 +7,6 @@ import Burger from '../../icons/Burger';
 import { links } from './getData';
 import Portal from '../../../hoc/Portal';
 import styles from './Header.module.css';
-import Image from 'next/image';
 import LogoDuck from '../../icons/Header/LogoDuck';
 
 interface IHeaderMobile {
