@@ -1,13 +1,13 @@
 @media screen and (min-width: 768px) {
-  .ourfeatures_lamp {
-    width: 72px;
-    height: 72px;
+  .ourfeatures_driver {
+    width: 64px;
+    height: 64px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .ourfeatures_lamp {
-    width: 72px;
-    height: 72px;
+  .ourfeatures_driver {
+    width: 64px;
+    height: 64px;
   }
 }
