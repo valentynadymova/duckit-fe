@@ -2,12 +2,19 @@
 import Container from '@/hoc/Container';
 import styles from './OurFeatures.module.css';
 import Link from 'next/link';
-import Lamp from '../icons/Ourfeatures/Lamp/Lamp';
 import Additem from '../icons/Ourfeatures/Additem/Additem';
+import AddSquare from '../icons/Ourfeatures/AddSquare/AddSquare';
+import CodeCircle from '../icons/Ourfeatures/CodeCircle/CodeCircle';
 import DocumentCode from '../icons/Ourfeatures/DocumentCode/DocumentCode';
+import Driver from '../icons/Ourfeatures/Driver/Driver';
+import Global from '../icons/Ourfeatures/Global/Global';
+import Lamp from '../icons/Ourfeatures/Lamp/Lamp';
+import Maximize3 from '../icons/Ourfeatures/Maximize3/Maximize3';
 import People from '../icons/Ourfeatures/People/People';
 import Profile from '../icons/Ourfeatures/Profile/Profile';
 import Setting2 from '../icons/Ourfeatures/Setting2/Setting2';
+import ShieldTick from '../icons/Ourfeatures/ShieldTick/ShieldTick';
+import TrendUp from '../icons/Ourfeatures/TrendUp/TrendUp';
 
 const OurFeatures = () => {
   return (
@@ -25,6 +32,17 @@ const OurFeatures = () => {
               business&#46; Easily handle increased traffic and add new features
               without compromising performance&#46;
             </p>
+            <ul>
+              <li>
+                <TrendUp />
+              </li>
+              <li>
+                <Driver />
+              </li>
+              <li>
+                <AddSquare />
+              </li>
+            </ul>
           </li>
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
@@ -38,33 +56,14 @@ const OurFeatures = () => {
             <ul className={styles.ourfeatures_list_subtitle}>
               <li className={styles.ourfeatures_item_subtitle_first}>
                 <DocumentCode />
-                {/* <Image
-                  alt="document-code"
-                  width={32}
-                  height={32}
-                  src="images/document-code.svg"
-                /> */}
                 <p>Our&#95;development</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_second}>
                 <Additem />
-                {/* <Image
-                  alt="additem"
-                  width={32}
-                  height={32}
-                  src="images/additem.svg"
-                /> */}
                 <p>New&#95;technologies</p>
               </li>
               <li className={styles.ourfeatures_item_subtitle_three}>
                 <Setting2 />
-
-                {/* <Image
-                  alt="setting"
-                  width={32}
-                  height={32}
-                  src="images/setting-2.svg"
-                /> */}
                 <p>Adapt&#95;to&#95;your&#95;eeds</p>
               </li>
             </ul>
@@ -78,6 +77,20 @@ const OurFeatures = () => {
               innovation&#44; performance&#44; security&#44; and
               scalability&#46;
             </p>
+            <ul>
+              <li>
+                <ShieldTick />
+              </li>
+              <li>
+                <CodeCircle />
+              </li>
+              <li>
+                <Global />
+              </li>
+              <li>
+                <Maximize3 />
+              </li>
+            </ul>
           </li>
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
@@ -94,14 +107,6 @@ const OurFeatures = () => {
                   className={`${styles.ourfeatures_item_people} ${styles.decor_people}`}
                 >
                   <People />
-                  {/* 
-                  <Image
-                    className={styles.ourfeatures_people}
-                    alt="people"
-                    width={32}
-                    height={32}
-                    src="/images/people.svg"
-                  /> */}
                   <p className={styles.ourfeatures_text_people}>Duck_IT team</p>
                 </li>
                 <li className={styles.ourfeatures_arrow_left}>
@@ -132,14 +137,6 @@ const OurFeatures = () => {
                   className={`${styles.ourfeatures_item_profile} ${styles.decor_profile}`}
                 >
                   <Profile />
-
-                  {/* <Image
-                    className={styles.ourfeatures_profile}
-                    alt="profile"
-                    width={32}
-                    height={32}
-                    src="/images/profile.svg"
-                  /> */}
                   <p className={styles.ourfeatures_text_profile}>Customer</p>
                 </li>
               </ul>
