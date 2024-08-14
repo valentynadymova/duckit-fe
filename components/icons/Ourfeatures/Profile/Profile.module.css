@@ -1,5 +1,13 @@
 @media screen and (min-width: 768px) {
+  .ourfeatures_profile {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .ourfeatures_profile {
+    width: 32px;
+    height: 32px;
+  }
 }
