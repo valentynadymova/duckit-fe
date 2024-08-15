@@ -114,20 +114,6 @@ const OurFeatures = () => {
                   <span></span>
                   <span></span>
                 </li>
-                {/* <li className={styles.ourfeatures_item_lamp}>
-                  <div className={styles.circle_second}>
-                    <div className={styles.circle_first}>
-                      <div className={styles.outer_circle}>
-                        <Lamp />
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <p className={styles.ourfeatures_text_lamp}>
-                    Customized&#95;solutions
-                  </p>
-                </li> */}
                 <li className={styles.ourfeatures_item_wrap_text_lamp}>
                   <ul className={styles.ourfeatures_list_text_lamp}>
                     <li className={styles.ourfeatures_item_lamp}>
@@ -139,7 +125,6 @@ const OurFeatures = () => {
                         </div>
                       </div>
                     </li>
-
                     <li className={styles.ourfeatures_item_text_lamp}>
                       <p className={styles.ourfeatures_text_lamp}>
                         Customized&#95;solutions
@@ -147,7 +132,6 @@ const OurFeatures = () => {
                     </li>
                   </ul>
                 </li>
-
                 <li className={styles.ourfeatures_arrow_right}>
                   <span></span>
                   <span></span>

@@ -103,10 +103,9 @@ ul li .ourfeatures_item_subtitle_three {
   flex-direction: column;
   gap: 15px;
   align-items: center;
-  /* justify-content: center; */
   position: relative;
   right: 8.5%;
-  top: 0px;
+  top: 17px;
   z-index: 5;
 }
 
@@ -117,9 +116,9 @@ ul li .ourfeatures_item_subtitle_three {
 .decor_people::before {
   content: '';
   position: absolute;
-  width: 40px;
-  top: 21%;
-  left: 73%;
+  width: 42px;
+  top: 15%;
+  left: 75%;
   border: 1px solid;
   /* opacity: 18%; */
   border-image: linear-gradient(to left, #6868683d, #ffcc01) 1;
@@ -140,17 +139,8 @@ ul li .ourfeatures_item_subtitle_three {
 }
 
 /* -----------lamp-360------------ */
-.ourfeatures_item_wrap_text_lamp {
-}
-
 .ourfeatures_list_text_lamp {
   position: relative;
-}
-
-.ourfeatures_item_lamp {
-  /* position: relative; */
-  /* top: 0px; */
-  right: -102px;
 }
 
 .outer_circle {
@@ -294,21 +284,20 @@ ul li .ourfeatures_item_subtitle_three {
   align-items: center;
   position: relative;
   left: 8.5%;
-  top: 0px;
+  top: 17px;
   z-index: 5;
 }
 
-/* 
-  .decor_profilet {
+/* .decor_profilet {
     position: relative;
   } */
 
 .decor_profile::before {
   content: '';
   position: absolute;
-  width: 40px;
-  top: 21%;
-  left: -87%;
+  width: 33px;
+  top: 15%;
+  left: -53.5%;
   border: 1px solid;
   /* opacity: 18%; */
   border-image: linear-gradient(to right, #6868683d, #ffcc01) 1;
@@ -343,18 +332,19 @@ ul li .ourfeatures_item_subtitle_three {
 
 .ourfeatures_arrow_right {
   display: flex;
+  position: absolute;
 }
 
 .ourfeatures_arrow_right span {
-  position: absolute;
+  position: relative;
   top: 0px;
-  left: 0%;
+  left: 120px;
   display: block;
   width: 9px;
   height: 9px;
   border-bottom: 3px solid #2c2c2c;
   border-right: 3px solid #2c2c2c;
-  /* margin: -16px 0; */
+  /* margin: -5px 0; */
   animation: ourfeatures-arrow-right 2s infinite;
   transform: rotate(135deg);
 }
@@ -378,17 +368,20 @@ ul li .ourfeatures_item_subtitle_three {
 
 .ourfeatures_arrow_left {
   display: flex;
+  position: absolute;
 }
 
 .ourfeatures_arrow_left span {
-  position: absolute;
+  position: relative;
   top: 0px;
-  left: 0%;
+  right: 120px;
   display: block;
   width: 9px;
   height: 9px;
-  border-bottom: 3px solid #2c2c2c;
-  border-right: 3px solid #2c2c2c;
+  /* border-bottom: 3px solid #2c2c2c;
+  border-right: 3px solid #2c2c2c; */
+  border-bottom: 3px solid #19f609;
+  border-right: 3px solid #28f808;
   /* margin: -16px 0; */
   animation: ourfeatures-arrow-left 2s infinite;
   transform: rotate(-45deg);

@@ -1,6 +1,5 @@
 .ourfeatures_lamp {
   animation: blinkLamp 3s infinite;
-  /* position: relative; */
   left: 0%;
   top: 0%;
 }
