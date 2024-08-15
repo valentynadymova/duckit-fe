@@ -1,11 +1,11 @@
-@media screen and (min-width: 768px) {
-  .ourfeatures_lamp {
-    width: 72px;
-    height: 72px;
-  }
+.ourfeatures_lamp {
+  animation: blinkLamp 3s infinite;
+  /* position: relative; */
+  left: 0%;
+  top: 0%;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   .ourfeatures_lamp {
     width: 72px;
     height: 72px;
