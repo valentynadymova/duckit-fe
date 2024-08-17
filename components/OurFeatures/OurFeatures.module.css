@@ -412,7 +412,7 @@ ul li .ourfeatures_item_subtitle_three {
   animation-delay: -0.4s;
 }
 
-/* --------------------------------------768px-------------------------- */
+/* -------------------------------768px-------------------------- */
 @media screen and (min-width: 768px) {
   .ourfeatures_section {
     padding-top: 64px;
@@ -449,7 +449,7 @@ ul li .ourfeatures_item_subtitle_three {
     font-size: 16px;
   }
 
-  /* ---------------------Tailored solutions--768px------------------------------- */
+  /* ---------------------Tailored solutions--768px---------------------- */
 
   .ourfeatures_wrap_img_tailored_general {
     padding-left: 12.5px;
@@ -500,7 +500,7 @@ ul li .ourfeatures_item_subtitle_three {
 
   .ourfeatures_item_text_lamp {
     top: 237px;
-    left: 0%;
+    left: 11%;
   }
 
   .ourfeatures_text_lamp {
