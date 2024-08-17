@@ -77,20 +77,30 @@ const OurFeatures = () => {
               innovation&#44; performance&#44; security&#44; and
               scalability&#46;
             </p>
-            <ul>
-              <li>
-                <ShieldTick />
-              </li>
-              <li>
-                <CodeCircle />
-              </li>
-              <li>
-                <Global />
-              </li>
-              <li>
-                <Maximize3 />
-              </li>
-            </ul>
+            <div className={styles.ourfeatures_wrap_img_сomprehensive_general}>
+              <ul className={styles.ourfeatures_img_comprehensive_list}>
+                <li className={styles.ourfeatures_item_shieldtick}>
+                  <ShieldTick />
+                </li>
+                <li className={styles.ourfeatures_item_codecircle}>
+                  <div className={styles.ourfeatures_codecircle_border_three}>
+                    <div className={styles.ourfeatures_codecircleborder_second}>
+                      <div
+                        className={styles.ourfeatures_codecircleborder_first}
+                      >
+                        <CodeCircle />
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li className={styles.ourfeatures_item_global}>
+                  <Global />
+                </li>
+                <li className={styles.ourfeatures_item_maximize3}>
+                  <Maximize3 />
+                </li>
+              </ul>
+            </div>
           </li>
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
