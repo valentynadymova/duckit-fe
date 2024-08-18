@@ -88,19 +88,20 @@ ul li .ourfeatures_item_subtitle_three {
 }
 
 /* --------Comprehensive tech stack-360px----------------------------- */
+
 .ourfeatures_wrap_img_сomprehensive_general {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  animation: fadeIn 1.5s ease-in-out;
+  animation-delay: 0.5s;
 }
 
-/* -------------------------shieldtick--360px--------------------------- */
-
-.ourfeatures_item_shieldtick {
+.ourfeatures_item_shieldtick,
+.ourfeatures_item_global,
+.ourfeatures_item_maximize3 {
   position: absolute;
-  top: 90px;
-  left: -2px;
   visibility: visible;
   pointer-events: none;
   padding: 6px;
@@ -109,6 +110,45 @@ ul li .ourfeatures_item_subtitle_three {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* -------------------------shieldtick--360px--------------------------- */
+
+.ourfeatures_item_shieldtick {
+  top: 90px;
+  left: -2px;
+  animation: complexPulse 4s infinite;
+}
+/* --------------------------------global--360px-------------------------------- */
+.ourfeatures_item_global {
+  bottom: 180px;
+  left: 270px;
+  animation: complexPulse 4s infinite;
+}
+
+/* --------------------------------maximize3--360px-------------------------------- */
+.ourfeatures_item_maximize3 {
+  bottom: 20px;
+  right: 30px;
+  animation: complexPulse 4s infinite;
+}
+
+@keyframes complexPulse {
+  0% {
+    transform: scale(1);
+    background-color: rgba(39, 40, 43, 0.5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    transform: scale(1.15);
+    background-color: #191a1d;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgba(39, 40, 43, 0.5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
 }
 
 /* -------------------------codecircle--360px--------------------------- */
@@ -122,45 +162,21 @@ ul li .ourfeatures_item_subtitle_three {
   border: 1px dashed #656566;
   background: rgba(39, 40, 43, 0.5);
   padding: 19px 45px;
-}
-.ourfeatures_codecircleborder_second {
-  border-radius: 8px;
-  border: 1px dashed rgba(104, 104, 104, 0.33);
-  padding: 32px;
-}
-.ourfeatures_codecircle_border_three {
-  border-radius: 8px;
-  border: 1px dashed rgba(104, 104, 104, 0.18);
-  padding: 32px;
-}
-/* --------------------------------global--360px-------------------------------- */
-.ourfeatures_item_global {
-  position: absolute;
-  bottom: 180px;
-  left: 273px;
-  visibility: visible;
-  pointer-events: none;
-  padding: 6px;
-  border-radius: 50%;
-  border: 1px solid #5e5e5e;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* --------------------------------maximize3--360px-------------------------------- */
-.ourfeatures_item_maximize3 {
-  position: absolute;
-  bottom: 20px;
-  right: 30px;
-  visibility: visible;
-  pointer-events: none;
-  padding: 6px;
-  border-radius: 50%;
-  border: 1px solid #5e5e5e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.ourfeatures_codecircleborder_second {
+  border-radius: 8px;
+  border: 1px dashed rgba(104, 104, 104, 0.33);
+  padding: 32px;
+}
+
+.ourfeatures_codecircle_border_three {
+  border-radius: 8px;
+  border: 1px dashed rgba(104, 104, 104, 0.18);
+  padding: 32px;
 }
 
 /* -----------------------Tailored solutions-360px----------------------------- */
@@ -427,6 +443,47 @@ ul li .ourfeatures_item_subtitle_three {
 
   .ourfeatures_item_text {
     font-size: 16px;
+  }
+
+  /* --------Comprehensive tech stack-768px----------------------------- */
+  .ourfeatures_wrap_img_сomprehensive_general {
+    padding: 13px 158px;
+  }
+
+  /* -------------------------shieldtick--768px--------------------------- */
+
+  .ourfeatures_item_shieldtick {
+    top: 111px;
+    left: 153px;
+  }
+  /* --------------------------------global--768px-------------------------------- */
+  .ourfeatures_item_global {
+    bottom: 220px;
+    left: 478px;
+  }
+
+  /* --------------------------------maximize3--768px------------------------------- */
+  .ourfeatures_item_maximize3 {
+    bottom: 33px;
+    right: 189px;
+  }
+
+  /* -------------------------codecircle--768px--------------------------- */
+  /* 
+  .ourfeatures_item_codecircle {
+    display: flex;
+
+  } */
+
+  .ourfeatures_codecircleborder_first {
+    padding: 18px 53px;
+  }
+
+  .ourfeatures_codecircleborder_second {
+    padding: 40px;
+  }
+  .ourfeatures_codecircle_border_three {
+    padding: 35px;
   }
 
   /* ---------------------Tailored solutions--768px---------------------- */

@@ -90,7 +90,6 @@ const Footer = () => {
               </Link>
             </address>
           </div>
-
           <div className={styles.footer_wrap_social}>
             <h5 className={styles.footer_social_title}>Social media</h5>
             <ul className={styles.footer_social_list}>
