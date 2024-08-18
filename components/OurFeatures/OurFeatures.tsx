@@ -32,18 +32,49 @@ const OurFeatures = () => {
               business&#46; Easily handle increased traffic and add new features
               without compromising performance&#46;
             </p>
-            <ul>
-              <li>
-                <TrendUp />
-              </li>
-              <li>
-                <Driver />
-              </li>
-              <li>
-                <AddSquare />
-              </li>
-            </ul>
+
+            <div className={styles.ourfeatures_wrap_img_scalability_general}>
+              <ul className={styles.ourfeatures_img_scalability_list}>
+                <li className={styles.ourfeatures_item_trendup}>
+                  <div className={styles.ourfeatures_trendup_svg}>
+                    <TrendUp />
+                  </div>
+                  <p className={styles.ourfeatures_text_trendup}>
+                    Increased&#95;Traffic
+                  </p>
+                </li>
+
+                <li className={styles.ourfeatures_item_wrap_text_driver}>
+                  <ul className={styles.ourfeatures_list_text_driver}>
+                    <li className={styles.ourfeatures_item_driver}>
+                      <div className={styles.driver_three}>
+                        <div className={styles.driver_second}>
+                          <div className={styles.driver_first}>
+                            <Driver />
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li className={styles.ourfeatures_item_text_driver}>
+                      <p className={styles.ourfeatures_text_driver}>
+                        Stable&#95;Performance
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+
+                <li className={styles.ourfeatures_item_addsquare}>
+                  <p className={styles.ourfeatures_text_addsquare}>
+                    New&#95;features
+                  </p>
+                  <div className={styles.ourfeatures_addsquare_svg}>
+                    <AddSquare />
+                  </div>
+                </li>
+              </ul>
+            </div>
           </li>
+
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
               Future&#45;proof architecture
@@ -102,6 +133,7 @@ const OurFeatures = () => {
               </ul>
             </div>
           </li>
+
           <li className={styles.ourfeatures_item}>
             <h3 className={styles.ourfeatures_item_title}>
               Tailored solutions
@@ -111,19 +143,24 @@ const OurFeatures = () => {
               each client&#8217;s unique needs and goals&#44; ensuring
               satisfaction and success&#46;
             </p>
+
             <div className={styles.ourfeatures_wrap_img_tailored_general}>
               <ul className={styles.ourfeatures_img_tailored_list}>
                 <li
                   className={`${styles.ourfeatures_item_people} ${styles.decor_people}`}
                 >
                   <People />
-                  <p className={styles.ourfeatures_text_people}>Duck_IT team</p>
+                  <p className={styles.ourfeatures_text_people}>
+                    Duck&#95;IT team
+                  </p>
                 </li>
+
                 <li className={styles.ourfeatures_arrow_left}>
                   <span></span>
                   <span></span>
                   <span></span>
                 </li>
+
                 <li className={styles.ourfeatures_item_wrap_text_lamp}>
                   <ul className={styles.ourfeatures_list_text_lamp}>
                     <li className={styles.ourfeatures_item_lamp}>
@@ -142,11 +179,13 @@ const OurFeatures = () => {
                     </li>
                   </ul>
                 </li>
+
                 <li className={styles.ourfeatures_arrow_right}>
                   <span></span>
                   <span></span>
                   <span></span>
                 </li>
+
                 <li
                   className={`${styles.ourfeatures_item_profile} ${styles.decor_profile}`}
                 >
