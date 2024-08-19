@@ -1,16 +1,16 @@
-.ourfeatures_people {
+/* .ourfeatures_people {
   border-radius: 50%;
   background-color: #2b2b2b;
   box-shadow: 0 0 0 9px #2b2b2b;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .ourfeatures_people {
     width: 32px;
     height: 32px;
   }
-
+  /* 
   .ourfeatures_people {
     box-shadow: 0 0 0 12px #2b2b2b;
-  }
+  } */
 }

@@ -149,7 +149,9 @@ const OurFeatures = () => {
                 <li
                   className={`${styles.ourfeatures_item_people} ${styles.decor_people}`}
                 >
-                  <People />
+                  <div className={styles.ourfeatures_people_svg}>
+                    <People />
+                  </div>
                   <p className={styles.ourfeatures_text_people}>
                     Duck&#95;IT team
                   </p>
@@ -189,7 +191,9 @@ const OurFeatures = () => {
                 <li
                   className={`${styles.ourfeatures_item_profile} ${styles.decor_profile}`}
                 >
-                  <Profile />
+                  <div className={styles.ourfeatures_profile_svg}>
+                    <Profile />
+                  </div>
                   <p className={styles.ourfeatures_text_profile}>Customer</p>
                 </li>
               </ul>
