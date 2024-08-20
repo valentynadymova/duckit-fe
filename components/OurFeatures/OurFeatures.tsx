@@ -35,7 +35,9 @@ const OurFeatures = () => {
 
             <div className={styles.ourfeatures_wrap_img_scalability_general}>
               <ul className={styles.ourfeatures_img_scalability_list}>
-                <li className={styles.ourfeatures_item_trendup}>
+                <li
+                  className={`${styles.ourfeatures_item_trendup} ${styles.decor_trendup}`}
+                >
                   <div className={styles.ourfeatures_trendup_svg}>
                     <TrendUp />
                   </div>
@@ -63,7 +65,9 @@ const OurFeatures = () => {
                   </ul>
                 </li>
 
-                <li className={styles.ourfeatures_item_addsquare}>
+                <li
+                  className={`${styles.ourfeatures_item_addsquare} ${styles.decor_addsquare}`}
+                >
                   <p className={styles.ourfeatures_text_addsquare}>
                     New&#95;features
                   </p>
