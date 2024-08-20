@@ -138,12 +138,12 @@ ul li .ourfeatures_item_subtitle_three {
   background-color: #2b2b2b;
   padding: 9px;
 }
-
+/* --------------------------------------------------------------- */
 .decor_trendup::before {
   position: absolute;
   content: '';
-  border-left: 2px solid #ffcc01;
-  border-bottom: 2px solid #ffcc01;
+  border-left: 2px solid #5e5e5e;
+  border-bottom: 2px solid #5e5e5e;
   width: 90px;
   height: 52px;
   top: 32px;
@@ -155,16 +155,42 @@ ul li .ourfeatures_item_subtitle_three {
 .decor_addsquare::before {
   position: absolute;
   content: '';
-  border-right: 2px solid #ffcc01;
-  border-top: 2px solid #ffcc01;
+  border-right: 2px solid #5e5e5e;
+  border-top: 2px solid #5e5e5e;
   width: 82px;
   height: 52px;
   bottom: 31.5px;
   right: 22px;
-  border-radius: 0 11px 0 0px;
+  border-radius: 0px 11px 0px 0px;
   z-index: -1;
 }
-/* -------- */
+
+/* ----------------------------------------------------------- */
+
+.decor_square::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  /* background-color: #5e5e5e; */
+  background-color: #b89600;
+  top: 80px;
+  left: 70px;
+  transform: rotate(45deg);
+}
+
+.decor_rhombus::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #b89600;
+  /* background-color: #5e5e5e; */
+  top: -26px;
+  left: -15px;
+  transform: rotate(45deg);
+}
+
 .decor_trendup::after {
   content: '';
   position: absolute;
@@ -172,31 +198,33 @@ ul li .ourfeatures_item_subtitle_three {
   height: 6px;
   background-color: #ffcc01;
   border-radius: 50%;
-  animation: moveBallTrendup 3s linear infinite;
+  animation:
+    moveBallTrendup 4s linear infinite,
+    ballTrail 4s linear infinite;
 }
 
 @keyframes moveBallTrendup {
   0% {
     opacity: 1;
-    top: 32px; /* Верхний левый угол */
+    top: 33.5px;
     left: 27px;
   }
   33% {
     opacity: 1;
-    top: calc(32px + 52px - 4px); /* Спускается вниз по левой границе */
+    top: calc(33.5px + 52px - 6px);
     left: 27px;
   }
   66% {
     opacity: 1;
-    top: calc(32px + 52px - 4px); /* Движется вправо вдоль нижней границы */
-    left: calc(27px + 90px - 4px);
+    top: calc(33.5px + 52px - 6px);
+    left: calc(27px + 90px - 6px);
   }
   67% {
-    opacity: 0; /* Исчезает сразу после окончания движения по видимой границе */
+    opacity: 0;
   }
   100% {
-    opacity: 0; /* Невидимый при возврате */
-    top: 32px; /* Возвращается в верхний левый угол */
+    opacity: 0;
+    top: 33.5px;
     left: 27px;
   }
 }
@@ -209,34 +237,55 @@ ul li .ourfeatures_item_subtitle_three {
   height: 6px;
   background-color: #ffcc01;
   border-radius: 50%;
-  animation: moveBallAddsquare 3s linear infinite;
+  animation:
+    moveBallAddsquare 4s linear infinite,
+    ballTrail 4s linear infinite;
 }
 
 @keyframes moveBallAddsquare {
   0% {
     opacity: 1;
-    bottom: 31.5px; /* Начало в нижнем правом углу */
+    bottom: 33.5px;
     right: 20px;
   }
   33% {
     opacity: 1;
-    bottom: calc(31.5px + 52px - 4px); /* Поднимается вверх по правой границе */
+    bottom: calc(33.5px + 52px - 6px);
     right: 20px;
   }
   66% {
     opacity: 1;
-    bottom: calc(
-      31.5px + 52px - 4px
-    ); /* Движется влево вдоль верхней границы */
-    right: calc(20px + 82px - 4px);
+    bottom: calc(33.5px + 52px - 6px);
+    right: calc(20px + 82px - 6px);
   }
   67% {
-    opacity: 0; /* Исчезает сразу после окончания движения по видимой границе */
+    opacity: 0;
   }
   100% {
-    opacity: 0; /* Невидимый при возврате */
-    bottom: 31.5px; /* Возвращается в нижний правый угол */
+    opacity: 0;
+    bottom: 33.5px;
     right: 20px;
+  }
+}
+
+@keyframes ballTrail {
+  0% {
+    box-shadow:
+      0 0 6px 2px rgba(255, 204, 1, 0.5),
+      0 0 12px 4px rgba(255, 204, 1, 0.3),
+      0 0 18px 6px rgba(255, 204, 1, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 3px 1px rgba(255, 204, 1, 0.5),
+      0 0 9px 3px rgba(255, 204, 1, 0.3),
+      0 0 15px 5px rgba(255, 204, 1, 0.1);
+  }
+  100% {
+    box-shadow:
+      0 0 0px 0px rgba(255, 204, 1, 0.5),
+      0 0 0px 0px rgba(255, 204, 1, 0.3),
+      0 0 0px 0px rgba(255, 204, 1, 0.1);
   }
 }
 
@@ -258,6 +307,7 @@ ul li .ourfeatures_item_subtitle_three {
   background-color: rgba(115, 115, 115, 0.05);
   border-radius: 50%;
   border: 1px dashed rgba(94, 94, 94, 0.35);
+  animation: blinkDriverthree 4s infinite;
 }
 
 .driver_second {
@@ -275,6 +325,24 @@ ul li .ourfeatures_item_subtitle_three {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@keyframes blinkDriverthree {
+  0% {
+    opacity: 0.3;
+  }
+  25% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .ourfeatures_item_text_driver {
@@ -420,26 +488,28 @@ ul li .ourfeatures_item_subtitle_three {
   align-items: center;
 }
 
-.decor_profile::before,
 .decor_people::before {
   content: '';
   position: absolute;
   border: 1px solid;
   opacity: 18%;
   animation: moveGradient 6s ease-in-out infinite;
-}
-
-.decor_profile::before {
-  left: -30px;
-  top: 39px;
-  width: 37px;
-  border-image: linear-gradient(to right, #6868683d, #ffcc01) 1;
-}
-.decor_people::before {
   right: -30px;
   top: 39px;
   width: 46px;
   border-image: linear-gradient(to left, #6868683d, #ffcc01) 1;
+}
+
+.decor_profile::before {
+  content: '';
+  position: absolute;
+  border: 1px solid;
+  opacity: 18%;
+  animation: moveGradient 6s ease-in-out infinite;
+  left: -30px;
+  top: 39px;
+  width: 37px;
+  border-image: linear-gradient(to right, #6868683d, #ffcc01) 1;
 }
 
 .ourfeatures_text_profile,
@@ -683,6 +753,108 @@ ul li .ourfeatures_item_subtitle_three {
     padding: 12px;
   }
 
+  /* ---------------- */
+  .decor_trendup::before {
+    border-left: 2.5px solid #5e5e5e;
+    border-bottom: 2.5px solid #5e5e5e;
+    width: 199px;
+    height: 134px;
+    top: 32px;
+    left: 79px;
+  }
+
+  .decor_addsquare::before {
+    border-right: 2.5px solid #5e5e5e;
+    border-top: 2.5px solid #5e5e5e;
+    width: 176px;
+    height: 110.5px;
+    bottom: 55.5px;
+    right: 60px;
+  }
+
+  /* ---------------- */
+  .decor_square::before {
+    width: 10px;
+    height: 10px;
+    top: 160px;
+    left: 162px;
+  }
+
+  .decor_rhombus::before {
+    width: 10px;
+    height: 10px;
+    top: -44.5px;
+    left: -10px;
+  }
+  /* ---------------------------- */
+  .decor_trendup::after {
+    width: 10px;
+    height: 10px;
+    animation:
+      moveBallTrendup 6s linear infinite,
+      ballTrail 6s linear infinite;
+  }
+
+  @keyframes moveBallTrendup {
+    0% {
+      opacity: 1;
+      top: 35px;
+      left: 75px;
+    }
+    33% {
+      opacity: 1;
+      top: calc(35px + 134px - 10px);
+      left: 75px;
+    }
+    66% {
+      opacity: 1;
+      top: calc(35px + 134px - 10px);
+      left: calc(75px + 199px - 10px);
+    }
+    67% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+      top: 35px;
+      left: 75px;
+    }
+  }
+
+  .decor_addsquare::after {
+    width: 10px;
+    height: 10px;
+    animation:
+      moveBallAddsquare 6s linear infinite,
+      ballTrail 6s linear infinite;
+  }
+
+  @keyframes moveBallAddsquare {
+    0% {
+      opacity: 1;
+      bottom: 60px;
+      right: 56px;
+    }
+    33% {
+      opacity: 1;
+      bottom: calc(60px + 110.5px - 10px);
+      right: 56px;
+    }
+    66% {
+      opacity: 1;
+      bottom: calc(60px + 110.5px - 10px);
+      right: calc(56px + 176px - 10px);
+    }
+    67% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+      bottom: 60px;
+      right: 56px;
+    }
+  }
+
   /*---Driver--768px--- */
 
   .ourfeatures_list_text_driver {
@@ -692,6 +864,7 @@ ul li .ourfeatures_item_subtitle_three {
 
   .driver_three {
     padding: 35px;
+    animation: blinkDriverthree 6s infinite;
   }
 
   .driver_second {
@@ -712,6 +885,23 @@ ul li .ourfeatures_item_subtitle_three {
     font-size: 16px;
   }
 
+  @keyframes blinkDriverthree {
+    0% {
+      opacity: 0.3;
+    }
+    25% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   /* --------Comprehensive tech stack-768px----------------------------- */
   .ourfeatures_wrap_img_сomprehensive_general {
     padding: 13px 158px;
@@ -855,21 +1045,3 @@ ul li .ourfeatures_item_subtitle_three {
     }
   }
 }
-
-/* -------------------Движение элементов------------------------------ */
-
-/* @keyframes moveLamp {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.ourfeatures_item_lamp {
-  animation: moveLamp 4s infinite ease-in-out;
-} */

@@ -41,7 +41,9 @@ const OurFeatures = () => {
                   <div className={styles.ourfeatures_trendup_svg}>
                     <TrendUp />
                   </div>
-                  <p className={styles.ourfeatures_text_trendup}>
+                  <p
+                    className={`${styles.ourfeatures_text_trendup} ${styles.decor_square}`}
+                  >
                     Increased&#95;Traffic
                   </p>
                 </li>
@@ -68,7 +70,9 @@ const OurFeatures = () => {
                 <li
                   className={`${styles.ourfeatures_item_addsquare} ${styles.decor_addsquare}`}
                 >
-                  <p className={styles.ourfeatures_text_addsquare}>
+                  <p
+                    className={`${styles.ourfeatures_text_addsquare} ${styles.decor_rhombus}`}
+                  >
                     New&#95;features
                   </p>
                   <div className={styles.ourfeatures_addsquare_svg}>
