@@ -19,11 +19,28 @@
   margin-bottom: 20px;
 }
 
+.decor_scroll {
+  position: relative;
+}
+.decor_scroll::before {
+  position: absolute;
+  top: 380px;
+  left: -17px;
+  content: '';
+  width: 32px;
+  height: 32px;
+  background: url('/img/code-circle.svg');
+  z-index: 10;
+}
+
 .ourservices_list {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-left: 56px;
+  /* margin-left: 56px; */
+  margin-left: 19px;
+  border-left: 2px solid #f2f1f1;
+  padding-left: 37px;
 }
 
 .ourservices_item {
