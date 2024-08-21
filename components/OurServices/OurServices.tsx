@@ -10,7 +10,7 @@ const OurServices = () => {
           &#47;&#47;services
         </p>
         <h2 className={styles.ourservices_title}>What We Can Do For You</h2>
-        <ul className={styles.ourservices_list}>
+        <ul className={`${styles.ourservices_list} ${styles.decor_scroll}`}>
           <li className={styles.ourservices_item}>
             <div className={styles.ourservices_wrap_title}>
               <h3 className={styles.ourservices_item_title_services}>

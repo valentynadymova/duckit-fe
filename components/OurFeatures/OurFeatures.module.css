@@ -90,11 +90,9 @@ ul li .ourfeatures_item_subtitle_three {
 /* --------------------------Scalability--360px------------------------------------------ */
 .ourfeatures_wrap_img_scalability_general {
   padding: 0 10px;
-  /* border: 0.5px solid rgb(255, 0, 0); */
 }
 
 .ourfeatures_img_scalability_list {
-  /* border: 0.5px solid rgb(9, 255, 0); */
   display: flex;
   justify-content: space-between;
 }
