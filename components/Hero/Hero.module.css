@@ -72,9 +72,23 @@
     font-size: 56px;
     margin-bottom: 20px;
   }
+  .decor_duck {
+    position: relative;
+  }
+
+  .decor_duck::before {
+    position: absolute;
+    content: '';
+    top: 170px;
+    left: 525.5px;
+    width: 212px;
+    height: 218.08px;
+    background: url('/img/duck-hero-768px.svg') no-repeat;
+  }
 
   .hero_text {
     margin-bottom: 32px;
+    width: 523px;
   }
 
   .hero_button {
@@ -123,6 +137,16 @@
 
   .hero_title {
     width: 880px;
+  }
+
+  .decor_duck::before {
+    position: absolute;
+    content: '';
+    top: 58px;
+    left: 864px;
+    width: 435px;
+    height: 400.78px;
+    background: url('/img/duck-hero-1440px.svg') no-repeat;
   }
 
   .hero_text {

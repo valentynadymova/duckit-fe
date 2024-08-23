@@ -361,9 +361,13 @@ ul li .ourfeatures_item_subtitle_three {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: relative; */
+  /* animation: fadeIn 1.5s ease-in-out;
+  animation-delay: 0.5s; */
+}
+
+.ourfeatures_img_comprehensive_list {
   position: relative;
-  animation: fadeIn 1.5s ease-in-out;
-  animation-delay: 0.5s;
 }
 
 .ourfeatures_item_shieldtick,
@@ -384,20 +388,20 @@ ul li .ourfeatures_item_subtitle_three {
 
 .ourfeatures_item_shieldtick {
   top: 90px;
-  left: -2px;
+  left: -16px;
   animation: complexPulse 4s infinite;
 }
 /* ---global--360px--- */
 .ourfeatures_item_global {
-  bottom: 180px;
-  left: 270px;
+  bottom: 168px;
+  left: 256px;
   animation: complexPulse 4s infinite;
 }
 
 /*---maximize3--360px---*/
 .ourfeatures_item_maximize3 {
-  bottom: 20px;
-  right: 30px;
+  bottom: 18px;
+  right: 17px;
   animation: complexPulse 4s infinite;
 }
 
@@ -900,19 +904,19 @@ ul li .ourfeatures_item_subtitle_three {
   /*---shieldtick--768px---*/
 
   .ourfeatures_item_shieldtick {
-    top: 111px;
-    left: 153px;
+    top: 105px;
+    left: -16px;
   }
   /*--global--768px---*/
   .ourfeatures_item_global {
-    bottom: 220px;
-    left: 478px;
+    bottom: 200px;
+    left: 309px;
   }
 
   /*---maximize3--768px---*/
   .ourfeatures_item_maximize3 {
-    bottom: 33px;
-    right: 189px;
+    bottom: 19px;
+    right: 21px;
   }
 
   /*---codecircle--768px---*/
@@ -1033,5 +1037,41 @@ ul li .ourfeatures_item_subtitle_three {
       opacity: 0;
       transform: translateX(60px) rotate(-45deg);
     }
+  }
+}
+/* --------------------1440px------------------- */
+
+@media screen and (min-width: 1440px) {
+  .ourfeatures_section {
+    padding-bottom: 56px;
+  }
+  .ourfeatures_subtitle {
+    margin-bottom: 32px;
+  }
+
+  .ourfeatures_title {
+    margin-bottom: 64px;
+  }
+
+  .ourfeatures_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: auto;
+  }
+
+  .ourfeatures_item {
+    margin-bottom: 0px;
+  }
+
+  .ourfeatures_item:first-child,
+  .ourfeatures_item:last-child {
+    width: 706px;
+  }
+
+  .ourfeatures_item:nth-child(2),
+  .ourfeatures_item:nth-child(3) {
+    width: 434px;
   }
 }
