@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className={styles.hero_section}>
       <Container className={styles.hero_container}>
-        <h1 className={styles.hero_title}>
+        <h1 className={`${styles.hero_title} ${styles.decor_duck}`}>
           Web and Mobile
           <span className={styles.hero_span}> &lt;</span>Solutions
           <span className={styles.hero_span}>&gt; </span>
