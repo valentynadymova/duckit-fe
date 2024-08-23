@@ -3,9 +3,6 @@
   padding-bottom: 50px;
 }
 
-.ourfeatures_container {
-}
-
 .ourfeatures_subtitle {
   font-size: 16px;
   color: #313234;
@@ -15,9 +12,6 @@
 .ourfeatures_title {
   font-size: 26px;
   margin-bottom: 20px;
-}
-
-.ourfeatures_list {
 }
 
 .ourfeatures_item {
@@ -170,7 +164,6 @@ ul li .ourfeatures_item_subtitle_three {
   position: absolute;
   width: 6px;
   height: 6px;
-  /* background-color: #5e5e5e; */
   background-color: #b89600;
   top: 80px;
   left: 70px;
@@ -183,7 +176,6 @@ ul li .ourfeatures_item_subtitle_three {
   width: 6px;
   height: 6px;
   background-color: #b89600;
-  /* background-color: #5e5e5e; */
   top: -26px;
   left: -15px;
   transform: rotate(45deg);
