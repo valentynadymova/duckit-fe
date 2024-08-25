@@ -10,16 +10,16 @@ interface IContainer {
 }
 
 const getPageSize = (width: number) => {
-  if (width > 1360) {
+  if (width > 1600) {
     return 'desktop-large';
   }
-  if (width > 1140) {
+  if (width > 1439) {
     return 'desktop';
   }
   if (width > 600) {
     return 'tablet';
   }
-  if (width >= 320 && width <= 600) {
+  if (width >= 360 && width <= 600) {
     return 'mobile';
   }
   return 'unknown';

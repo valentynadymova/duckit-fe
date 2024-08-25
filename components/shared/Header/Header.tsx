@@ -14,7 +14,7 @@ import '@/styles/global.css';
 const Header = () => {
   const adaptive = useContext(AdaptiveContext);
   const [isOpen, setIsOpen] = useState(false);
-
+  console.log(adaptive);
   const handleToggle = () => {
     setIsOpen((prev) => !prev);
   };

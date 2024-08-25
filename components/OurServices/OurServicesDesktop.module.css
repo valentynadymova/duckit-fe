@@ -1,0 +1,111 @@
+/* -----------------------1440px--------------------- */
+
+@media screen and (min-width: 1440px) {
+  .ourservices_section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #ffffff;
+  }
+
+  .ourservices_wrap_general {
+    display: flex;
+  }
+
+  .ourservices_wrap_subtitle {
+    margin-right: 83px;
+    max-width: 422px;
+  }
+
+  .ourservices_subtitle {
+    color: #d1cfcf;
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+  .ourservices_title {
+    font-size: 42px;
+    color: #121316;
+    margin-bottom: 128px;
+  }
+
+  .ourservices_wrap {
+    background: #f6f6f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .ourservices_title_need {
+    font-size: 26px;
+    color: #121316;
+    margin-bottom: 12px;
+  }
+
+  .ourservices_text {
+    font-size: 16px;
+    color: #848484;
+    margin-bottom: 20px;
+  }
+
+  .ourservices_button {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .ourservices_list {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    border-left: 2px solid #f2f1f1;
+    margin-top: 58px;
+    padding-left: 83px;
+  }
+  .decor_scroll {
+    position: relative;
+  }
+  .decor_scroll::before {
+    position: absolute;
+    top: 380px;
+    left: -17px;
+    content: '';
+    width: 32px;
+    height: 32px;
+    background: url('/img/code-circle.svg');
+    z-index: 10;
+  }
+
+  .ourservices_list .ourservices_item {
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid #f2f1f1;
+  }
+
+  .ourservices_wrap_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .ourservices_item_title_services {
+    font-size: 32px;
+    color: #121316;
+  }
+
+  .ourservices_item_title_price {
+    font-size: 32px;
+    color: #f2cb12;
+  }
+
+  .ourservices_list_subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .ourservices_item_subtitle_technologies h5 {
+    font-size: 20px;
+    color: #848484;
+    padding: 10px 16px;
+    border-radius: 33px;
+    background-color: #f6f6f7;
+    border: 1px solid #f2f1f1;
+  }
+}
