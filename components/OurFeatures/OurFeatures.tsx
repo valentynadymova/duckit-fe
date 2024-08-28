@@ -93,11 +93,15 @@ const OurFeatures = () => {
               and evolving needs&#46;
             </p>
             <ul className={styles.ourfeatures_list_subtitle}>
-              <li className={styles.ourfeatures_item_subtitle_first}>
+              <li
+                className={`${styles.ourfeatures_item_subtitle_first} ${styles.decor_documentcode}`}
+              >
                 <DocumentCode />
                 <p>Our&#95;development</p>
               </li>
-              <li className={styles.ourfeatures_item_subtitle_second}>
+              <li
+                className={`${styles.ourfeatures_item_subtitle_second} ${styles.decor_additem}`}
+              >
                 <Additem />
                 <p>New&#95;technologies</p>
               </li>
