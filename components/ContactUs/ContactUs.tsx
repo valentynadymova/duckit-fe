@@ -69,7 +69,7 @@ const ContactUs = () => {
                   <div className={styles.contactus_form_input_sub_wrap}>
                     <div className={styles.form_wrap} tabIndex={0}>
                       <label
-                        className={styles.visually_hidden}
+                        className="visually_hidden"
                         htmlFor="user-name"
                       ></label>
                       <input
@@ -83,7 +83,7 @@ const ContactUs = () => {
                     </div>
                     <div className={styles.form_wrap} tabIndex={0}>
                       <label
-                        className={styles.visually_hidden}
+                        className="visually_hidden"
                         htmlFor="user-email"
                       ></label>
                       <input
@@ -98,13 +98,13 @@ const ContactUs = () => {
                   </div>
                   <div className={styles.form_wrap_message} tabIndex={0}>
                     <label
-                      className={styles.visually_hidden}
+                      className="visually_hidden"
                       htmlFor="user-comment"
                     ></label>
                     <textarea
                       name="user-comment"
                       id="user-comment"
-                      className={styles.form_input}
+                      className={styles.form_input_user_comment}
                       placeholder="Write your message…"
                     ></textarea>
                   </div>
@@ -112,7 +112,7 @@ const ContactUs = () => {
 
                 <div className={styles.form_checked_privacy_btn}>
                   <input
-                    className={`${styles.check_input} ${styles.visually_hidden}`}
+                    className={`${styles.check_input} visually_hidden`}
                     type="checkbox"
                     name="user_privacy"
                     id="user_privacy"
