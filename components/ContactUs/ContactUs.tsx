@@ -2,6 +2,7 @@
 import styles from './ContactUs.module.css';
 import Container from '@/hoc/Container';
 import Link from 'next/link';
+import Checkbox from '../icons/ContactUs/Checkbox';
 
 const ContactUs = () => {
   return (
@@ -56,7 +57,93 @@ const ContactUs = () => {
             <h2 className={styles.contactus_form_title} id="contact_us">
               How We Can Help?
             </h2>
-            <form className={styles.contactus_form}></form>
+            <div className={styles.contactus_form_container}>
+              <form
+                // onSubmit={handleSubmit}
+                // ref={formRef}
+                className={styles.contactus_form}
+                name="contactus_form"
+                autoComplete="off"
+              >
+                <div className={styles.contactus_form_input_wrap}>
+                  <div className={styles.contactus_form_input_sub_wrap}>
+                    <div className={styles.form_wrap} tabIndex={0}>
+                      <label
+                        className={styles.visually_hidden}
+                        htmlFor="user-name"
+                      ></label>
+                      <input
+                        className={styles.form_input}
+                        type="text"
+                        name="user-name"
+                        id="user-name"
+                        placeholder="Full name"
+                        required
+                      />
+                    </div>
+                    <div className={styles.form_wrap} tabIndex={0}>
+                      <label
+                        className={styles.visually_hidden}
+                        htmlFor="user-email"
+                      ></label>
+                      <input
+                        className={styles.form_input}
+                        type="email"
+                        name="user-email"
+                        id="user-email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.form_wrap_message} tabIndex={0}>
+                    <label
+                      className={styles.visually_hidden}
+                      htmlFor="user-comment"
+                    ></label>
+                    <textarea
+                      name="user-comment"
+                      id="user-comment"
+                      className={styles.form_input}
+                      placeholder="Write your message…"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div className={styles.form_checked_privacy_btn}>
+                  <input
+                    className={`${styles.check_input} ${styles.visually_hidden}`}
+                    type="checkbox"
+                    name="user_privacy"
+                    id="user_privacy"
+                    value="true"
+                    required
+                  />
+                  <label className={styles.checked_text} htmlFor="user_privacy">
+                    <span className={styles.checked_span}>
+                      <Checkbox />
+                    </span>
+                    <div className={styles.checked_link_text} tabIndex={0}>
+                      <span className={styles.checked_link_span}>
+                        I accept the terms of the Agreement and the
+                      </span>
+                      <Link className={styles.checked_link} href="/">
+                        Privacy Policy
+                      </Link>
+                    </div>
+                  </label>
+                </div>
+
+                <button
+                  className={styles.contactus_form_button}
+                  type="submit"
+                  tabIndex={0}
+                  // disabled={loading}
+                >
+                  Contact us
+                </button>
+              </form>
+            </div>
             <p className={styles.contactus_form_text}>
               We will get back in touch with you within 24 hours
             </p>
