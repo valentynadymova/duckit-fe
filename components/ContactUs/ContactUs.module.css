@@ -75,12 +75,99 @@
   margin-bottom: 20px;
 }
 
-.contactus_form {
-  margin-bottom: 16px;
-}
-
 .contactus_form_text {
   font-size: 14px;
   color: #848484;
   text-align: center;
+  margin-top: 16px;
+}
+/* ------------------------------------------ */
+.contactus_form_container {
+}
+
+.contactus_form {
+}
+
+.contactus_form_input_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.contactus_form_input_sub_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form_wrap {
+  border-radius: 6px;
+  border: 1px solid #2b2c2f;
+  padding: 11px 30px 10px 20px;
+}
+
+.form_input {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-family: var(--font-sora);
+  color: #848484;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.form_wrap_message {
+  border-radius: 6px;
+  border: 1px solid #2b2c2f;
+  padding: 16px 20px 24px 20px;
+  height: 120px;
+}
+
+/* ----------------------------------- */
+
+.form_checked_privacy_btn {
+  display: inline-block;
+
+  /* display: flex;
+  align-items: center; */
+}
+
+/* .check_input:checked + .checked_text .checked_span {
+  fill: black;
+  border: 1px solid #ffff;
+} */
+
+/* .check_input {
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+} */
+
+.checked_text {
+}
+
+.checked_link_text {
+  line-height: 1.312;
+  font-size: 12px;
+}
+.checked_link_span {
+  color: #848484;
+}
+
+.checked_link {
+  color: #f2cb12;
+  margin-left: 8px;
+}
+
+/* ---------------------------- */
+
+.contactus_form_button {
+  width: 100%;
+  font-family: var(--font-fira-code);
+  font-size: 18px;
+  color: #848484;
+  background-color: #2b2c2f;
+  margin-top: 16px;
 }

@@ -17,9 +17,6 @@
   gap: 16px;
 }
 
-.footer_logo_link_text {
-}
-
 .footer_logo_text {
   font-size: 14px;
 }
@@ -30,7 +27,9 @@
 }
 
 /* --------navigation---------- */
-.footer_wrap_nav_title {
+
+.footer_wrap_sub {
+  margin-top: 20px;
 }
 
 .footer_nav_title {
@@ -38,9 +37,6 @@
   color: #f2cb12;
   font-weight: 400;
   margin-bottom: 16px;
-}
-
-.footer_wrap_nav {
 }
 
 .footer_nav_item {
@@ -89,9 +85,6 @@
 
 /* ------------address------------ */
 
-.footer_wrap_adrress {
-}
-
 .footer_adrress_title {
   font-size: 14px;
   color: #f2cb12;
@@ -127,18 +120,6 @@
 .footer_social_list {
   display: flex;
   gap: 24px;
-}
-
-.footer_social_item {
-}
-
-.footer_social_wrap_address {
-}
-
-.footer_social_link {
-}
-
-.footer_social_logo_svg {
 }
 
 .footer_social_text_company {
@@ -183,9 +164,6 @@
   .footer_nav_title {
     font-size: 16px;
     margin-bottom: 24px;
-  }
-
-  .footer_wrap_nav {
   }
 
   .footer_nav_item {
