@@ -82,6 +82,7 @@ img {
   border: 0;
   white-space: nowrap;
   overflow: hidden;
+  opacity: 0;
 }
 
 .container {

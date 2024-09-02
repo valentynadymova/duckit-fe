@@ -90,10 +90,12 @@
   color: #f2cb12;
   font-weight: 400;
   margin-bottom: 16px;
+  margin-top: 20px;
 }
 
 .footer_adrress {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  margin-top: 16px;
 }
 
 .contactus_address_span {
@@ -139,7 +141,7 @@
   .footer_wrap_sub {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 93.5px;
     margin-top: 32px;
   }
 
@@ -160,6 +162,9 @@
   }
 
   /* --------navigation-768px---------  */
+  .footer_wrap_nav {
+    width: 120px;
+  }
 
   .footer_nav_title {
     font-size: 16px;
@@ -176,13 +181,18 @@
 
   /* ------------address------------ */
 
+  .footer_wrap_adrress {
+    width: 255px;
+  }
   .footer_adrress_title {
     font-size: 16px;
     margin-bottom: 24px;
+    margin-top: 0px;
   }
 
   .footer_adrress {
     margin-bottom: 24px;
+    margin-top: 0;
   }
 
   .contactus_address_span {

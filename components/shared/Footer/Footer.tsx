@@ -78,7 +78,7 @@ const Footer = () => {
                 <h5 className={styles.footer_adrress_title} id="contact">
                   Contacts
                 </h5>
-                <address className={styles.footer_adrress}>
+                <address>
                   <span className={styles.contactus_address_span}>
                     Email &#58;
                   </span>
@@ -89,7 +89,7 @@ const Footer = () => {
                     duck&#95;it@mail&#46;com
                   </Link>
                 </address>
-                <address>
+                <address className={styles.footer_adrress}>
                   <span className={styles.contactus_address_span}>
                     Address &#58;
                   </span>

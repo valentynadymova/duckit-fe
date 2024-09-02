@@ -17,7 +17,9 @@ const Hero = () => {
           We specialize in creating unique websites and mobile applications
           tailored to your business needs
         </p>
-        <button className={styles.hero_button}>Get Started</button>
+        <button className={styles.hero_button} type="button">
+          Get Started
+        </button>
         <p className={`${styles.aboutus_subtitle} subtitle`} id="about-us">
           &#47;&#47;about us
         </p>
