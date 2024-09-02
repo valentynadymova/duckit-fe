@@ -194,7 +194,7 @@ const OurServices = () => {
                   your business. Get in touch with us for personalized
                   assistance and find the perfect fit for your needs&#46;
                 </p>
-                <button className={styles.ourservices_button}>
+                <button className={styles.ourservices_button} type="button">
                   Contact us
                 </button>
               </div>
