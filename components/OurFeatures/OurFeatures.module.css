@@ -326,7 +326,6 @@
   border-radius: 1440px;
   width: 214px;
 }
-
 .ourfeatures_item_subtitle_first {
   background-color: #1e1f22;
   position: relative;
@@ -353,35 +352,87 @@ ul li .ourfeatures_item_subtitle_three {
 
 .ourfeatures_item_subtitle_three p {
   background-color: #edbe01;
+  color: #121316;
   padding: 4px 14.16px;
 }
 
-.decor_documentcode::before {
-  content: '';
-  position: absolute;
-  /* border: 1px solid; */
-  /* opacity: 18%; */
-  /* animation: moveGradient 6s ease-in-out infinite; */
-  right: 129px;
-  top: 49px;
-  width: 2px;
-  height: 38px;
-  background: linear-gradient(180deg, #1e1f22 23.82%, #ffcc01 100%);
-  /* border-image: linear-gradient(to left, #6868683d, #ffcc01) 1; */
+@keyframes gradientColorChange {
+  0% {
+    background: linear-gradient(0deg, #1e1f22, rgba(255, 204, 1, 0.8));
+  }
+  50% {
+    background: linear-gradient(0deg, #1e1f22, #ffcc01);
+  }
+  100% {
+    background: linear-gradient(0deg, #1e1f22, rgba(255, 204, 1, 0.8));
+  }
 }
 
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 0%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    background-position: 0% 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes arrowMove {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  50% {
+    top: 20px;
+    opacity: 1;
+  }
+  100% {
+    top: 38px;
+    opacity: 0;
+  }
+}
+
+.decor_documentcode::before,
 .decor_additem::before {
   content: '';
   position: absolute;
-  /* border: 1px solid; */
-  /* opacity: 18%; */
-  /* animation: moveGradient 6s ease-in-out infinite; */
   right: 129px;
   top: 49px;
   width: 2px;
   height: 38px;
-  background: linear-gradient(180deg, #1e1f22 23.82%, #ffcc01 100%);
-  /* border-image: linear-gradient(to left, #6868683d, #ffcc01) 1; */
+  background: linear-gradient(0deg, #1e1f22, rgba(255, 204, 1, 0.8));
+  background-size: 100% 200%;
+  background-position: 0 0;
+  animation:
+    gradientFlow 4s infinite ease-in-out,
+    gradientColorChange 4s infinite ease-in-out;
+}
+
+.arrowWrapper {
+  position: absolute;
+  right: 135px;
+  top: 46px;
+  height: 38px;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid rgba(255, 204, 1, 0.8);
+  border-bottom: 2px solid rgba(255, 204, 1, 0.8);
+  transform: rotate(45deg);
+  position: absolute;
+  animation: arrowMove 4s infinite ease-in-out;
+  opacity: 0;
+}
+
+.arrow {
+  animation-delay: 0s;
 }
 /* --------Comprehensive tech stack-360px----------------------------- */
 

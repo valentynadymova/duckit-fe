@@ -98,16 +98,23 @@ const OurFeatures = () => {
               >
                 <DocumentCode />
                 <p>Our&#95;development</p>
+                <div className={styles.arrowWrapper}>
+                  <span className={styles.arrow}></span>
+                </div>
               </li>
               <li
                 className={`${styles.ourfeatures_item_subtitle_second} ${styles.decor_additem}`}
               >
                 <Additem />
                 <p>New&#95;technologies</p>
+
+                <div className={styles.arrowWrapper}>
+                  <span className={styles.arrow}></span>
+                </div>
               </li>
               <li className={styles.ourfeatures_item_subtitle_three}>
                 <Setting2 />
-                <p>Adapt&#95;to&#95;your&#95;eeds</p>
+                <p>Adapt&#95;to&#95;your&#95;needs </p>
               </li>
             </ul>
           </li>
@@ -193,13 +200,11 @@ const OurFeatures = () => {
                     </li>
                   </ul>
                 </li>
-
                 <li className={styles.ourfeatures_arrow_right}>
                   <span></span>
                   <span></span>
                   <span></span>
                 </li>
-
                 <li
                   className={`${styles.ourfeatures_item_profile} ${styles.decor_profile}`}
                 >
