@@ -15,9 +15,9 @@ const ContactUs = () => {
                 Let&#8217;s Work Together
               </h2>
               <p className={styles.contactus_text}>
-                Our team is always ready to assist you. For business inquiries
-                and consultations, please drop us a message or reach out to us
-                directly
+                Our team is always ready to assist you&#46; For business
+                inquiries and consultations&#44; please drop us a message or
+                reach out to us directly&#46;
               </p>
             </div>
             <address className={styles.contactus_address}>
@@ -55,7 +55,7 @@ const ContactUs = () => {
           </div>
           <div className={styles.contactus_wrap_form_general}>
             <h2 className={styles.contactus_form_title} id="contact_us">
-              How We Can Help?
+              How We Can Help&#63;
             </h2>
             <div className={styles.contactus_form_container}>
               <form
@@ -174,7 +174,7 @@ const ContactUs = () => {
                       name="user-comment"
                       id="user-comment"
                       className={styles.form_input_user_comment}
-                      placeholder="Write your message…"
+                      placeholder="Write your message&#46;&#46;&#46;"
                     ></textarea>
                   </li>
                 </ul>
