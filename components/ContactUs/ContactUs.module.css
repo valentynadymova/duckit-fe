@@ -224,3 +224,136 @@
   background-color: #2b2c2f;
   margin-top: 16px;
 }
+
+/* -------------------------------768px-------------------------- */
+
+@media screen and (min-width: 768px) {
+  .contactus_section {
+    padding-top: 64px;
+  }
+
+  .contactus_wrap_general {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .contactus_wrap_title_address {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+  }
+
+  .contactus_title {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+  .contactus_text {
+    font-size: 16px;
+  }
+  .contactus_address_item {
+    margin-bottom: 20px;
+  }
+
+  .contactus_address_item_title {
+    font-size: 20px;
+  }
+
+  .contactus_wrap_form_general {
+    padding: 20px;
+  }
+
+  .contactus_form_title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .contactus_form_text {
+    font-size: 16px;
+  }
+
+  .contactus_form_checkbox_container {
+    flex-wrap: nowrap;
+    margin-bottom: 39px;
+  }
+  /* ----------------------- */
+  .contactus_form_input_wrap {
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+
+  .contactus_form_input_sub_wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+  }
+  .form_wrap {
+    flex-grow: 1;
+  }
+
+  .form_input {
+    font-size: 16px;
+    padding: 11px 30px 7px 20px;
+  }
+  .form_input_user_comment {
+    font-size: 16px;
+  }
+
+  /* --------------------------------------- */
+
+  .checkbox_custom_label {
+    font-size: 15px;
+  }
+
+  .checkbox_icon_span {
+    margin-right: 15px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .checkbox_link {
+    color: #f2cb12;
+    margin-left: 8px;
+  }
+
+  /* ---------------------------- */
+
+  .contactus_form_button {
+    font-size: 20px;
+    margin-top: 18px;
+  }
+}
+
+/* --------------------1440px------------------- */
+
+@media screen and (min-width: 1440px) {
+  .contactus_section {
+    padding-top: 63px;
+    padding-bottom: 42px;
+  }
+
+  .contactus_wrap_general {
+    padding: 30px 38px 30px 38px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contactus_wrap_title_address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .contactus_wrap_form_general {
+    padding: 32px;
+  }
+
+  .contactus_form_title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+}
