@@ -4,6 +4,9 @@ import Container from '@/hoc/Container';
 import Link from 'next/link';
 
 const ContactUs = () => {
+  // to do : handle logoic
+  //change texts
+
   return (
     <section className={styles.contactus_section}>
       <Container className={styles.contactus_container}>
