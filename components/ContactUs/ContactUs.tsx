@@ -5,6 +5,9 @@ import Link from 'next/link';
 import Checkbox from '../icons/ContactUs/Checkbox';
 
 const ContactUs = () => {
+  // to do : handle logoic
+  //change texts
+
   return (
     <section className={styles.contactus_section}>
       <Container className={styles.contactus_container}>
