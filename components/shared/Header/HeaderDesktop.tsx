@@ -5,8 +5,10 @@
 import Link from 'next/link';
 import styles from './Header.module.css';
 import LogoDuck from '../../icons/Header/LogoDuck';
+import { useTranslations } from 'next-intl';
 
 const HeaderDesktop = () => {
+  const t = useTranslations('Navi');
   return (
     <>
       <div>
@@ -19,37 +21,37 @@ const HeaderDesktop = () => {
           <li className={styles.header_desk_nav_item} tabIndex={0}>
             <Link href="/#about-us">
               <span>&#91;</span>
-              About
-              <span className={styles.header_desk_nav_dash}>&#95;</span>
-              us
+              {t('aboutus')}
+              {/* <span className={styles.header_desk_nav_dash}>&#95;</span>
+              us */}
               <span>&#93;</span>
             </Link>
           </li>
           <li className={styles.header_desk_nav_item} tabIndex={0}>
             <Link href="/#services">
               <span>&#91;</span>
-              Services
+              {t('services')}
               <span>&#93;</span>
             </Link>
           </li>
           <li className={styles.header_desk_nav_item} tabIndex={0}>
             <Link href="/#features">
               <span>&#91;</span>
-              Features
+              {t('features')}
               <span>&#93;</span>
             </Link>
           </li>
           <li className={styles.header_desk_nav_item} tabIndex={0}>
             <Link href="/#technologies">
               <span>&#91;</span>
-              Technologies
+              {t('technologies')}
               <span>&#93;</span>
             </Link>
           </li>
           <li className={styles.header_desk_nav_item} tabIndex={0}>
             <Link href="/#contact">
               <span>&#91;</span>
-              Contact
+              {t('contact')}
               <span>&#93;</span>
             </Link>
           </li>
@@ -57,7 +59,7 @@ const HeaderDesktop = () => {
       </nav>
       <div>
         <Link className={styles.header_contact_us_link} href="/#contact_us">
-          &#47;Contact_us&#47;
+          &#47;{t('contactLink')}&#47;
         </Link>
       </div>
     </>

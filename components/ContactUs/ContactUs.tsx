@@ -1,10 +1,13 @@
+/* eslint-disable prettier/prettier */
 'use client';
 import styles from './ContactUs.module.css';
 import Container from '@/hoc/Container';
 import Link from 'next/link';
 import Checkbox from '../icons/ContactUs/Checkbox';
-
+import { useTranslations } from 'next-intl';
 const ContactUs = () => {
+  const t = useTranslations('Contact');
+
   return (
     <section className={styles.contactus_section}>
       <Container className={styles.contactus_container}>
@@ -12,42 +15,38 @@ const ContactUs = () => {
           <div className={styles.contactus_wrap_title_address}>
             <div className={styles.contactus_wrap_title}>
               <h2 className={styles.contactus_title}>
-                Let&#8217;s Work Together
+                {t('title')}
               </h2>
-              <p className={styles.contactus_text}>
-                Our team is always ready to assist you&#46; For business
-                inquiries and consultations&#44; please drop us a message or
-                reach out to us directly&#46;
-              </p>
+              <p className={styles.contactus_text}>{t('text')}</p>
             </div>
             <address className={styles.contactus_address}>
               <ul className={styles.contactus_address_list}>
                 <li className={styles.contactus_address_item}>
                   <h5 className={styles.contactus_address_item_title}>
-                    Chat to us&#58;
+                    {t('email')}
                   </h5>
                   <p className={styles.contactus_address_item_text}>
-                    Our friendly team is here to help
+                    {t('emailp')}
                   </p>
                   <Link
                     className={styles.contactus_address_item_link}
-                    href="mailto:duck_it@mail.com"
+                    href="mailto:duck.it.vdymova@gmail.com"
                   >
-                    duck&#95;it@mail&#46;com
+                    {t('emailAddress')}
                   </Link>
                 </li>
                 <li className={styles.contactus_address_item}>
                   <h5 className={styles.contactus_address_item_title}>
-                    Call to us&#58;
+                    {t('callp')}
                   </h5>
                   <p className={styles.contactus_address_item_text}>
-                    Mon&#8211;Fri from 8am&#8211;5pm
+                    {t('calltime')}
                   </p>
                   <Link
                     className={styles.contactus_address_item_link}
                     href="tel:+487045550127"
                   >
-                    &#43;48 704&#45;555&#45;0127
+                    {t('phone')}
                   </Link>
                 </li>
               </ul>
@@ -55,7 +54,7 @@ const ContactUs = () => {
           </div>
           <div className={styles.contactus_wrap_form_general}>
             <h2 className={styles.contactus_form_title} id="contact_us">
-              How We Can Help&#63;
+              {t('help')}
             </h2>
             <div className={styles.contactus_form_container}>
               <form
@@ -78,7 +77,7 @@ const ContactUs = () => {
                       className={styles.contactus_form_checkbox_label}
                       htmlFor="web-development"
                     >
-                      Web_Development
+                      {t('web')}
                     </label>
                   </li>
 
@@ -94,7 +93,7 @@ const ContactUs = () => {
                       className={styles.contactus_form_checkbox_label}
                       htmlFor="app-development"
                     >
-                      App_Development
+                      {t('app')}
                     </label>
                   </li>
 
@@ -110,23 +109,7 @@ const ContactUs = () => {
                       className={styles.contactus_form_checkbox_label}
                       htmlFor="branding"
                     >
-                      Branding
-                    </label>
-                  </li>
-
-                  <li className={styles.contactus_form_checkbox_wrap}>
-                    <input
-                      className={styles.contactus_form_checkbox_button}
-                      type="checkbox"
-                      name="services"
-                      id="marketing"
-                      value="marketing"
-                    />
-                    <label
-                      className={styles.contactus_form_checkbox_label}
-                      htmlFor="marketing"
-                    >
-                      Marketing
+                      {t('design')}
                     </label>
                   </li>
                 </ul>
@@ -195,9 +178,9 @@ const ContactUs = () => {
                     <span className={styles.checkbox_icon_span}>
                       <Checkbox />
                     </span>
-                    I accept the terms of the Agreement and the
+                    {t('terms')}
                     <Link className={styles.checkbox_link} href="/">
-                      Privacy Policy
+                      {t('pp')}
                     </Link>
                   </label>
                 </div>
@@ -206,14 +189,14 @@ const ContactUs = () => {
                   className={styles.contactus_form_button}
                   type="submit"
                   tabIndex={0}
-                  // disabled={loading}
+                // disabled={loading}
                 >
-                  Contact us
+                  {t('contactUs')}
                 </button>
               </form>
             </div>
             <p className={styles.contactus_form_text}>
-              We will get back in touch with you within 24 hours
+              {t('backintouch')}
             </p>
           </div>
         </div>

@@ -1,8 +1,10 @@
 'use client';
 import Container from '@/hoc/Container';
 import styles from './Hero.module.css';
+import { useTranslations } from 'next-intl';
 
 const Hero = () => {
+  const t = useTranslations('Hero');
   return (
     <section className={styles.hero_section}>
       <Container className={styles.hero_container}>
@@ -13,18 +15,15 @@ const Hero = () => {
           for Your Success
           <span className={styles.hero_span}>&#46;</span>
         </h1>
-        <p className={styles.hero_text}>
-          We specialize in creating unique websites and mobile applications
-          tailored to your business needs
-        </p>
+        <p className={styles.hero_text}>{t('sub')}</p>
         <button className={styles.hero_button} type="button">
-          Get Started
+          {t('button')}
         </button>
         <p className={`${styles.aboutus_subtitle} subtitle`} id="about-us">
           &#47;&#47;about us
         </p>
 
-        <h2 className={styles.aboutus_title}>Our Proven Track Record</h2>
+        <h2 className={styles.aboutus_title}>{t('subtitle')}</h2>
 
         <ul className={styles.aboutus_list}>
           <li className={styles.aboutus_item}>

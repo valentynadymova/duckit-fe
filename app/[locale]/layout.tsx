@@ -8,7 +8,7 @@ import Footer from '../../components/shared/Footer';
 import Header from '../../components/shared/Header';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { NextIntlClientProvider } from 'next-intl';
-//import { getMessages } from "next-intl/server";
+import { getMessages } from 'next-intl/server';
 import { sora, firaCode } from './fonts';
 // import ToastProvider from '@/context/ToastProvider'
 
@@ -24,7 +24,7 @@ const RootLayout = async ({
   children: React.ReactNode;
   params: { locale: string };
 }) => {
-  // const messages = await getMessages();
+  const messages = await getMessages();
 
   return (
     <html lang={locale} className={`${sora.variable} ${firaCode.variable}`}>
@@ -97,15 +97,14 @@ const RootLayout = async ({
       </head>
       <body className="body">
         <div className="page_container">
-          {/* 
-          <NextIntlClientProvider messages={messages}> */}
-          <div id="portal" />
-          <AdaptiveProvider>
-            <Header />
-            {children}
-            <Footer />
-          </AdaptiveProvider>
-          {/* </NextIntlClientProvider> */}
+          <NextIntlClientProvider messages={messages}>
+            <div id="portal" />
+            <AdaptiveProvider>
+              <Header />
+              {children}
+              <Footer />
+            </AdaptiveProvider>
+          </NextIntlClientProvider>
         </div>
       </body>
     </html>

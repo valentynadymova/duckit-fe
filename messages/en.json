@@ -1,0 +1,97 @@
+{
+"Contact": {
+  "title": "Let’s Work Together",
+  "email": "Send Us an Email:",
+  "emailp": "Our friendly team is here to support you.",
+  "emailAddress": "duck.it.vdymova@gmail.com",
+  "callp": "Give Us a Call:",
+  "calltime": "Monday to Friday, 10:00 AM – 5:00 PM",
+  "phone": "+48 704-555-0127",
+  "help": "How Can We Help You?",
+  "web": "Web_Development",
+  "app": "App_Development",
+  "design": "Web_Design",
+  "text": "We’re always here to help. For business inquiries or consultations, feel free to drop us a message or contact us directly.",
+  "terms": "I agree to the Terms of Service and the",
+  "pp": "Privacy Policy",
+  "contactUs": "Contact Us",
+  "backintouch": "We’ll get back to you within 24 hours."
+},
+
+  "Technologies": {
+    "title": "Stack Of Technologies",
+    "frontend": "Frontend_Development",
+    "backend": "Backend_Development",
+    "app": "App_Development",
+    "angular": "Angular is a platform for building mobile and desktop web applications.",
+    "react": "React is a JavaScript library for building user interfaces.",
+    "javascript": "JavaScript is a versatile programming language primarily used for web development.",
+    "node": "Node.js is a JavaScript runtime built on Chrome's V8 engine.",
+    "reactnative": "React Native is a framework for building native mobile apps using JavaScript and React."
+  },
+  "Features": {
+  "title": "Why Choose Us",
+  "scalability": "Scalability",
+  "scalabilityDesc": "Our solutions grow with your business. Easily manage increasing traffic and expand features without sacrificing performance.",
+  "futureproof": "Future-proof Architecture",
+  "futureproofDesc": "We build websites on modern, adaptable foundations that stay relevant as technologies evolve.",
+  "stack": "Comprehensive Tech Stack",
+  "stackDesc": "From front-end to back-end, we use proven technologies to deliver fast, secure, and innovative web solutions.",
+  "solutions": "Tailored Solutions",
+  "solutionsDsc": "Every website we create is customized to your unique goals—ensuring long-term success and complete satisfaction."
+},
+"Services": {
+  "title": "What We Can Do For You",
+  "lp": "Websites & Landing Pages",
+  "lpPrice": "starting at $1500",
+  "lpDesign": "UI/UX Design",
+  "lpLogo": "Logo & Branding",
+  "lpLanding": "High-Converting Landing Pages",
+  "lpWebsites": "Corporate & Portfolio Websites",
+  "lpResearch": "Market & User Research",
+  
+  "webApps": "Web Applications",
+  "waPrice": "starting at $5000",
+  "waDashboards": "Admin Panels & Dashboards",
+  "waBooking": "Booking & Scheduling Systems",
+  "waEcom": "E-commerce Platforms",
+
+  "mobApps": "Mobile Applications",
+  "maPrice": "starting at $10000",
+  "maIOS": "iOS & Android Apps",
+  "maHybrid": "Cross-platform Apps",
+  "maEcom": "Mobile E-commerce Solutions",
+
+  "contactTitle": "Not Sure What You Need?",
+  "contactBtn": "Contact us",
+  "contactDesc": "Our team will guide you to the best solution for your business. Let’s talk and tailor a plan that fits your goals."
+},
+"Hero":{
+  "sub":"We craft custom websites and mobile apps designed to elevate your brand and meet your business goals.",
+  "button":"Get Started",
+  "subtitle":"What Sets Us Apart"
+},
+"Notfound":{
+  "message": "Looks like the page you're looking for doesn't exist or the address is incorrect. You can go back to the homepage and continue exploring from there.",
+"button": "Back to home page"
+},
+"Navi":{
+  "aboutus":"About_us",
+  "services":"Services",
+  "features":"Features",
+  "technologies":"Technologies",
+  "contact":"Contact",
+  "contactLink":"Contact_us",
+  "address":"Address",
+  "navigation":"Navigation",
+  "contacts":"Contacts",
+  "title":"Code your idea"
+}
+
+
+
+
+
+
+
+}

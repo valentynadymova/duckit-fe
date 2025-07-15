@@ -1,0 +1,97 @@
+{
+  "Contact": {
+  "title": "Współpracujmy Razem",
+  "email": "Napisz do nas:",
+  "emailp": "Nasz zespół z przyjemnością Ci pomoże.",
+  "emailAddress": "duck.it.vdymova@gmail.com",
+  "callp": "Zadzwoń do nas:",
+  "calltime": "Poniedziałek – Piątek, 10:00 – 17:00",
+  "phone": "+48 704-555-0127",
+  "help": "W czym możemy Ci pomóc?",
+  "web": "Web_Development",
+  "app": "App_Development",
+  "design": "Web_Design",
+  "text": "Zawsze jesteśmy gotowi do pomocy. W sprawie współpracy lub konsultacji – napisz do nas lub skontaktuj się bezpośrednio.",
+  "terms": "Akceptuję Regulamin oraz",
+  "pp": "Politykę Prywatności",
+  "contactUs": "Skontaktuj się z nami",
+  "backintouch": "Odezwiemy się w ciągu 24 godzin."
+},
+
+  "Technologies": {
+    "title": "Stack Of Technologies",
+    "frontend": "Frontend_Development",
+    "backend": "Backend_Development",
+    "app": "App_Development",
+    "angular": "Angular to platforma do tworzenia aplikacji webowych i mobilnych.",
+    "react": "React to biblioteka JavaScript do budowania interfejsów użytkownika.",
+    "javascript": "JavaScript to wszechstronny język programowania używany głównie w tworzeniu stron internetowych.",
+    "node": "Node.js to środowisko uruchomieniowe JavaScript oparte na silniku V8 przeglądarki Chrome.",
+    "reactnative": "React Native to framework do tworzenia natywnych aplikacji mobilnych przy użyciu JavaScript i React."
+},
+"Features": {
+  "title": "Dlaczego My",
+  "scalability": "Skalowalność",
+  "scalabilityDesc": "Nasze rozwiązania rozwijają się razem z Twoją firmą. Z łatwością obsłużysz większy ruch i rozbudujesz funkcje bez utraty wydajności.",
+  "futureproof": "Nowoczesna Architektura",
+  "futureproofDesc": "Tworzymy strony na solidnych, elastycznych fundamentach, które nadążają za rozwojem technologii.",
+  "stack": "Kompletny Stos Technologiczny",
+  "stackDesc": "Wykorzystujemy sprawdzone technologie front-end i back-end, by dostarczyć szybkie, bezpieczne i innowacyjne rozwiązania.",
+  "solutions": "Indywidualne Rozwiązania",
+  "solutionsDsc": "Każda strona jest dopasowana do Twoich celów, co zapewnia długoterminowy sukces i pełne zadowolenie."
+},
+"Services": {
+  "title": "Co Możemy Dla Ciebie Zrobić",
+  "lp": "Strony Internetowe i Landing Page",
+  "lpPrice": "już od 5000 zł",
+  "lpDesign": "Projektowanie UI/UX",
+  "lpLogo": "Logo i Identyfikacja Wizualna",
+  "lpLanding": "Skuteczne Strony Lądowania",
+  "lpWebsites": "Strony Firmowe i Portfolio",
+  "lpResearch": "Badania Rynku i Użytkowników",
+
+  "webApps": "Aplikacje Webowe",
+  "waPrice": "już od 20000 zł",
+  "waDashboards": "Panele Administracyjne i Dashboardy",
+  "waBooking": "Systemy Rezerwacji i Harmonogramy",
+  "waEcom": "Platformy E-commerce",
+
+  "mobApps": "Aplikacje Mobilne",
+  "maPrice": "już od 60000 zł",
+  "maIOS": "Aplikacje na iOS i Android",
+  "maHybrid": "Aplikacje Wieloplatformowe",
+  "maEcom": "Mobilne Rozwiązania E-commerce",
+
+  "contactTitle": "Nie Wiesz, Czego Potrzebujesz?",
+  "contactBtn": "Skontaktuj się z nami",
+  "contactDesc": "Nasz zespół pomoże Ci znaleźć najlepsze rozwiązanie dla Twojego biznesu. Porozmawiajmy i dopasujmy ofertę do Twoich celów."
+},
+"Hero":{
+  "sub":"Tworzymy unikalne strony internetowe i aplikacje mobilne, idealnie dopasowane do potrzeb Twojego biznesu.",
+  "button":"Zacznij z nami",
+  "subtitle":"Dlaczego warto nas wybrać"
+},
+"Notfound":{
+"message": "Wygląda na to, że strona, której szukasz, nie istnieje lub wpisano nieprawidłowy adres. Wróć na stronę główną i kontynuuj przeglądanie.",
+"button": "Powrót na stronę główną"
+},
+"Navi": {
+  "aboutus": "O_nas",
+  "services": "Usługi",
+  "features": "Funkcje",
+  "technologies": "Technologie",
+  "contact": "Kontakt",
+  "contactLink": "Skontaktuj_się",
+  "address":"Adres",
+  "navigation":"Nawigacja",
+  "contacts":"Kontakty",
+  "title":"Code your idea"
+}
+
+
+
+
+
+
+
+}
